@@ -1,0 +1,243 @@
+{
+  "schemaVersion": 1,
+  "text": "Today we’re looking at Erdős problem six forty-three, a question about when a pattern becomes unavoidable. We’ll explain the version with groups of three, using just six dots to see what the problem is asking.",
+  "textHash": "271bf53640228472779e8eef1664dd221195f330aaf88480255baba0ba3a23c4",
+  "duration": 9.711538461538462,
+  "sampleRate": 24000,
+  "words": [
+    {
+      "text": "Today",
+      "start": 0.28846153846153844,
+      "end": 0.5576923076923077,
+      "id": "intro-w0"
+    },
+    {
+      "text": "we’re",
+      "start": 0.5576923076923077,
+      "end": 0.673076923076923,
+      "id": "intro-w1"
+    },
+    {
+      "text": "looking",
+      "start": 0.673076923076923,
+      "end": 0.8846153846153845,
+      "id": "intro-w2"
+    },
+    {
+      "text": "at",
+      "start": 0.8846153846153845,
+      "end": 0.9903846153846154,
+      "id": "intro-w3"
+    },
+    {
+      "text": "Erdős",
+      "start": 0.9903846153846154,
+      "end": 1.346153846153846,
+      "id": "intro-w4"
+    },
+    {
+      "text": "problem",
+      "start": 1.346153846153846,
+      "end": 1.7115384615384615,
+      "id": "intro-w5"
+    },
+    {
+      "text": "six",
+      "start": 1.7115384615384615,
+      "end": 1.942307692307692,
+      "id": "intro-w6"
+    },
+    {
+      "text": "forty-three,",
+      "start": 1.942307692307692,
+      "end": 2.5961538461538463,
+      "id": "intro-w7"
+    },
+    {
+      "text": "a",
+      "start": 2.701923076923077,
+      "end": 2.7884615384615383,
+      "id": "intro-w8"
+    },
+    {
+      "text": "question",
+      "start": 2.7884615384615383,
+      "end": 3.1346153846153846,
+      "id": "intro-w9"
+    },
+    {
+      "text": "about",
+      "start": 3.1346153846153846,
+      "end": 3.3557692307692304,
+      "id": "intro-w10"
+    },
+    {
+      "text": "when",
+      "start": 3.3557692307692304,
+      "end": 3.4519230769230766,
+      "id": "intro-w11"
+    },
+    {
+      "text": "a",
+      "start": 3.4519230769230766,
+      "end": 3.5096153846153846,
+      "id": "intro-w12"
+    },
+    {
+      "text": "pattern",
+      "start": 3.5096153846153846,
+      "end": 3.846153846153846,
+      "id": "intro-w13"
+    },
+    {
+      "text": "becomes",
+      "start": 3.846153846153846,
+      "end": 4.211538461538461,
+      "id": "intro-w14"
+    },
+    {
+      "text": "unavoidable.",
+      "start": 4.211538461538461,
+      "end": 5.0576923076923075,
+      "id": "intro-w15"
+    },
+    {
+      "text": "We’ll",
+      "start": 5.153846153846154,
+      "end": 5.269230769230769,
+      "id": "intro-w16"
+    },
+    {
+      "text": "explain",
+      "start": 5.269230769230769,
+      "end": 5.625,
+      "id": "intro-w17"
+    },
+    {
+      "text": "the",
+      "start": 5.625,
+      "end": 5.6923076923076925,
+      "id": "intro-w18"
+    },
+    {
+      "text": "version",
+      "start": 5.6923076923076925,
+      "end": 6.038461538461538,
+      "id": "intro-w19"
+    },
+    {
+      "text": "with",
+      "start": 6.038461538461538,
+      "end": 6.173076923076923,
+      "id": "intro-w20"
+    },
+    {
+      "text": "groups",
+      "start": 6.173076923076923,
+      "end": 6.413461538461538,
+      "id": "intro-w21"
+    },
+    {
+      "text": "of",
+      "start": 6.413461538461538,
+      "end": 6.509615384615385,
+      "id": "intro-w22"
+    },
+    {
+      "text": "three,",
+      "start": 6.509615384615385,
+      "end": 6.9230769230769225,
+      "id": "intro-w23"
+    },
+    {
+      "text": "using",
+      "start": 7.028846153846153,
+      "end": 7.3076923076923075,
+      "id": "intro-w24"
+    },
+    {
+      "text": "just",
+      "start": 7.3076923076923075,
+      "end": 7.490384615384616,
+      "id": "intro-w25"
+    },
+    {
+      "text": "six",
+      "start": 7.490384615384616,
+      "end": 7.711538461538462,
+      "id": "intro-w26"
+    },
+    {
+      "text": "dots",
+      "start": 7.711538461538462,
+      "end": 8.0,
+      "id": "intro-w27"
+    },
+    {
+      "text": "to",
+      "start": 8.0,
+      "end": 8.096153846153847,
+      "id": "intro-w28"
+    },
+    {
+      "text": "see",
+      "start": 8.096153846153847,
+      "end": 8.221153846153847,
+      "id": "intro-w29"
+    },
+    {
+      "text": "what",
+      "start": 8.221153846153847,
+      "end": 8.317307692307692,
+      "id": "intro-w30"
+    },
+    {
+      "text": "the",
+      "start": 8.317307692307692,
+      "end": 8.384615384615385,
+      "id": "intro-w31"
+    },
+    {
+      "text": "problem",
+      "start": 8.384615384615385,
+      "end": 8.71153846153846,
+      "id": "intro-w32"
+    },
+    {
+      "text": "is",
+      "start": 8.71153846153846,
+      "end": 8.836538461538462,
+      "id": "intro-w33"
+    },
+    {
+      "text": "asking.",
+      "start": 8.836538461538462,
+      "end": 9.423076923076923,
+      "id": "intro-w34"
+    }
+  ],
+  "timingMethod": "model-duration",
+  "voice": "af_heart",
+  "speed": 1.339,
+  "modelRevision": "f3ff3571791e39611d31c381e3a41a3af07b4987",
+  "generationSeconds": 2.4098198753781617,
+  "audioHash": "45531d20992a55de16392ea2e9c92877033d30b7efa7a144ed41c920becb5497",
+  "language": "a",
+  "key": "10e7e03a45fe165b77376042350feb34f69fad980a7aa9d8885404ed13bdb689",
+  "lexiconHash": "524762f4cf286517a994acc568b45a10dce3f9da678bdb15c8b1134b4cbed72b",
+  "backendVersions": {
+    "kokoro": "0.9.4",
+    "misaki": "0.9.4",
+    "torch": "2.12.1",
+    "soundfile": "0.14.0",
+    "spacy": "3.8.16",
+    "en_core_web_sm": "3.8.0"
+  },
+  "modelFingerprint": "2a552218823c4cee61fe5a893f7d44457b4ea19aefb9c9f4064b8c4341fe12aa",
+  "generatorVersion": "0.2.0",
+  "postProcessing": {
+    "filter": "atempo=1.3",
+    "timingScale": 0.7692307692307692,
+    "sourceAudioHash": "329ebd6786d8e1a0efe04687912d64bb61519dcfac643f918ae823c436564c47"
+  }
+}

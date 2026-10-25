@@ -1,0 +1,237 @@
+{
+  "schemaVersion": 1,
+  "text": "Possible groups do not count unless we actually selected them. Remove the triple three, five, six from this four-triple collection. The second split is incomplete. The pattern we just showed is no longer present.",
+  "textHash": "52111ce611f4df002e384ce9591fad042168847877b41e76c2f853902c2e37f8",
+  "duration": 10.653846153846153,
+  "sampleRate": 24000,
+  "words": [
+    {
+      "text": "Possible",
+      "start": 0.2692307692307692,
+      "end": 0.6346153846153846,
+      "id": "step-4-w0"
+    },
+    {
+      "text": "groups",
+      "start": 0.6346153846153846,
+      "end": 0.923076923076923,
+      "id": "step-4-w1"
+    },
+    {
+      "text": "do",
+      "start": 0.923076923076923,
+      "end": 1.0192307692307692,
+      "id": "step-4-w2"
+    },
+    {
+      "text": "not",
+      "start": 1.0192307692307692,
+      "end": 1.221153846153846,
+      "id": "step-4-w3"
+    },
+    {
+      "text": "count",
+      "start": 1.221153846153846,
+      "end": 1.5,
+      "id": "step-4-w4"
+    },
+    {
+      "text": "unless",
+      "start": 1.5,
+      "end": 1.7499999999999998,
+      "id": "step-4-w5"
+    },
+    {
+      "text": "we",
+      "start": 1.7499999999999998,
+      "end": 1.875,
+      "id": "step-4-w6"
+    },
+    {
+      "text": "actually",
+      "start": 1.875,
+      "end": 2.2115384615384617,
+      "id": "step-4-w7"
+    },
+    {
+      "text": "selected",
+      "start": 2.2115384615384617,
+      "end": 2.576923076923077,
+      "id": "step-4-w8"
+    },
+    {
+      "text": "them.",
+      "start": 2.576923076923077,
+      "end": 3.019230769230769,
+      "id": "step-4-w9"
+    },
+    {
+      "text": "Remove",
+      "start": 3.1057692307692304,
+      "end": 3.442307692307692,
+      "id": "step-4-w10"
+    },
+    {
+      "text": "the",
+      "start": 3.442307692307692,
+      "end": 3.528846153846154,
+      "id": "step-4-w11"
+    },
+    {
+      "text": "triple",
+      "start": 3.528846153846154,
+      "end": 3.8173076923076925,
+      "id": "step-4-w12"
+    },
+    {
+      "text": "three,",
+      "start": 3.8173076923076925,
+      "end": 4.1923076923076925,
+      "id": "step-4-w13"
+    },
+    {
+      "text": "five,",
+      "start": 4.298076923076923,
+      "end": 4.692307692307692,
+      "id": "step-4-w14"
+    },
+    {
+      "text": "six",
+      "start": 4.8076923076923075,
+      "end": 5.115384615384616,
+      "id": "step-4-w15"
+    },
+    {
+      "text": "from",
+      "start": 5.115384615384616,
+      "end": 5.240384615384615,
+      "id": "step-4-w16"
+    },
+    {
+      "text": "this",
+      "start": 5.240384615384615,
+      "end": 5.403846153846154,
+      "id": "step-4-w17"
+    },
+    {
+      "text": "four-triple",
+      "start": 5.403846153846154,
+      "end": 5.788461538461538,
+      "id": "step-4-w18"
+    },
+    {
+      "text": "collection.",
+      "start": 5.788461538461538,
+      "end": 6.519230769230769,
+      "id": "step-4-w19"
+    },
+    {
+      "text": "The",
+      "start": 6.615384615384615,
+      "end": 6.721153846153847,
+      "id": "step-4-w20"
+    },
+    {
+      "text": "second",
+      "start": 6.721153846153847,
+      "end": 6.999999999999999,
+      "id": "step-4-w21"
+    },
+    {
+      "text": "split",
+      "start": 6.999999999999999,
+      "end": 7.278846153846154,
+      "id": "step-4-w22"
+    },
+    {
+      "text": "is",
+      "start": 7.278846153846154,
+      "end": 7.403846153846153,
+      "id": "step-4-w23"
+    },
+    {
+      "text": "incomplete.",
+      "start": 7.403846153846153,
+      "end": 8.173076923076923,
+      "id": "step-4-w24"
+    },
+    {
+      "text": "The",
+      "start": 8.269230769230768,
+      "end": 8.346153846153845,
+      "id": "step-4-w25"
+    },
+    {
+      "text": "pattern",
+      "start": 8.346153846153845,
+      "end": 8.673076923076923,
+      "id": "step-4-w26"
+    },
+    {
+      "text": "we",
+      "start": 8.673076923076923,
+      "end": 8.76923076923077,
+      "id": "step-4-w27"
+    },
+    {
+      "text": "just",
+      "start": 8.76923076923077,
+      "end": 8.932692307692308,
+      "id": "step-4-w28"
+    },
+    {
+      "text": "showed",
+      "start": 8.932692307692308,
+      "end": 9.259615384615383,
+      "id": "step-4-w29"
+    },
+    {
+      "text": "is",
+      "start": 9.259615384615383,
+      "end": 9.39423076923077,
+      "id": "step-4-w30"
+    },
+    {
+      "text": "no",
+      "start": 9.39423076923077,
+      "end": 9.538461538461538,
+      "id": "step-4-w31"
+    },
+    {
+      "text": "longer",
+      "start": 9.538461538461538,
+      "end": 9.807692307692307,
+      "id": "step-4-w32"
+    },
+    {
+      "text": "present.",
+      "start": 9.807692307692307,
+      "end": 10.346153846153845,
+      "id": "step-4-w33"
+    }
+  ],
+  "timingMethod": "model-duration",
+  "voice": "af_heart",
+  "speed": 1.339,
+  "modelRevision": "f3ff3571791e39611d31c381e3a41a3af07b4987",
+  "generationSeconds": 6.412648832891136,
+  "audioHash": "2c16a2251792e3907bdc2ab04d281081aa9b5232773de51b1d96ba85ad4744fc",
+  "language": "a",
+  "key": "4337a0032026e4a4948da2d336b5ff4b077736be58fdaf9c8d54dabfdca8165e",
+  "lexiconHash": "524762f4cf286517a994acc568b45a10dce3f9da678bdb15c8b1134b4cbed72b",
+  "backendVersions": {
+    "kokoro": "0.9.4",
+    "misaki": "0.9.4",
+    "torch": "2.12.1",
+    "soundfile": "0.14.0",
+    "spacy": "3.8.16",
+    "en_core_web_sm": "3.8.0"
+  },
+  "modelFingerprint": "2a552218823c4cee61fe5a893f7d44457b4ea19aefb9c9f4064b8c4341fe12aa",
+  "generatorVersion": "0.2.0",
+  "postProcessing": {
+    "filter": "atempo=1.3",
+    "timingScale": 0.7692307692307692,
+    "sourceAudioHash": "3117e44dbf8c5bb92e411cf57e3e4709e20e93c65273e03fc79c8d036ccdff19"
+  }
+}

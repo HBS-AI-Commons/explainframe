@@ -1,0 +1,148 @@
+{
+  "schemaVersion": 1,
+  "text": "Softmax exponentiates each score. Divide each result by their shared total. The weights add to one. Both positions still contribute.",
+  "textHash": "e2c3a1065be30ab643b8b58fbca9be837361a670a8459a50117267c597787e34",
+  "duration": 9.325,
+  "sampleRate": 24000,
+  "words": [
+    {
+      "text": "Softmax",
+      "start": 0.4,
+      "end": 0.95,
+      "id": "normalize-w0"
+    },
+    {
+      "text": "exponentiates",
+      "start": 0.95,
+      "end": 1.85,
+      "id": "normalize-w1"
+    },
+    {
+      "text": "each",
+      "start": 1.85,
+      "end": 2.0875,
+      "id": "normalize-w2"
+    },
+    {
+      "text": "score.",
+      "start": 2.0875,
+      "end": 2.7,
+      "id": "normalize-w3"
+    },
+    {
+      "text": "Divide",
+      "start": 2.825,
+      "end": 3.3,
+      "id": "normalize-w4"
+    },
+    {
+      "text": "each",
+      "start": 3.3,
+      "end": 3.525,
+      "id": "normalize-w5"
+    },
+    {
+      "text": "result",
+      "start": 3.525,
+      "end": 3.95,
+      "id": "normalize-w6"
+    },
+    {
+      "text": "by",
+      "start": 3.95,
+      "end": 4.1125,
+      "id": "normalize-w7"
+    },
+    {
+      "text": "their",
+      "start": 4.1125,
+      "end": 4.2875,
+      "id": "normalize-w8"
+    },
+    {
+      "text": "shared",
+      "start": 4.2875,
+      "end": 4.6,
+      "id": "normalize-w9"
+    },
+    {
+      "text": "total.",
+      "start": 4.6,
+      "end": 5.275,
+      "id": "normalize-w10"
+    },
+    {
+      "text": "The",
+      "start": 5.4,
+      "end": 5.525,
+      "id": "normalize-w11"
+    },
+    {
+      "text": "weights",
+      "start": 5.525,
+      "end": 5.8875,
+      "id": "normalize-w12"
+    },
+    {
+      "text": "add",
+      "start": 5.8875,
+      "end": 6.15,
+      "id": "normalize-w13"
+    },
+    {
+      "text": "to",
+      "start": 6.15,
+      "end": 6.275,
+      "id": "normalize-w14"
+    },
+    {
+      "text": "one.",
+      "start": 6.275,
+      "end": 6.8,
+      "id": "normalize-w15"
+    },
+    {
+      "text": "Both",
+      "start": 6.9375,
+      "end": 7.225,
+      "id": "normalize-w16"
+    },
+    {
+      "text": "positions",
+      "start": 7.225,
+      "end": 7.775,
+      "id": "normalize-w17"
+    },
+    {
+      "text": "still",
+      "start": 7.775,
+      "end": 8.05,
+      "id": "normalize-w18"
+    },
+    {
+      "text": "contribute.",
+      "start": 8.05,
+      "end": 8.925,
+      "id": "normalize-w19"
+    }
+  ],
+  "timingMethod": "model-duration",
+  "voice": "af_heart",
+  "speed": 1,
+  "modelRevision": "f3ff3571791e39611d31c381e3a41a3af07b4987",
+  "generationSeconds": 1.0985927088186145,
+  "audioHash": "43f3cf8e566ce16a96c4aaf58d200f48418517dec9d76f9b68e40aad46b497d4",
+  "language": "a",
+  "key": "0d67a021cc23d3ab6c31d2e519306734416f99a50a2a7cd7a0f66ff512441812",
+  "lexiconHash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+  "backendVersions": {
+    "kokoro": "0.9.4",
+    "misaki": "0.9.4",
+    "torch": "2.12.1",
+    "soundfile": "0.14.0",
+    "spacy": "3.8.16",
+    "en_core_web_sm": "3.8.0"
+  },
+  "modelFingerprint": "2a552218823c4cee61fe5a893f7d44457b4ea19aefb9c9f4064b8c4341fe12aa",
+  "generatorVersion": "0.2.0"
+}

@@ -1,0 +1,279 @@
+{
+  "schemaVersion": 1,
+  "text": "With more dots, we can choose many more triples. The question asks how large a collection must be before this repeated split becomes unavoidable. Finding one example is easy. Proving what every sufficiently large collection must contain is the mathematical challenge.",
+  "textHash": "4e97f0e11c9c0fdb4460222d3298a07eb0157cd40db4090c4e49ad7cf1321fb5",
+  "duration": 13.403846153846153,
+  "sampleRate": 24000,
+  "words": [
+    {
+      "text": "With",
+      "start": 0.25,
+      "end": 0.3846153846153846,
+      "id": "step-5-w0"
+    },
+    {
+      "text": "more",
+      "start": 0.3846153846153846,
+      "end": 0.5576923076923077,
+      "id": "step-5-w1"
+    },
+    {
+      "text": "dots,",
+      "start": 0.5576923076923077,
+      "end": 0.9807692307692306,
+      "id": "step-5-w2"
+    },
+    {
+      "text": "we",
+      "start": 1.0384615384615385,
+      "end": 1.1538461538461537,
+      "id": "step-5-w3"
+    },
+    {
+      "text": "can",
+      "start": 1.1538461538461537,
+      "end": 1.2980769230769231,
+      "id": "step-5-w4"
+    },
+    {
+      "text": "choose",
+      "start": 1.2980769230769231,
+      "end": 1.5673076923076923,
+      "id": "step-5-w5"
+    },
+    {
+      "text": "many",
+      "start": 1.5673076923076923,
+      "end": 1.769230769230769,
+      "id": "step-5-w6"
+    },
+    {
+      "text": "more",
+      "start": 1.769230769230769,
+      "end": 1.942307692307692,
+      "id": "step-5-w7"
+    },
+    {
+      "text": "triples.",
+      "start": 1.942307692307692,
+      "end": 2.6538461538461537,
+      "id": "step-5-w8"
+    },
+    {
+      "text": "The",
+      "start": 2.7307692307692304,
+      "end": 2.8076923076923075,
+      "id": "step-5-w9"
+    },
+    {
+      "text": "question",
+      "start": 2.8076923076923075,
+      "end": 3.1634615384615383,
+      "id": "step-5-w10"
+    },
+    {
+      "text": "asks",
+      "start": 3.1634615384615383,
+      "end": 3.528846153846154,
+      "id": "step-5-w11"
+    },
+    {
+      "text": "how",
+      "start": 3.528846153846154,
+      "end": 3.740384615384615,
+      "id": "step-5-w12"
+    },
+    {
+      "text": "large",
+      "start": 3.740384615384615,
+      "end": 3.9903846153846154,
+      "id": "step-5-w13"
+    },
+    {
+      "text": "a",
+      "start": 3.9903846153846154,
+      "end": 4.038461538461538,
+      "id": "step-5-w14"
+    },
+    {
+      "text": "collection",
+      "start": 4.038461538461538,
+      "end": 4.461538461538462,
+      "id": "step-5-w15"
+    },
+    {
+      "text": "must",
+      "start": 4.461538461538462,
+      "end": 4.673076923076923,
+      "id": "step-5-w16"
+    },
+    {
+      "text": "be",
+      "start": 4.673076923076923,
+      "end": 4.951923076923077,
+      "id": "step-5-w17"
+    },
+    {
+      "text": "before",
+      "start": 4.951923076923077,
+      "end": 5.25,
+      "id": "step-5-w18"
+    },
+    {
+      "text": "this",
+      "start": 5.25,
+      "end": 5.403846153846154,
+      "id": "step-5-w19"
+    },
+    {
+      "text": "repeated",
+      "start": 5.403846153846154,
+      "end": 5.769230769230769,
+      "id": "step-5-w20"
+    },
+    {
+      "text": "split",
+      "start": 5.769230769230769,
+      "end": 6.0576923076923075,
+      "id": "step-5-w21"
+    },
+    {
+      "text": "becomes",
+      "start": 6.0576923076923075,
+      "end": 6.432692307692308,
+      "id": "step-5-w22"
+    },
+    {
+      "text": "unavoidable.",
+      "start": 6.432692307692308,
+      "end": 7.288461538461538,
+      "id": "step-5-w23"
+    },
+    {
+      "text": "Finding",
+      "start": 7.423076923076923,
+      "end": 7.788461538461538,
+      "id": "step-5-w24"
+    },
+    {
+      "text": "one",
+      "start": 7.788461538461538,
+      "end": 7.923076923076923,
+      "id": "step-5-w25"
+    },
+    {
+      "text": "example",
+      "start": 7.923076923076923,
+      "end": 8.326923076923077,
+      "id": "step-5-w26"
+    },
+    {
+      "text": "is",
+      "start": 8.326923076923077,
+      "end": 8.442307692307692,
+      "id": "step-5-w27"
+    },
+    {
+      "text": "easy.",
+      "start": 8.442307692307692,
+      "end": 8.980769230769232,
+      "id": "step-5-w28"
+    },
+    {
+      "text": "Proving",
+      "start": 9.10576923076923,
+      "end": 9.403846153846153,
+      "id": "step-5-w29"
+    },
+    {
+      "text": "what",
+      "start": 9.403846153846153,
+      "end": 9.548076923076923,
+      "id": "step-5-w30"
+    },
+    {
+      "text": "every",
+      "start": 9.548076923076923,
+      "end": 9.807692307692307,
+      "id": "step-5-w31"
+    },
+    {
+      "text": "sufficiently",
+      "start": 9.807692307692307,
+      "end": 10.269230769230768,
+      "id": "step-5-w32"
+    },
+    {
+      "text": "large",
+      "start": 10.269230769230768,
+      "end": 10.5,
+      "id": "step-5-w33"
+    },
+    {
+      "text": "collection",
+      "start": 10.5,
+      "end": 10.923076923076922,
+      "id": "step-5-w34"
+    },
+    {
+      "text": "must",
+      "start": 10.923076923076922,
+      "end": 11.134615384615383,
+      "id": "step-5-w35"
+    },
+    {
+      "text": "contain",
+      "start": 11.134615384615383,
+      "end": 11.73076923076923,
+      "id": "step-5-w36"
+    },
+    {
+      "text": "is",
+      "start": 11.73076923076923,
+      "end": 11.85576923076923,
+      "id": "step-5-w37"
+    },
+    {
+      "text": "the",
+      "start": 11.85576923076923,
+      "end": 11.923076923076923,
+      "id": "step-5-w38"
+    },
+    {
+      "text": "mathematical",
+      "start": 11.923076923076923,
+      "end": 12.538461538461538,
+      "id": "step-5-w39"
+    },
+    {
+      "text": "challenge.",
+      "start": 12.538461538461538,
+      "end": 13.096153846153845,
+      "id": "step-5-w40"
+    }
+  ],
+  "timingMethod": "model-duration",
+  "voice": "af_heart",
+  "speed": 1.339,
+  "modelRevision": "f3ff3571791e39611d31c381e3a41a3af07b4987",
+  "generationSeconds": 7.91714037489146,
+  "audioHash": "6a817ebe3d852328da9a740d7ea5e0ead9857962b2b53cea4269fdb6c0fbd696",
+  "language": "a",
+  "key": "9d415dd08e16b0653c8077e54ea22ac5110ab0387c2860fea3368762177b8965",
+  "lexiconHash": "524762f4cf286517a994acc568b45a10dce3f9da678bdb15c8b1134b4cbed72b",
+  "backendVersions": {
+    "kokoro": "0.9.4",
+    "misaki": "0.9.4",
+    "torch": "2.12.1",
+    "soundfile": "0.14.0",
+    "spacy": "3.8.16",
+    "en_core_web_sm": "3.8.0"
+  },
+  "modelFingerprint": "2a552218823c4cee61fe5a893f7d44457b4ea19aefb9c9f4064b8c4341fe12aa",
+  "generatorVersion": "0.2.0",
+  "postProcessing": {
+    "filter": "atempo=1.3",
+    "timingScale": 0.7692307692307692,
+    "sourceAudioHash": "d1fc3773f3f8fb611628364305379535e703fd308909becc468998ec4da98138"
+  }
+}

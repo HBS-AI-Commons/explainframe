@@ -1,0 +1,154 @@
+{
+  "schemaVersion": 1,
+  "text": "Compare the query with each key. Multiply matching components, then add them. Scale the total by the square root of two.",
+  "textHash": "bac4d7babbb4946774664bd7cc16d942ec42a14f8a7c6cf1a1f32f2aaf9bef3e",
+  "duration": 7.875,
+  "sampleRate": 24000,
+  "words": [
+    {
+      "text": "Compare",
+      "start": 0.375,
+      "end": 0.7375,
+      "id": "scores-w0"
+    },
+    {
+      "text": "the",
+      "start": 0.7375,
+      "end": 0.825,
+      "id": "scores-w1"
+    },
+    {
+      "text": "query",
+      "start": 0.825,
+      "end": 1.175,
+      "id": "scores-w2"
+    },
+    {
+      "text": "with",
+      "start": 1.175,
+      "end": 1.35,
+      "id": "scores-w3"
+    },
+    {
+      "text": "each",
+      "start": 1.35,
+      "end": 1.6125,
+      "id": "scores-w4"
+    },
+    {
+      "text": "key.",
+      "start": 1.6125,
+      "end": 2.175,
+      "id": "scores-w5"
+    },
+    {
+      "text": "Multiply",
+      "start": 2.3375,
+      "end": 2.875,
+      "id": "scores-w6"
+    },
+    {
+      "text": "matching",
+      "start": 2.875,
+      "end": 3.275,
+      "id": "scores-w7"
+    },
+    {
+      "text": "components,",
+      "start": 3.275,
+      "end": 3.95,
+      "id": "scores-w8"
+    },
+    {
+      "text": "then",
+      "start": 4.025,
+      "end": 4.275,
+      "id": "scores-w9"
+    },
+    {
+      "text": "add",
+      "start": 4.275,
+      "end": 4.55,
+      "id": "scores-w10"
+    },
+    {
+      "text": "them.",
+      "start": 4.55,
+      "end": 5.075,
+      "id": "scores-w11"
+    },
+    {
+      "text": "Scale",
+      "start": 5.225,
+      "end": 5.5375,
+      "id": "scores-w12"
+    },
+    {
+      "text": "the",
+      "start": 5.5375,
+      "end": 5.625,
+      "id": "scores-w13"
+    },
+    {
+      "text": "total",
+      "start": 5.625,
+      "end": 6,
+      "id": "scores-w14"
+    },
+    {
+      "text": "by",
+      "start": 6,
+      "end": 6.1375,
+      "id": "scores-w15"
+    },
+    {
+      "text": "the",
+      "start": 6.1375,
+      "end": 6.2375,
+      "id": "scores-w16"
+    },
+    {
+      "text": "square",
+      "start": 6.2375,
+      "end": 6.6,
+      "id": "scores-w17"
+    },
+    {
+      "text": "root",
+      "start": 6.6,
+      "end": 6.7875,
+      "id": "scores-w18"
+    },
+    {
+      "text": "of",
+      "start": 6.7875,
+      "end": 6.9125,
+      "id": "scores-w19"
+    },
+    {
+      "text": "two.",
+      "start": 6.9125,
+      "end": 7.475,
+      "id": "scores-w20"
+    }
+  ],
+  "timingMethod": "model-duration",
+  "voice": "af_heart",
+  "speed": 1,
+  "modelRevision": "f3ff3571791e39611d31c381e3a41a3af07b4987",
+  "generationSeconds": 0.7656207093968987,
+  "audioHash": "9460a955895e01688ba8aa0d8bf96bb9f1c23dd5604f05b1f4153b51ba6d357b",
+  "language": "a",
+  "key": "def5a637dc94c1962ff459a29a0ade8f7ce3eb77a84e3eaa87b2b1723bc93d6e",
+  "lexiconHash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+  "backendVersions": {
+    "kokoro": "0.9.4",
+    "misaki": "0.9.4",
+    "torch": "2.12.1",
+    "soundfile": "0.14.0",
+    "spacy": "3.8.16",
+    "en_core_web_sm": "3.8.0"
+  },
+  "modelFingerprint": "2a552218823c4cee61fe5a893f7d44457b4ea19aefb9c9f4064b8c4341fe12aa",
+  "generatorVersion": "0.2.0"
+}

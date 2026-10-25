@@ -1,0 +1,255 @@
+{
+  "schemaVersion": 1,
+  "text": "Today we’re looking at how people say I and you in Vietnamese. Imagine meeting an older friend for coffee. The words you use can depend on your relationship. Let’s follow one conversation and see how that works.",
+  "textHash": "39566d9a61851ccefd891ca49049af570e6e89c51d4ff577c5432a4d65e0430b",
+  "duration": 10.48076923076923,
+  "sampleRate": 24000,
+  "words": [
+    {
+      "text": "Today",
+      "start": 0.28846153846153844,
+      "end": 0.5192307692307693,
+      "id": "intro-w0"
+    },
+    {
+      "text": "we’re",
+      "start": 0.5192307692307693,
+      "end": 0.6153846153846154,
+      "id": "intro-w1"
+    },
+    {
+      "text": "looking",
+      "start": 0.6153846153846154,
+      "end": 0.8749999999999999,
+      "id": "intro-w2"
+    },
+    {
+      "text": "at",
+      "start": 0.8749999999999999,
+      "end": 0.9807692307692306,
+      "id": "intro-w3"
+    },
+    {
+      "text": "how",
+      "start": 0.9807692307692306,
+      "end": 1.1153846153846154,
+      "id": "intro-w4"
+    },
+    {
+      "text": "people",
+      "start": 1.1153846153846154,
+      "end": 1.3942307692307692,
+      "id": "intro-w5"
+    },
+    {
+      "text": "say",
+      "start": 1.3942307692307692,
+      "end": 1.6634615384615385,
+      "id": "intro-w6"
+    },
+    {
+      "text": "I",
+      "start": 1.6634615384615385,
+      "end": 1.8942307692307692,
+      "id": "intro-w7"
+    },
+    {
+      "text": "and",
+      "start": 1.8942307692307692,
+      "end": 2.0096153846153846,
+      "id": "intro-w8"
+    },
+    {
+      "text": "you",
+      "start": 2.0096153846153846,
+      "end": 2.2211538461538463,
+      "id": "intro-w9"
+    },
+    {
+      "text": "in",
+      "start": 2.2211538461538463,
+      "end": 2.346153846153846,
+      "id": "intro-w10"
+    },
+    {
+      "text": "Vietnamese.",
+      "start": 2.346153846153846,
+      "end": 3.1923076923076925,
+      "id": "intro-w11"
+    },
+    {
+      "text": "Imagine",
+      "start": 3.298076923076923,
+      "end": 3.740384615384615,
+      "id": "intro-w12"
+    },
+    {
+      "text": "meeting",
+      "start": 3.740384615384615,
+      "end": 4.019230769230769,
+      "id": "intro-w13"
+    },
+    {
+      "text": "an",
+      "start": 4.019230769230769,
+      "end": 4.125,
+      "id": "intro-w14"
+    },
+    {
+      "text": "older",
+      "start": 4.125,
+      "end": 4.451923076923077,
+      "id": "intro-w15"
+    },
+    {
+      "text": "friend",
+      "start": 4.451923076923077,
+      "end": 4.692307692307692,
+      "id": "intro-w16"
+    },
+    {
+      "text": "for",
+      "start": 4.692307692307692,
+      "end": 4.788461538461538,
+      "id": "intro-w17"
+    },
+    {
+      "text": "coffee.",
+      "start": 4.788461538461538,
+      "end": 5.384615384615384,
+      "id": "intro-w18"
+    },
+    {
+      "text": "The",
+      "start": 5.490384615384615,
+      "end": 5.596153846153846,
+      "id": "intro-w19"
+    },
+    {
+      "text": "words",
+      "start": 5.596153846153846,
+      "end": 5.846153846153846,
+      "id": "intro-w20"
+    },
+    {
+      "text": "you",
+      "start": 5.846153846153846,
+      "end": 5.951923076923077,
+      "id": "intro-w21"
+    },
+    {
+      "text": "use",
+      "start": 5.951923076923077,
+      "end": 6.23076923076923,
+      "id": "intro-w22"
+    },
+    {
+      "text": "can",
+      "start": 6.23076923076923,
+      "end": 6.346153846153846,
+      "id": "intro-w23"
+    },
+    {
+      "text": "depend",
+      "start": 6.346153846153846,
+      "end": 6.663461538461538,
+      "id": "intro-w24"
+    },
+    {
+      "text": "on",
+      "start": 6.663461538461538,
+      "end": 6.740384615384615,
+      "id": "intro-w25"
+    },
+    {
+      "text": "your",
+      "start": 6.740384615384615,
+      "end": 6.826923076923077,
+      "id": "intro-w26"
+    },
+    {
+      "text": "relationship.",
+      "start": 6.826923076923077,
+      "end": 7.653846153846153,
+      "id": "intro-w27"
+    },
+    {
+      "text": "Let’s",
+      "start": 7.759615384615385,
+      "end": 7.980769230769231,
+      "id": "intro-w28"
+    },
+    {
+      "text": "follow",
+      "start": 7.980769230769231,
+      "end": 8.240384615384615,
+      "id": "intro-w29"
+    },
+    {
+      "text": "one",
+      "start": 8.240384615384615,
+      "end": 8.423076923076922,
+      "id": "intro-w30"
+    },
+    {
+      "text": "conversation",
+      "start": 8.423076923076922,
+      "end": 9.125,
+      "id": "intro-w31"
+    },
+    {
+      "text": "and",
+      "start": 9.125,
+      "end": 9.240384615384615,
+      "id": "intro-w32"
+    },
+    {
+      "text": "see",
+      "start": 9.240384615384615,
+      "end": 9.403846153846153,
+      "id": "intro-w33"
+    },
+    {
+      "text": "how",
+      "start": 9.403846153846153,
+      "end": 9.538461538461538,
+      "id": "intro-w34"
+    },
+    {
+      "text": "that",
+      "start": 9.538461538461538,
+      "end": 9.711538461538462,
+      "id": "intro-w35"
+    },
+    {
+      "text": "works.",
+      "start": 9.711538461538462,
+      "end": 10.192307692307692,
+      "id": "intro-w36"
+    }
+  ],
+  "timingMethod": "model-duration",
+  "voice": "af_heart",
+  "speed": 1.339,
+  "modelRevision": "f3ff3571791e39611d31c381e3a41a3af07b4987",
+  "generationSeconds": 2.3129723337478936,
+  "audioHash": "2d374b835e21b84354dcb44475f6530d7b323a522702270a5dc444db63557767",
+  "language": "a",
+  "key": "29d0e9261ae5657c321135f7eeebf554422131fb4ee92f89cb3dde13033c9a0f",
+  "lexiconHash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+  "backendVersions": {
+    "kokoro": "0.9.4",
+    "misaki": "0.9.4",
+    "torch": "2.12.1",
+    "soundfile": "0.14.0",
+    "spacy": "3.8.16",
+    "en_core_web_sm": "3.8.0"
+  },
+  "modelFingerprint": "2a552218823c4cee61fe5a893f7d44457b4ea19aefb9c9f4064b8c4341fe12aa",
+  "generatorVersion": "0.2.0",
+  "postProcessing": {
+    "filter": "atempo=1.3",
+    "timingScale": 0.7692307692307692,
+    "sourceAudioHash": "a266f2274feee02a852589b66763cfd7f7575ee3d439aafb77c72d44884d75d6"
+  }
+}

@@ -1,0 +1,175 @@
+1
+00:00:00,269 --> 00:00:01,288
+What happens after you send a
+
+2
+00:00:01,288 --> 00:00:02,673
+message to a language model?
+
+3
+00:00:02,798 --> 00:00:04,077
+In this video, we’ll follow a
+
+4
+00:00:04,077 --> 00:00:05,558
+short prompt through the model, see
+
+5
+00:00:05,558 --> 00:00:06,644
+how it chooses the next piece
+
+6
+00:00:06,644 --> 00:00:08,154
+of text, and watch that process
+
+7
+00:00:08,154 --> 00:00:08,692
+repeat.
+
+8
+00:00:10,080 --> 00:00:11,542
+A language model receives your prompt
+
+9
+00:00:11,542 --> 00:00:13,196
+as tokens: pieces of text that
+
+10
+00:00:13,196 --> 00:00:14,696
+can be words, parts of words,
+
+11
+00:00:14,753 --> 00:00:15,792
+or punctuation.
+
+12
+00:00:15,917 --> 00:00:17,099
+Each token becomes a list of
+
+13
+00:00:17,099 --> 00:00:17,734
+numbers.
+
+14
+00:00:17,821 --> 00:00:18,955
+Those numbers are the input to
+
+15
+00:00:18,955 --> 00:00:19,503
+the model.
+
+16
+00:00:20,641 --> 00:00:22,891
+Inside the model, attention combines information
+
+17
+00:00:22,891 --> 00:00:24,083
+from earlier tokens.
+
+18
+00:00:24,189 --> 00:00:26,064
+Other layers transform the result.
+
+19
+00:00:26,170 --> 00:00:27,535
+In the sentence, the cat sat
+
+20
+00:00:27,535 --> 00:00:28,814
+on the, the model uses the
+
+21
+00:00:28,814 --> 00:00:30,487
+preceding context to help predict what
+
+22
+00:00:30,487 --> 00:00:31,295
+might come next.
+
+23
+00:00:32,394 --> 00:00:34,067
+The output is a probability distribution
+
+24
+00:00:34,067 --> 00:00:35,567
+over possible next tokens.
+
+25
+00:00:35,673 --> 00:00:37,356
+These numbers are a teaching example.
+
+26
+00:00:37,471 --> 00:00:39,144
+Mat has forty percent, floor has
+
+27
+00:00:39,144 --> 00:00:40,952
+thirty, and all other possibilities share
+
+28
+00:00:40,952 --> 00:00:41,663
+the rest.
+
+29
+00:00:41,788 --> 00:00:43,683
+A generation rule selects one token.
+
+30
+00:00:44,788 --> 00:00:46,500
+Suppose the selected token is mat.
+
+31
+00:00:46,577 --> 00:00:47,846
+It joins the sequence.
+
+32
+00:00:47,952 --> 00:00:49,471
+The model now predicts another token
+
+33
+00:00:49,471 --> 00:00:51,038
+using the extended context.
+
+34
+00:00:51,144 --> 00:00:52,942
+Repeating this process produces a sentence,
+
+35
+00:00:53,019 --> 00:00:54,519
+a paragraph, or a much longer
+
+36
+00:00:54,519 --> 00:00:55,096
+reply.
+
+37
+00:00:56,186 --> 00:00:57,974
+Training adjusts the model parameters using
+
+38
+00:00:57,974 --> 00:00:58,782
+examples.
+
+39
+00:00:58,869 --> 00:01:01,147
+During ordinary generation, those learned parameters
+
+40
+00:01:01,147 --> 00:01:03,128
+stay fixed while the context grows.
+
+41
+00:01:03,234 --> 00:01:04,926
+A convincing continuation can still be
+
+42
+00:01:04,926 --> 00:01:05,532
+wrong.
+
+43
+00:01:05,667 --> 00:01:07,061
+Web search and other tools add
+
+44
+00:01:07,061 --> 00:01:08,590
+separate steps around this process.

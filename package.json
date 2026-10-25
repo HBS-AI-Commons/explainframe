@@ -1,0 +1,47 @@
+{
+  "name": "explainframe",
+  "version": "0.2.0",
+  "private": true,
+  "description": "Make narrated, editable video explanations with your coding agent.",
+  "type": "module",
+  "license": "MIT",
+  "engines": {
+    "node": ">=22"
+  },
+  "bin": {
+    "explain": "bin/explain.mjs"
+  },
+  "scripts": {
+    "doctor": "node bin/explain.mjs doctor",
+    "setup": "node bin/explain.mjs setup",
+    "demo": "node bin/explain.mjs demo",
+    "new": "node bin/explain.mjs new",
+    "narrate": "node bin/explain.mjs narrate",
+    "audition": "node bin/explain.mjs audition",
+    "select": "node bin/explain.mjs select",
+    "storyboard": "node bin/explain.mjs storyboard",
+    "preview": "node bin/explain.mjs preview",
+    "render": "node bin/explain.mjs render",
+    "check": "node bin/explain.mjs check",
+    "bundle": "node bin/explain.mjs bundle",
+    "test": "node --test tests/*.test.mjs",
+    "test:browser": "node tests/browser.mjs",
+    "lint": "node scripts/repository-check.mjs",
+    "verify": "node scripts/verify.mjs",
+    "check:history": "node scripts/check-commit.mjs --history",
+    "hooks:install": "node scripts/install-hooks.mjs",
+    "test:preview": "node tests/browser.mjs --no-video",
+    "test:interrupt": "node tests/render-interrupt.mjs",
+    "test:direction": "node tests/direction-browser.mjs",
+    "test:proofs": "node tests/proofs-browser.mjs",
+    "test:proofs:revision": "node tests/proofs-revision.mjs",
+    "check:scenes": "node scripts/check-scenes.mjs",
+    "test:cache": "node tests/cache-browser.mjs"
+  },
+  "dependencies": {
+    "ajv": "8.20.0",
+    "esbuild": "0.28.2",
+    "fflate": "0.8.3",
+    "playwright": "1.62.1"
+  }
+}

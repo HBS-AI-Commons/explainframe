@@ -1,0 +1,166 @@
+{
+  "schemaVersion": 1,
+  "text": "Multiply each value by its weight, then add the contributions. Both positions matter. The output is a blend, not a winner taking all.",
+  "textHash": "004f147511ef5be796b4590b3c97a604fb49ee153b0a4453e9d3648cf08935ae",
+  "duration": 9.475,
+  "sampleRate": 24000,
+  "words": [
+    {
+      "text": "Multiply",
+      "start": 0.425,
+      "end": 1.0625,
+      "id": "mix-w0"
+    },
+    {
+      "text": "each",
+      "start": 1.0625,
+      "end": 1.35,
+      "id": "mix-w1"
+    },
+    {
+      "text": "value",
+      "start": 1.35,
+      "end": 1.75,
+      "id": "mix-w2"
+    },
+    {
+      "text": "by",
+      "start": 1.75,
+      "end": 1.925,
+      "id": "mix-w3"
+    },
+    {
+      "text": "its",
+      "start": 1.925,
+      "end": 2.125,
+      "id": "mix-w4"
+    },
+    {
+      "text": "weight,",
+      "start": 2.125,
+      "end": 2.55,
+      "id": "mix-w5"
+    },
+    {
+      "text": "then",
+      "start": 2.625,
+      "end": 2.8625,
+      "id": "mix-w6"
+    },
+    {
+      "text": "add",
+      "start": 2.8625,
+      "end": 3.0625,
+      "id": "mix-w7"
+    },
+    {
+      "text": "the",
+      "start": 3.0625,
+      "end": 3.15,
+      "id": "mix-w8"
+    },
+    {
+      "text": "contributions.",
+      "start": 3.15,
+      "end": 4.4,
+      "id": "mix-w9"
+    },
+    {
+      "text": "Both",
+      "start": 4.5375,
+      "end": 4.85,
+      "id": "mix-w10"
+    },
+    {
+      "text": "positions",
+      "start": 4.85,
+      "end": 5.425,
+      "id": "mix-w11"
+    },
+    {
+      "text": "matter.",
+      "start": 5.425,
+      "end": 6.05,
+      "id": "mix-w12"
+    },
+    {
+      "text": "The",
+      "start": 6.175,
+      "end": 6.3375,
+      "id": "mix-w13"
+    },
+    {
+      "text": "output",
+      "start": 6.3375,
+      "end": 6.825,
+      "id": "mix-w14"
+    },
+    {
+      "text": "is",
+      "start": 6.825,
+      "end": 6.9375,
+      "id": "mix-w15"
+    },
+    {
+      "text": "a",
+      "start": 6.9375,
+      "end": 7.0375,
+      "id": "mix-w16"
+    },
+    {
+      "text": "blend,",
+      "start": 7.0375,
+      "end": 7.575,
+      "id": "mix-w17"
+    },
+    {
+      "text": "not",
+      "start": 7.675,
+      "end": 7.8625,
+      "id": "mix-w18"
+    },
+    {
+      "text": "a",
+      "start": 7.8625,
+      "end": 7.925,
+      "id": "mix-w19"
+    },
+    {
+      "text": "winner",
+      "start": 7.925,
+      "end": 8.2,
+      "id": "mix-w20"
+    },
+    {
+      "text": "taking",
+      "start": 8.2,
+      "end": 8.55,
+      "id": "mix-w21"
+    },
+    {
+      "text": "all.",
+      "start": 8.55,
+      "end": 9.075,
+      "id": "mix-w22"
+    }
+  ],
+  "timingMethod": "model-duration",
+  "voice": "af_heart",
+  "speed": 1,
+  "modelRevision": "f3ff3571791e39611d31c381e3a41a3af07b4987",
+  "generationSeconds": 1.4770253342576325,
+  "audioHash": "242fe56a81a961642ff69bfc9d04bef92be2ef677085ce6d415ec80f78f9ba1e",
+  "language": "a",
+  "key": "b470459992dc6880e296b4a312c84f4c2189b693961a5991152a7a1faa9523a6",
+  "lexiconHash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+  "backendVersions": {
+    "kokoro": "0.9.4",
+    "misaki": "0.9.4",
+    "torch": "2.12.1",
+    "soundfile": "0.14.0",
+    "spacy": "3.8.16",
+    "en_core_web_sm": "3.8.0"
+  },
+  "modelFingerprint": "2a552218823c4cee61fe5a893f7d44457b4ea19aefb9c9f4064b8c4341fe12aa",
+  "generatorVersion": "0.2.0"
+}

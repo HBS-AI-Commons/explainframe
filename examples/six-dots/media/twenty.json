@@ -1,0 +1,202 @@
+{
+  "schemaVersion": 1,
+  "text": "Six choices for the first dot, five for the next, four for the last. Each triple appears in six orders. One hundred twenty divided by six gives twenty triangles.",
+  "textHash": "b317f657f17b7d1dc2e166f6a31c4e3ac44dfee1e2644a8362a65a146176dac1",
+  "duration": 11.225,
+  "sampleRate": 24000,
+  "words": [
+    {
+      "text": "Six",
+      "start": 0.4,
+      "end": 0.675,
+      "id": "twenty-w0"
+    },
+    {
+      "text": "choices",
+      "start": 0.675,
+      "end": 1.125,
+      "id": "twenty-w1"
+    },
+    {
+      "text": "for",
+      "start": 1.125,
+      "end": 1.2375,
+      "id": "twenty-w2"
+    },
+    {
+      "text": "the",
+      "start": 1.2375,
+      "end": 1.325,
+      "id": "twenty-w3"
+    },
+    {
+      "text": "first",
+      "start": 1.325,
+      "end": 1.6,
+      "id": "twenty-w4"
+    },
+    {
+      "text": "dot,",
+      "start": 1.6,
+      "end": 2.075,
+      "id": "twenty-w5"
+    },
+    {
+      "text": "five",
+      "start": 2.1875,
+      "end": 2.525,
+      "id": "twenty-w6"
+    },
+    {
+      "text": "for",
+      "start": 2.525,
+      "end": 2.6375,
+      "id": "twenty-w7"
+    },
+    {
+      "text": "the",
+      "start": 2.6375,
+      "end": 2.725,
+      "id": "twenty-w8"
+    },
+    {
+      "text": "next,",
+      "start": 2.725,
+      "end": 3.25,
+      "id": "twenty-w9"
+    },
+    {
+      "text": "four",
+      "start": 3.3625,
+      "end": 3.65,
+      "id": "twenty-w10"
+    },
+    {
+      "text": "for",
+      "start": 3.65,
+      "end": 3.7625,
+      "id": "twenty-w11"
+    },
+    {
+      "text": "the",
+      "start": 3.7625,
+      "end": 3.85,
+      "id": "twenty-w12"
+    },
+    {
+      "text": "last.",
+      "start": 3.85,
+      "end": 4.625,
+      "id": "twenty-w13"
+    },
+    {
+      "text": "Each",
+      "start": 4.7875,
+      "end": 5.075,
+      "id": "twenty-w14"
+    },
+    {
+      "text": "triple",
+      "start": 5.075,
+      "end": 5.425,
+      "id": "twenty-w15"
+    },
+    {
+      "text": "appears",
+      "start": 5.425,
+      "end": 5.875,
+      "id": "twenty-w16"
+    },
+    {
+      "text": "in",
+      "start": 5.875,
+      "end": 6.0375,
+      "id": "twenty-w17"
+    },
+    {
+      "text": "six",
+      "start": 6.0375,
+      "end": 6.35,
+      "id": "twenty-w18"
+    },
+    {
+      "text": "orders.",
+      "start": 6.35,
+      "end": 7.175,
+      "id": "twenty-w19"
+    },
+    {
+      "text": "One",
+      "start": 7.2875,
+      "end": 7.4625,
+      "id": "twenty-w20"
+    },
+    {
+      "text": "hundred",
+      "start": 7.4625,
+      "end": 7.775,
+      "id": "twenty-w21"
+    },
+    {
+      "text": "twenty",
+      "start": 7.775,
+      "end": 8.175,
+      "id": "twenty-w22"
+    },
+    {
+      "text": "divided",
+      "start": 8.175,
+      "end": 8.625,
+      "id": "twenty-w23"
+    },
+    {
+      "text": "by",
+      "start": 8.625,
+      "end": 8.85,
+      "id": "twenty-w24"
+    },
+    {
+      "text": "six",
+      "start": 8.85,
+      "end": 9.25,
+      "id": "twenty-w25"
+    },
+    {
+      "text": "gives",
+      "start": 9.25,
+      "end": 9.5375,
+      "id": "twenty-w26"
+    },
+    {
+      "text": "twenty",
+      "start": 9.5375,
+      "end": 9.875,
+      "id": "twenty-w27"
+    },
+    {
+      "text": "triangles.",
+      "start": 9.875,
+      "end": 10.825,
+      "id": "twenty-w28"
+    }
+  ],
+  "timingMethod": "model-duration",
+  "voice": "af_heart",
+  "speed": 1,
+  "modelRevision": "f3ff3571791e39611d31c381e3a41a3af07b4987",
+  "generationSeconds": 4.060004083905369,
+  "audioHash": "7d4bf28790a517482502cbc7174b6574764eadba6fe2b34ae6aeee33ead26010",
+  "language": "a",
+  "key": "2ed57f8f369339e42a1851c02246cf9caeca4fd08cc90d57bfb0348ccff258f0",
+  "lexiconHash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+  "backendVersions": {
+    "kokoro": "0.9.4",
+    "misaki": "0.9.4",
+    "torch": "2.12.1",
+    "soundfile": "0.14.0",
+    "spacy": "3.8.16",
+    "en_core_web_sm": "3.8.0"
+  },
+  "modelFingerprint": "2a552218823c4cee61fe5a893f7d44457b4ea19aefb9c9f4064b8c4341fe12aa",
+  "generatorVersion": "0.2.0"
+}

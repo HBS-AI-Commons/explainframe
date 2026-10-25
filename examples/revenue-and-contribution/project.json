@@ -1,0 +1,165 @@
+{
+  "schemaVersion": 1,
+  "style": "paper",
+  "formats": [
+    "portrait",
+    "landscape",
+    "square",
+    "feed"
+  ],
+  "fps": 30,
+  "caption": {
+    "mode": "karaoke",
+    "maxWords": 6,
+    "safeBottom": 0.1
+  },
+  "speech": {
+    "voice": "af_heart",
+    "speed": 1,
+    "language": "a",
+    "lexicon": {},
+    "backend": "kokoro"
+  },
+  "title": "More revenue, less contribution",
+  "category": "SYNTHETIC BUSINESS EXAMPLE",
+  "sources": [
+    {
+      "id": "toy",
+      "title": "Original synthetic teaching example. Numbers are assumptions, not company results.",
+      "status": "synthetic",
+      "file": "source-notes.md",
+      "includeInBundle": true,
+      "locator": "Worked example, same-period amounts",
+      "note": "Original authored teaching note; values are assumptions."
+    }
+  ],
+  "claims": [
+    {
+      "id": "contribution",
+      "text": "Contribution equals revenue less variable costs; fixed costs are outside this example.",
+      "sources": [
+        "toy"
+      ],
+      "basis": "synthetic example",
+      "locator": "Worked example",
+      "limit": "Contribution excludes fixed costs."
+    },
+    {
+      "id": "comparison",
+      "text": "Revenue rises from 100 to 150 while contribution falls from 40 to 30.",
+      "sources": [
+        "toy"
+      ],
+      "basis": "synthetic example",
+      "locator": "Worked example",
+      "limit": "Contribution excludes fixed costs."
+    }
+  ],
+  "checks": [
+    {
+      "id": "before",
+      "kind": "difference",
+      "values": [
+        100,
+        60
+      ],
+      "expected": 40
+    },
+    {
+      "id": "after",
+      "kind": "difference",
+      "values": [
+        150,
+        120
+      ],
+      "expected": 30
+    },
+    {
+      "id": "change",
+      "kind": "difference",
+      "values": [
+        30,
+        40
+      ],
+      "expected": -10
+    }
+  ],
+  "scenes": [
+    {
+      "id": "question",
+      "title": "More revenue. Less left over.",
+      "narration": "Can a business earn more revenue and have less left over? Yes. Watch what happens to the costs.",
+      "visual": {
+        "type": "custom",
+        "module": "scenes/economics.mjs"
+      },
+      "claims": [
+        "comparison"
+      ],
+      "audio": "media/question.wav",
+      "timing": "media/question.json",
+      "visualDescription": "A single revenue bar contains variable costs and the remaining contribution. The baseline is $100 revenue, $60 variable costs and $40 contribution. These labels and colors persist throughout the explanation."
+    },
+    {
+      "id": "mechanism",
+      "title": "Start with what each sale leaves.",
+      "narration": "Start with revenue. Subtract the variable costs of making those sales. What remains is contribution, before fixed costs.",
+      "visual": {
+        "type": "custom",
+        "module": "scenes/economics.mjs"
+      },
+      "claims": [
+        "contribution"
+      ],
+      "audio": "media/mechanism.wav",
+      "timing": "media/mechanism.json",
+      "visualDescription": "The baseline revenue bar stays at $100. As the narration says subtract, a navy sweep identifies the $60 variable-cost portion; the remaining $40 then turns green as contribution. The animation illustrates decomposition of one baseline, not changing business results. Fixed costs are excluded."
+    },
+    {
+      "id": "compare",
+      "title": "Costs grew faster than revenue.",
+      "narration": "Before, one hundred dollars of revenue minus sixty dollars of costs left forty. After, one hundred fifty minus one hundred twenty leaves thirty.",
+      "visual": {
+        "type": "custom",
+        "module": "scenes/economics.mjs"
+      },
+      "claims": [
+        "comparison",
+        "contribution"
+      ],
+      "audio": "media/compare.wav",
+      "timing": "media/compare.json",
+      "visualDescription": "On a fixed dollar scale, the same bar changes from $100 revenue split into $60 costs and $40 contribution to $150 revenue split into $120 costs and $30 contribution. Costs grow faster, leaving a smaller contribution segment. A faint baseline remains for comparison. Intermediate values illustrate the transition only."
+    },
+    {
+      "id": "takeaway",
+      "title": "Growth needs an economics check.",
+      "narration": "Revenue rose by fifty dollars. Contribution fell by ten. More sales alone do not tell you whether the economics improved.",
+      "visual": {
+        "type": "custom",
+        "module": "scenes/economics.mjs"
+      },
+      "claims": [
+        "comparison"
+      ],
+      "audio": "media/takeaway.wav",
+      "timing": "media/takeaway.json",
+      "visualDescription": "The final bar remains at $150 revenue, $120 costs and $30 contribution. Relative to the retained $100/$60/$40 baseline, revenue is up $50, costs up $60 and contribution down $10. Fixed costs are excluded."
+    }
+  ],
+  "teaching": {
+    "audience": "Business students and anyone comparing growth with contribution economics.",
+    "goal": "Predict contribution after revenue and variable costs change.",
+    "prerequisite": "Subtract one amount from another.",
+    "limit": "Synthetic amounts cover the same period. Fixed costs, cash timing and real cost drivers are outside this example.",
+    "questions": [
+      {
+        "id": "changed-cost",
+        "question": "Originally revenue was $100 and variable costs $60. With revenue $150 and variable costs $105, what is contribution? What cost level would keep the original contribution unchanged?",
+        "answer": "Contribution becomes $45, up $5. At $110 variable costs, contribution stays $40.",
+        "explanation": "$150 − $105 = $45 versus the original $40. Solve $150 − cost = $40 to get $110. These are contribution amounts before fixed costs, not profit.",
+        "scene": "compare"
+      }
+    ]
+  }
+}

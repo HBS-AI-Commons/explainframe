@@ -1,0 +1,243 @@
+{
+  "schemaVersion": 1,
+  "text": "Inside the model, attention combines information from earlier tokens. Other layers transform the result. In the sentence, the cat sat on the, the model uses the preceding context to help predict what might come next.",
+  "textHash": "357cbe61890bcd7801c446e3100fe124dc85ed5f6dc6ebaca401a74c9fbdc732",
+  "duration": 11.269230769230768,
+  "sampleRate": 24000,
+  "words": [
+    {
+      "text": "Inside",
+      "start": 0.3076923076923077,
+      "end": 0.625,
+      "id": "step-2-w0"
+    },
+    {
+      "text": "the",
+      "start": 0.625,
+      "end": 0.6923076923076923,
+      "id": "step-2-w1"
+    },
+    {
+      "text": "model,",
+      "start": 0.6923076923076923,
+      "end": 1.0769230769230769,
+      "id": "step-2-w2"
+    },
+    {
+      "text": "attention",
+      "start": 1.1538461538461537,
+      "end": 1.5961538461538463,
+      "id": "step-2-w3"
+    },
+    {
+      "text": "combines",
+      "start": 1.5961538461538463,
+      "end": 1.9807692307692308,
+      "id": "step-2-w4"
+    },
+    {
+      "text": "information",
+      "start": 1.9807692307692308,
+      "end": 2.557692307692308,
+      "id": "step-2-w5"
+    },
+    {
+      "text": "from",
+      "start": 2.557692307692308,
+      "end": 2.7115384615384612,
+      "id": "step-2-w6"
+    },
+    {
+      "text": "earlier",
+      "start": 2.7115384615384612,
+      "end": 3.0384615384615383,
+      "id": "step-2-w7"
+    },
+    {
+      "text": "tokens.",
+      "start": 3.0384615384615383,
+      "end": 3.75,
+      "id": "step-2-w8"
+    },
+    {
+      "text": "Other",
+      "start": 3.855769230769231,
+      "end": 4.096153846153846,
+      "id": "step-2-w9"
+    },
+    {
+      "text": "layers",
+      "start": 4.096153846153846,
+      "end": 4.461538461538462,
+      "id": "step-2-w10"
+    },
+    {
+      "text": "transform",
+      "start": 4.461538461538462,
+      "end": 4.98076923076923,
+      "id": "step-2-w11"
+    },
+    {
+      "text": "the",
+      "start": 4.98076923076923,
+      "end": 5.0576923076923075,
+      "id": "step-2-w12"
+    },
+    {
+      "text": "result.",
+      "start": 5.0576923076923075,
+      "end": 5.730769230769231,
+      "id": "step-2-w13"
+    },
+    {
+      "text": "In",
+      "start": 5.836538461538462,
+      "end": 5.9326923076923075,
+      "id": "step-2-w14"
+    },
+    {
+      "text": "the",
+      "start": 5.9326923076923075,
+      "end": 6.009615384615384,
+      "id": "step-2-w15"
+    },
+    {
+      "text": "sentence,",
+      "start": 6.009615384615384,
+      "end": 6.5576923076923075,
+      "id": "step-2-w16"
+    },
+    {
+      "text": "the",
+      "start": 6.615384615384615,
+      "end": 6.721153846153847,
+      "id": "step-2-w17"
+    },
+    {
+      "text": "cat",
+      "start": 6.721153846153847,
+      "end": 6.990384615384616,
+      "id": "step-2-w18"
+    },
+    {
+      "text": "sat",
+      "start": 6.990384615384616,
+      "end": 7.2019230769230775,
+      "id": "step-2-w19"
+    },
+    {
+      "text": "on",
+      "start": 7.2019230769230775,
+      "end": 7.288461538461538,
+      "id": "step-2-w20"
+    },
+    {
+      "text": "the,",
+      "start": 7.288461538461538,
+      "end": 7.576923076923077,
+      "id": "step-2-w21"
+    },
+    {
+      "text": "the",
+      "start": 7.692307692307692,
+      "end": 7.788461538461538,
+      "id": "step-2-w22"
+    },
+    {
+      "text": "model",
+      "start": 7.788461538461538,
+      "end": 8.08653846153846,
+      "id": "step-2-w23"
+    },
+    {
+      "text": "uses",
+      "start": 8.08653846153846,
+      "end": 8.403846153846153,
+      "id": "step-2-w24"
+    },
+    {
+      "text": "the",
+      "start": 8.403846153846153,
+      "end": 8.48076923076923,
+      "id": "step-2-w25"
+    },
+    {
+      "text": "preceding",
+      "start": 8.48076923076923,
+      "end": 8.884615384615385,
+      "id": "step-2-w26"
+    },
+    {
+      "text": "context",
+      "start": 8.884615384615385,
+      "end": 9.423076923076923,
+      "id": "step-2-w27"
+    },
+    {
+      "text": "to",
+      "start": 9.423076923076923,
+      "end": 9.5,
+      "id": "step-2-w28"
+    },
+    {
+      "text": "help",
+      "start": 9.5,
+      "end": 9.692307692307692,
+      "id": "step-2-w29"
+    },
+    {
+      "text": "predict",
+      "start": 9.692307692307692,
+      "end": 10.038461538461538,
+      "id": "step-2-w30"
+    },
+    {
+      "text": "what",
+      "start": 10.038461538461538,
+      "end": 10.153846153846153,
+      "id": "step-2-w31"
+    },
+    {
+      "text": "might",
+      "start": 10.153846153846153,
+      "end": 10.307692307692308,
+      "id": "step-2-w32"
+    },
+    {
+      "text": "come",
+      "start": 10.307692307692308,
+      "end": 10.461538461538462,
+      "id": "step-2-w33"
+    },
+    {
+      "text": "next.",
+      "start": 10.461538461538462,
+      "end": 10.961538461538462,
+      "id": "step-2-w34"
+    }
+  ],
+  "timingMethod": "model-duration",
+  "voice": "af_heart",
+  "speed": 1.339,
+  "modelRevision": "f3ff3571791e39611d31c381e3a41a3af07b4987",
+  "generationSeconds": 5.843838625121862,
+  "audioHash": "706f105e35dde5ec515ba821c711cdfc4c4d8daba17660fa00b0ba76fcead494",
+  "language": "a",
+  "key": "1a1b509c94a5ccd24abfa359a63bdfa6eb524891bda48d963c8694ff0db316a7",
+  "lexiconHash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+  "backendVersions": {
+    "kokoro": "0.9.4",
+    "misaki": "0.9.4",
+    "torch": "2.12.1",
+    "soundfile": "0.14.0",
+    "spacy": "3.8.16",
+    "en_core_web_sm": "3.8.0"
+  },
+  "modelFingerprint": "2a552218823c4cee61fe5a893f7d44457b4ea19aefb9c9f4064b8c4341fe12aa",
+  "generatorVersion": "0.2.0",
+  "postProcessing": {
+    "filter": "atempo=1.3",
+    "timingScale": 0.7692307692307692,
+    "sourceAudioHash": "801e1c65f9d39f81c53f7f933478e855f369d7429c31172bbaeaa4391d2255c6"
+  }
+}

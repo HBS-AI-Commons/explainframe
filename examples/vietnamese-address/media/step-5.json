@@ -1,0 +1,267 @@
+{
+  "schemaVersion": 1,
+  "text": "Instead of memorizing a single translation for you, learn how two people address each other in a particular situation. Notice both sides of the conversation. The words tell you something about the relationship as well as who is speaking.",
+  "textHash": "02e4be835a085afe44c7ddfdb616d72d59827665f1c43ce9edcf3a9e84beb147",
+  "duration": 11.23076923076923,
+  "sampleRate": 24000,
+  "words": [
+    {
+      "text": "Instead",
+      "start": 0.28846153846153844,
+      "end": 0.5480769230769231,
+      "id": "step-5-w0"
+    },
+    {
+      "text": "of",
+      "start": 0.5480769230769231,
+      "end": 0.6442307692307693,
+      "id": "step-5-w1"
+    },
+    {
+      "text": "memorizing",
+      "start": 0.6442307692307693,
+      "end": 1.1538461538461537,
+      "id": "step-5-w2"
+    },
+    {
+      "text": "a",
+      "start": 1.1538461538461537,
+      "end": 1.25,
+      "id": "step-5-w3"
+    },
+    {
+      "text": "single",
+      "start": 1.25,
+      "end": 1.5576923076923075,
+      "id": "step-5-w4"
+    },
+    {
+      "text": "translation",
+      "start": 1.5576923076923075,
+      "end": 2.1153846153846154,
+      "id": "step-5-w5"
+    },
+    {
+      "text": "for",
+      "start": 2.1153846153846154,
+      "end": 2.2211538461538463,
+      "id": "step-5-w6"
+    },
+    {
+      "text": "you,",
+      "start": 2.2211538461538463,
+      "end": 2.557692307692308,
+      "id": "step-5-w7"
+    },
+    {
+      "text": "learn",
+      "start": 2.6826923076923075,
+      "end": 2.9038461538461537,
+      "id": "step-5-w8"
+    },
+    {
+      "text": "how",
+      "start": 2.9038461538461537,
+      "end": 3.067307692307692,
+      "id": "step-5-w9"
+    },
+    {
+      "text": "two",
+      "start": 3.067307692307692,
+      "end": 3.230769230769231,
+      "id": "step-5-w10"
+    },
+    {
+      "text": "people",
+      "start": 3.230769230769231,
+      "end": 3.519230769230769,
+      "id": "step-5-w11"
+    },
+    {
+      "text": "address",
+      "start": 3.519230769230769,
+      "end": 3.798076923076923,
+      "id": "step-5-w12"
+    },
+    {
+      "text": "each",
+      "start": 3.798076923076923,
+      "end": 3.951923076923077,
+      "id": "step-5-w13"
+    },
+    {
+      "text": "other",
+      "start": 3.951923076923077,
+      "end": 4.317307692307692,
+      "id": "step-5-w14"
+    },
+    {
+      "text": "in",
+      "start": 4.317307692307692,
+      "end": 4.394230769230769,
+      "id": "step-5-w15"
+    },
+    {
+      "text": "a",
+      "start": 4.394230769230769,
+      "end": 4.4423076923076925,
+      "id": "step-5-w16"
+    },
+    {
+      "text": "particular",
+      "start": 4.4423076923076925,
+      "end": 4.903846153846153,
+      "id": "step-5-w17"
+    },
+    {
+      "text": "situation.",
+      "start": 4.903846153846153,
+      "end": 5.730769230769231,
+      "id": "step-5-w18"
+    },
+    {
+      "text": "Notice",
+      "start": 5.846153846153846,
+      "end": 6.163461538461537,
+      "id": "step-5-w19"
+    },
+    {
+      "text": "both",
+      "start": 6.163461538461537,
+      "end": 6.394230769230769,
+      "id": "step-5-w20"
+    },
+    {
+      "text": "sides",
+      "start": 6.394230769230769,
+      "end": 6.6826923076923075,
+      "id": "step-5-w21"
+    },
+    {
+      "text": "of",
+      "start": 6.6826923076923075,
+      "end": 6.740384615384615,
+      "id": "step-5-w22"
+    },
+    {
+      "text": "the",
+      "start": 6.740384615384615,
+      "end": 6.8076923076923075,
+      "id": "step-5-w23"
+    },
+    {
+      "text": "conversation.",
+      "start": 6.8076923076923075,
+      "end": 7.730769230769231,
+      "id": "step-5-w24"
+    },
+    {
+      "text": "The",
+      "start": 7.836538461538462,
+      "end": 7.942307692307692,
+      "id": "step-5-w25"
+    },
+    {
+      "text": "words",
+      "start": 7.942307692307692,
+      "end": 8.211538461538462,
+      "id": "step-5-w26"
+    },
+    {
+      "text": "tell",
+      "start": 8.211538461538462,
+      "end": 8.384615384615385,
+      "id": "step-5-w27"
+    },
+    {
+      "text": "you",
+      "start": 8.384615384615385,
+      "end": 8.5,
+      "id": "step-5-w28"
+    },
+    {
+      "text": "something",
+      "start": 8.5,
+      "end": 8.76923076923077,
+      "id": "step-5-w29"
+    },
+    {
+      "text": "about",
+      "start": 8.76923076923077,
+      "end": 8.971153846153845,
+      "id": "step-5-w30"
+    },
+    {
+      "text": "the",
+      "start": 8.971153846153845,
+      "end": 9.038461538461538,
+      "id": "step-5-w31"
+    },
+    {
+      "text": "relationship",
+      "start": 9.038461538461538,
+      "end": 9.644230769230768,
+      "id": "step-5-w32"
+    },
+    {
+      "text": "as",
+      "start": 9.644230769230768,
+      "end": 9.769230769230768,
+      "id": "step-5-w33"
+    },
+    {
+      "text": "well",
+      "start": 9.769230769230768,
+      "end": 9.942307692307693,
+      "id": "step-5-w34"
+    },
+    {
+      "text": "as",
+      "start": 9.942307692307693,
+      "end": 10.057692307692307,
+      "id": "step-5-w35"
+    },
+    {
+      "text": "who",
+      "start": 10.057692307692307,
+      "end": 10.240384615384615,
+      "id": "step-5-w36"
+    },
+    {
+      "text": "is",
+      "start": 10.240384615384615,
+      "end": 10.346153846153845,
+      "id": "step-5-w37"
+    },
+    {
+      "text": "speaking.",
+      "start": 10.346153846153845,
+      "end": 10.942307692307692,
+      "id": "step-5-w38"
+    }
+  ],
+  "timingMethod": "model-duration",
+  "voice": "af_heart",
+  "speed": 1.339,
+  "modelRevision": "f3ff3571791e39611d31c381e3a41a3af07b4987",
+  "generationSeconds": 5.695654250215739,
+  "audioHash": "ed75a88a86e520b1b1b85014129066e158cb0b6fe67d7803b4b030e75412dd8a",
+  "language": "a",
+  "key": "7c7a12c09b5b715dac8b384687f5fa94eb7c06e5b2e106d58a274acaa1e1ac8f",
+  "lexiconHash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+  "backendVersions": {
+    "kokoro": "0.9.4",
+    "misaki": "0.9.4",
+    "torch": "2.12.1",
+    "soundfile": "0.14.0",
+    "spacy": "3.8.16",
+    "en_core_web_sm": "3.8.0"
+  },
+  "modelFingerprint": "2a552218823c4cee61fe5a893f7d44457b4ea19aefb9c9f4064b8c4341fe12aa",
+  "generatorVersion": "0.2.0",
+  "postProcessing": {
+    "filter": "atempo=1.3",
+    "timingScale": 0.7692307692307692,
+    "sourceAudioHash": "53609109beb9b447cd32283f1315b2bbb2026a3fce032d470fa392cc36bd4550"
+  }
+}

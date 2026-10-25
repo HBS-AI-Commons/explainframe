@@ -1,0 +1,166 @@
+{
+  "schemaVersion": 1,
+  "text": "Before, one hundred dollars of revenue minus sixty dollars of costs left forty. After, one hundred fifty minus one hundred twenty leaves thirty.",
+  "textHash": "aa9be6e9219e756d0233e2b24945b1d97f31748f1518e877fb44087d6bc2044d",
+  "duration": 9.95,
+  "sampleRate": 24000,
+  "words": [
+    {
+      "text": "Before,",
+      "start": 0.35,
+      "end": 0.925,
+      "id": "compare-w0"
+    },
+    {
+      "text": "one",
+      "start": 1,
+      "end": 1.15,
+      "id": "compare-w1"
+    },
+    {
+      "text": "hundred",
+      "start": 1.15,
+      "end": 1.475,
+      "id": "compare-w2"
+    },
+    {
+      "text": "dollars",
+      "start": 1.475,
+      "end": 1.9,
+      "id": "compare-w3"
+    },
+    {
+      "text": "of",
+      "start": 1.9,
+      "end": 2.025,
+      "id": "compare-w4"
+    },
+    {
+      "text": "revenue",
+      "start": 2.025,
+      "end": 2.5375,
+      "id": "compare-w5"
+    },
+    {
+      "text": "minus",
+      "start": 2.5375,
+      "end": 2.8875,
+      "id": "compare-w6"
+    },
+    {
+      "text": "sixty",
+      "start": 2.8875,
+      "end": 3.25,
+      "id": "compare-w7"
+    },
+    {
+      "text": "dollars",
+      "start": 3.25,
+      "end": 3.6375,
+      "id": "compare-w8"
+    },
+    {
+      "text": "of",
+      "start": 3.6375,
+      "end": 3.7625,
+      "id": "compare-w9"
+    },
+    {
+      "text": "costs",
+      "start": 3.7625,
+      "end": 4.3625,
+      "id": "compare-w10"
+    },
+    {
+      "text": "left",
+      "start": 4.3625,
+      "end": 4.6625,
+      "id": "compare-w11"
+    },
+    {
+      "text": "forty.",
+      "start": 4.6625,
+      "end": 5.475,
+      "id": "compare-w12"
+    },
+    {
+      "text": "After,",
+      "start": 5.675,
+      "end": 6.4,
+      "id": "compare-w13"
+    },
+    {
+      "text": "one",
+      "start": 6.525,
+      "end": 6.675,
+      "id": "compare-w14"
+    },
+    {
+      "text": "hundred",
+      "start": 6.675,
+      "end": 7,
+      "id": "compare-w15"
+    },
+    {
+      "text": "fifty",
+      "start": 7,
+      "end": 7.325,
+      "id": "compare-w16"
+    },
+    {
+      "text": "minus",
+      "start": 7.325,
+      "end": 7.675,
+      "id": "compare-w17"
+    },
+    {
+      "text": "one",
+      "start": 7.675,
+      "end": 7.8125,
+      "id": "compare-w18"
+    },
+    {
+      "text": "hundred",
+      "start": 7.8125,
+      "end": 8.125,
+      "id": "compare-w19"
+    },
+    {
+      "text": "twenty",
+      "start": 8.125,
+      "end": 8.525,
+      "id": "compare-w20"
+    },
+    {
+      "text": "leaves",
+      "start": 8.525,
+      "end": 8.85,
+      "id": "compare-w21"
+    },
+    {
+      "text": "thirty.",
+      "start": 8.85,
+      "end": 9.55,
+      "id": "compare-w22"
+    }
+  ],
+  "timingMethod": "model-duration",
+  "voice": "af_heart",
+  "speed": 1,
+  "modelRevision": "f3ff3571791e39611d31c381e3a41a3af07b4987",
+  "generationSeconds": 6.269218374975026,
+  "audioHash": "585dcf0d0dd626f2b93e94d5f6f67ee4231e21583b1c50f29fdd1e812544467c",
+  "key": "86c982b485fecd13de86751e098f74252fb998cfd219acd1e5fbe1d889c71ed9",
+  "lexiconHash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+  "backendVersions": {
+    "kokoro": "0.9.4",
+    "misaki": "0.9.4",
+    "torch": "2.12.1",
+    "soundfile": "0.14.0",
+    "spacy": "3.8.14",
+    "en_core_web_sm": "3.8.0"
+  },
+  "modelFingerprint": "2a552218823c4cee61fe5a893f7d44457b4ea19aefb9c9f4064b8c4341fe12aa",
+  "generatorVersion": "0.1.0",
+  "language": "a"
+}

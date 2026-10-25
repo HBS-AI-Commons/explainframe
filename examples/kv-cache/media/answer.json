@@ -1,0 +1,232 @@
+{
+  "schemaVersion": 1,
+  "text": "Recompute the scores for the new query against every allowed key. Normalize again, then blend the values. The query changed, and another key joined the denominator. Old attention weights would give the wrong result.",
+  "textHash": "d19e7b9c15d7a4a580a58b8c37685f293bc7addbc75b2acf1ac405cb67a5d9e0",
+  "duration": 14,
+  "sampleRate": 24000,
+  "words": [
+    {
+      "text": "Recompute",
+      "start": 0.4,
+      "end": 0.95,
+      "id": "answer-w0"
+    },
+    {
+      "text": "the",
+      "start": 0.95,
+      "end": 1.0625,
+      "id": "answer-w1"
+    },
+    {
+      "text": "scores",
+      "start": 1.0625,
+      "end": 1.525,
+      "id": "answer-w2"
+    },
+    {
+      "text": "for",
+      "start": 1.525,
+      "end": 1.6375,
+      "id": "answer-w3"
+    },
+    {
+      "text": "the",
+      "start": 1.6375,
+      "end": 1.75,
+      "id": "answer-w4"
+    },
+    {
+      "text": "new",
+      "start": 1.75,
+      "end": 1.9375,
+      "id": "answer-w5"
+    },
+    {
+      "text": "query",
+      "start": 1.9375,
+      "end": 2.4,
+      "id": "answer-w6"
+    },
+    {
+      "text": "against",
+      "start": 2.4,
+      "end": 2.7875,
+      "id": "answer-w7"
+    },
+    {
+      "text": "every",
+      "start": 2.7875,
+      "end": 3.125,
+      "id": "answer-w8"
+    },
+    {
+      "text": "allowed",
+      "start": 3.125,
+      "end": 3.5375,
+      "id": "answer-w9"
+    },
+    {
+      "text": "key.",
+      "start": 3.5375,
+      "end": 4.175,
+      "id": "answer-w10"
+    },
+    {
+      "text": "Normalize",
+      "start": 4.35,
+      "end": 4.925,
+      "id": "answer-w11"
+    },
+    {
+      "text": "again,",
+      "start": 4.925,
+      "end": 5.4,
+      "id": "answer-w12"
+    },
+    {
+      "text": "then",
+      "start": 5.475,
+      "end": 5.7375,
+      "id": "answer-w13"
+    },
+    {
+      "text": "blend",
+      "start": 5.7375,
+      "end": 6.0125,
+      "id": "answer-w14"
+    },
+    {
+      "text": "the",
+      "start": 6.0125,
+      "end": 6.1,
+      "id": "answer-w15"
+    },
+    {
+      "text": "values.",
+      "start": 6.1,
+      "end": 7.05,
+      "id": "answer-w16"
+    },
+    {
+      "text": "The",
+      "start": 7.15,
+      "end": 7.25,
+      "id": "answer-w17"
+    },
+    {
+      "text": "query",
+      "start": 7.25,
+      "end": 7.6375,
+      "id": "answer-w18"
+    },
+    {
+      "text": "changed,",
+      "start": 7.6375,
+      "end": 8.325,
+      "id": "answer-w19"
+    },
+    {
+      "text": "and",
+      "start": 8.425,
+      "end": 8.55,
+      "id": "answer-w20"
+    },
+    {
+      "text": "another",
+      "start": 8.55,
+      "end": 8.9625,
+      "id": "answer-w21"
+    },
+    {
+      "text": "key",
+      "start": 8.9625,
+      "end": 9.3,
+      "id": "answer-w22"
+    },
+    {
+      "text": "joined",
+      "start": 9.3,
+      "end": 9.6375,
+      "id": "answer-w23"
+    },
+    {
+      "text": "the",
+      "start": 9.6375,
+      "end": 9.725,
+      "id": "answer-w24"
+    },
+    {
+      "text": "denominator.",
+      "start": 9.725,
+      "end": 10.775,
+      "id": "answer-w25"
+    },
+    {
+      "text": "Old",
+      "start": 10.9375,
+      "end": 11.2125,
+      "id": "answer-w26"
+    },
+    {
+      "text": "attention",
+      "start": 11.2125,
+      "end": 11.675,
+      "id": "answer-w27"
+    },
+    {
+      "text": "weights",
+      "start": 11.675,
+      "end": 12.025,
+      "id": "answer-w28"
+    },
+    {
+      "text": "would",
+      "start": 12.025,
+      "end": 12.175,
+      "id": "answer-w29"
+    },
+    {
+      "text": "give",
+      "start": 12.175,
+      "end": 12.3875,
+      "id": "answer-w30"
+    },
+    {
+      "text": "the",
+      "start": 12.3875,
+      "end": 12.5125,
+      "id": "answer-w31"
+    },
+    {
+      "text": "wrong",
+      "start": 12.5125,
+      "end": 12.85,
+      "id": "answer-w32"
+    },
+    {
+      "text": "result.",
+      "start": 12.85,
+      "end": 13.6,
+      "id": "answer-w33"
+    }
+  ],
+  "timingMethod": "model-duration",
+  "voice": "af_heart",
+  "speed": 1,
+  "modelRevision": "f3ff3571791e39611d31c381e3a41a3af07b4987",
+  "generationSeconds": 1.9676613751798868,
+  "audioHash": "8cb7ce2047a49a13f465dca7ebffab02d9bb5607fdd979c055f4e36111a5b52b",
+  "language": "a",
+  "key": "db778fbbe9f5bb49dd4435fcd8817412eecd708716eb190471b3d0fee28acbc9",
+  "lexiconHash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+  "backendVersions": {
+    "kokoro": "0.9.4",
+    "misaki": "0.9.4",
+    "torch": "2.12.1",
+    "soundfile": "0.14.0",
+    "spacy": "3.8.16",
+    "en_core_web_sm": "3.8.0"
+  },
+  "modelFingerprint": "2a552218823c4cee61fe5a893f7d44457b4ea19aefb9c9f4064b8c4341fe12aa",
+  "generatorVersion": "0.2.0"
+}

@@ -1,0 +1,249 @@
+{
+  "schemaVersion": 1,
+  "text": "What happens after you send a message to a language model? In this video, we’ll follow a short prompt through the model, see how it chooses the next piece of text, and watch that process repeat.",
+  "textHash": "ece6b0eeb29d3574ffe88eff4ae2453542ef60f395bd5ae662eb6a45524fe711",
+  "duration": 9.0,
+  "sampleRate": 24000,
+  "words": [
+    {
+      "text": "What",
+      "start": 0.2692307692307692,
+      "end": 0.3846153846153846,
+      "id": "intro-w0"
+    },
+    {
+      "text": "happens",
+      "start": 0.3846153846153846,
+      "end": 0.75,
+      "id": "intro-w1"
+    },
+    {
+      "text": "after",
+      "start": 0.75,
+      "end": 0.9807692307692306,
+      "id": "intro-w2"
+    },
+    {
+      "text": "you",
+      "start": 0.9807692307692306,
+      "end": 1.0769230769230769,
+      "id": "intro-w3"
+    },
+    {
+      "text": "send",
+      "start": 1.0769230769230769,
+      "end": 1.2403846153846154,
+      "id": "intro-w4"
+    },
+    {
+      "text": "a",
+      "start": 1.2403846153846154,
+      "end": 1.2884615384615385,
+      "id": "intro-w5"
+    },
+    {
+      "text": "message",
+      "start": 1.2884615384615385,
+      "end": 1.6153846153846154,
+      "id": "intro-w6"
+    },
+    {
+      "text": "to",
+      "start": 1.6153846153846154,
+      "end": 1.7115384615384615,
+      "id": "intro-w7"
+    },
+    {
+      "text": "a",
+      "start": 1.7115384615384615,
+      "end": 1.7884615384615385,
+      "id": "intro-w8"
+    },
+    {
+      "text": "language",
+      "start": 1.7884615384615385,
+      "end": 2.0961538461538463,
+      "id": "intro-w9"
+    },
+    {
+      "text": "model?",
+      "start": 2.0961538461538463,
+      "end": 2.673076923076923,
+      "id": "intro-w10"
+    },
+    {
+      "text": "In",
+      "start": 2.798076923076923,
+      "end": 2.9038461538461537,
+      "id": "intro-w11"
+    },
+    {
+      "text": "this",
+      "start": 2.9038461538461537,
+      "end": 3.0576923076923075,
+      "id": "intro-w12"
+    },
+    {
+      "text": "video,",
+      "start": 3.0576923076923075,
+      "end": 3.480769230769231,
+      "id": "intro-w13"
+    },
+    {
+      "text": "we’ll",
+      "start": 3.5576923076923075,
+      "end": 3.7019230769230766,
+      "id": "intro-w14"
+    },
+    {
+      "text": "follow",
+      "start": 3.7019230769230766,
+      "end": 3.9807692307692304,
+      "id": "intro-w15"
+    },
+    {
+      "text": "a",
+      "start": 3.9807692307692304,
+      "end": 4.076923076923077,
+      "id": "intro-w16"
+    },
+    {
+      "text": "short",
+      "start": 4.076923076923077,
+      "end": 4.336538461538462,
+      "id": "intro-w17"
+    },
+    {
+      "text": "prompt",
+      "start": 4.336538461538462,
+      "end": 4.615384615384615,
+      "id": "intro-w18"
+    },
+    {
+      "text": "through",
+      "start": 4.615384615384615,
+      "end": 4.769230769230769,
+      "id": "intro-w19"
+    },
+    {
+      "text": "the",
+      "start": 4.769230769230769,
+      "end": 4.846153846153846,
+      "id": "intro-w20"
+    },
+    {
+      "text": "model,",
+      "start": 4.846153846153846,
+      "end": 5.326923076923077,
+      "id": "intro-w21"
+    },
+    {
+      "text": "see",
+      "start": 5.413461538461538,
+      "end": 5.5576923076923075,
+      "id": "intro-w22"
+    },
+    {
+      "text": "how",
+      "start": 5.5576923076923075,
+      "end": 5.701923076923077,
+      "id": "intro-w23"
+    },
+    {
+      "text": "it",
+      "start": 5.701923076923077,
+      "end": 5.778846153846154,
+      "id": "intro-w24"
+    },
+    {
+      "text": "chooses",
+      "start": 5.778846153846154,
+      "end": 6.134615384615384,
+      "id": "intro-w25"
+    },
+    {
+      "text": "the",
+      "start": 6.134615384615384,
+      "end": 6.211538461538461,
+      "id": "intro-w26"
+    },
+    {
+      "text": "next",
+      "start": 6.211538461538461,
+      "end": 6.4423076923076925,
+      "id": "intro-w27"
+    },
+    {
+      "text": "piece",
+      "start": 6.4423076923076925,
+      "end": 6.644230769230768,
+      "id": "intro-w28"
+    },
+    {
+      "text": "of",
+      "start": 6.644230769230768,
+      "end": 6.711538461538461,
+      "id": "intro-w29"
+    },
+    {
+      "text": "text,",
+      "start": 6.711538461538461,
+      "end": 7.211538461538462,
+      "id": "intro-w30"
+    },
+    {
+      "text": "and",
+      "start": 7.288461538461538,
+      "end": 7.384615384615384,
+      "id": "intro-w31"
+    },
+    {
+      "text": "watch",
+      "start": 7.384615384615384,
+      "end": 7.615384615384615,
+      "id": "intro-w32"
+    },
+    {
+      "text": "that",
+      "start": 7.615384615384615,
+      "end": 7.788461538461538,
+      "id": "intro-w33"
+    },
+    {
+      "text": "process",
+      "start": 7.788461538461538,
+      "end": 8.153846153846153,
+      "id": "intro-w34"
+    },
+    {
+      "text": "repeat.",
+      "start": 8.153846153846153,
+      "end": 8.692307692307693,
+      "id": "intro-w35"
+    }
+  ],
+  "timingMethod": "model-duration",
+  "voice": "af_heart",
+  "speed": 1.339,
+  "modelRevision": "f3ff3571791e39611d31c381e3a41a3af07b4987",
+  "generationSeconds": 1.9985881671309471,
+  "audioHash": "27532e7ba16961e335e578ec46b2adbbcadd47e1e37dbfa0d71a6a4100454695",
+  "language": "a",
+  "key": "88deb92fd4ee14f878c83a50d2c8c01ac76d53802322641ede2361b667771af9",
+  "lexiconHash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+  "backendVersions": {
+    "kokoro": "0.9.4",
+    "misaki": "0.9.4",
+    "torch": "2.12.1",
+    "soundfile": "0.14.0",
+    "spacy": "3.8.16",
+    "en_core_web_sm": "3.8.0"
+  },
+  "modelFingerprint": "2a552218823c4cee61fe5a893f7d44457b4ea19aefb9c9f4064b8c4341fe12aa",
+  "generatorVersion": "0.2.0",
+  "postProcessing": {
+    "filter": "atempo=1.3",
+    "timingScale": 0.7692307692307692,
+    "sourceAudioHash": "16797c580182c035f70796487818dfd0a169cc328d8e3acfd82b55f8f2a9defc"
+  }
+}

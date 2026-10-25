@@ -1,0 +1,33 @@
+{
+  "sources": [
+    {
+      "id": "primary",
+      "title": "Public problem package, The problem",
+      "url": "https://github.com/roberthuynh/erdos/tree/main/problems/643",
+      "status": "read",
+      "locator": "Public problem package, The problem",
+      "note": "Retrieved and reviewed 2026-10-24."
+    },
+    {
+      "id": "example",
+      "title": "Original teaching diagrams and examples",
+      "status": "synthetic",
+      "file": "source-notes.md",
+      "includeInBundle": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "mechanism",
+      "text": "Introduces the triple-system setting only. No theorem certification, priority claim or unpublished proof material.",
+      "sources": [
+        "primary",
+        "example"
+      ],
+      "basis": "Primary source plus explicitly simplified original illustration",
+      "limit": "Introduces the triple-system setting only. No theorem certification, priority claim or unpublished proof material."
+    }
+  ],
+  "checks": [],
+  "notice": "Sources and declared checks require content review. Technical checks do not certify claims."
+}

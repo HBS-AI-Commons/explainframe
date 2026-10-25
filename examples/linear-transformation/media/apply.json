@@ -1,0 +1,148 @@
+{
+  "schemaVersion": 1,
+  "text": "Apply the same shear: each upward step also moves right. The result is three, two. The coefficients stay the same.",
+  "textHash": "e091cda148e9c8aa61a1a1ef482ed6fa65b63f08c4559c3269bf1d78abd03366",
+  "duration": 7.85,
+  "sampleRate": 24000,
+  "words": [
+    {
+      "text": "Apply",
+      "start": 0.375,
+      "end": 0.6625,
+      "id": "apply-w0"
+    },
+    {
+      "text": "the",
+      "start": 0.6625,
+      "end": 0.75,
+      "id": "apply-w1"
+    },
+    {
+      "text": "same",
+      "start": 0.75,
+      "end": 1.0375,
+      "id": "apply-w2"
+    },
+    {
+      "text": "shear:",
+      "start": 1.0375,
+      "end": 1.5,
+      "id": "apply-w3"
+    },
+    {
+      "text": "each",
+      "start": 1.625,
+      "end": 1.85,
+      "id": "apply-w4"
+    },
+    {
+      "text": "upward",
+      "start": 1.85,
+      "end": 2.225,
+      "id": "apply-w5"
+    },
+    {
+      "text": "step",
+      "start": 2.225,
+      "end": 2.55,
+      "id": "apply-w6"
+    },
+    {
+      "text": "also",
+      "start": 2.55,
+      "end": 2.9,
+      "id": "apply-w7"
+    },
+    {
+      "text": "moves",
+      "start": 2.9,
+      "end": 3.175,
+      "id": "apply-w8"
+    },
+    {
+      "text": "right.",
+      "start": 3.175,
+      "end": 3.8,
+      "id": "apply-w9"
+    },
+    {
+      "text": "The",
+      "start": 3.9,
+      "end": 4,
+      "id": "apply-w10"
+    },
+    {
+      "text": "result",
+      "start": 4,
+      "end": 4.45,
+      "id": "apply-w11"
+    },
+    {
+      "text": "is",
+      "start": 4.45,
+      "end": 4.6375,
+      "id": "apply-w12"
+    },
+    {
+      "text": "three,",
+      "start": 4.6375,
+      "end": 4.925,
+      "id": "apply-w13"
+    },
+    {
+      "text": "two.",
+      "start": 4.9875,
+      "end": 5.525,
+      "id": "apply-w14"
+    },
+    {
+      "text": "The",
+      "start": 5.675,
+      "end": 5.775,
+      "id": "apply-w15"
+    },
+    {
+      "text": "coefficients",
+      "start": 5.775,
+      "end": 6.425,
+      "id": "apply-w16"
+    },
+    {
+      "text": "stay",
+      "start": 6.425,
+      "end": 6.7,
+      "id": "apply-w17"
+    },
+    {
+      "text": "the",
+      "start": 6.7,
+      "end": 6.8125,
+      "id": "apply-w18"
+    },
+    {
+      "text": "same.",
+      "start": 6.8125,
+      "end": 7.45,
+      "id": "apply-w19"
+    }
+  ],
+  "timingMethod": "model-duration",
+  "voice": "af_heart",
+  "speed": 1,
+  "modelRevision": "f3ff3571791e39611d31c381e3a41a3af07b4987",
+  "generationSeconds": 0.9545587496832013,
+  "audioHash": "02cf68ca598f5864278914cfb2638c99a85ccb839eda926a5693edf4bac46638",
+  "language": "a",
+  "key": "636128203b989697e11434b85eaf9f5d6ed8a448dbb7482ef7831ade22adf35a",
+  "lexiconHash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+  "backendVersions": {
+    "kokoro": "0.9.4",
+    "misaki": "0.9.4",
+    "torch": "2.12.1",
+    "soundfile": "0.14.0",
+    "spacy": "3.8.16",
+    "en_core_web_sm": "3.8.0"
+  },
+  "modelFingerprint": "2a552218823c4cee61fe5a893f7d44457b4ea19aefb9c9f4064b8c4341fe12aa",
+  "generatorVersion": "0.2.0"
+}

@@ -1,0 +1,22 @@
+[
+  {
+    "file": "figtree.ttf",
+    "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/figtree/Figtree%5Bwght%5D.ttf",
+    "sha256": "26ad3db9b31ff7dde67a91ff515d022d2f495cd506590699cf264f0bfe6fb714"
+  },
+  {
+    "file": "figtree-OFL.txt",
+    "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/figtree/OFL.txt",
+    "sha256": "140d37233e7f3ce7313798befa9600893bcceaf41a55fa0fa5ad52f7f657a268"
+  },
+  {
+    "file": "newsreader.ttf",
+    "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/newsreader/Newsreader%5Bopsz%2Cwght%5D.ttf",
+    "sha256": "8a08d13f8a6c0d51be379a60af84f945f65369a67e509ee3c3bdcc421254d7c1"
+  },
+  {
+    "file": "newsreader-OFL.txt",
+    "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/newsreader/OFL.txt",
+    "sha256": "fdfad38143ec470553cae82a1e45320bdd1b9ec70415d37bd0171051d8a4ded8"
+  }
+]

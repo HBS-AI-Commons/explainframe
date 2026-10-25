@@ -1,0 +1,232 @@
+{
+  "schemaVersion": 1,
+  "text": "Our four positions store sixteen numbers: two key components and two value components per position. That storage grows with context in this simple cache. The saved work is repeated projection, not all attention computation.",
+  "textHash": "10bef8ca7e3fb6f8fec60559b40fbadcd7e9da00053599afbff9e5bd700aefe5",
+  "duration": 15.15,
+  "sampleRate": 24000,
+  "words": [
+    {
+      "text": "Our",
+      "start": 0.35,
+      "end": 0.5375,
+      "id": "memory-w0"
+    },
+    {
+      "text": "four",
+      "start": 0.5375,
+      "end": 0.775,
+      "id": "memory-w1"
+    },
+    {
+      "text": "positions",
+      "start": 0.775,
+      "end": 1.375,
+      "id": "memory-w2"
+    },
+    {
+      "text": "store",
+      "start": 1.375,
+      "end": 1.675,
+      "id": "memory-w3"
+    },
+    {
+      "text": "sixteen",
+      "start": 1.675,
+      "end": 2.15,
+      "id": "memory-w4"
+    },
+    {
+      "text": "numbers:",
+      "start": 2.15,
+      "end": 2.9,
+      "id": "memory-w5"
+    },
+    {
+      "text": "two",
+      "start": 3.0125,
+      "end": 3.2625,
+      "id": "memory-w6"
+    },
+    {
+      "text": "key",
+      "start": 3.2625,
+      "end": 3.475,
+      "id": "memory-w7"
+    },
+    {
+      "text": "components",
+      "start": 3.475,
+      "end": 4.1375,
+      "id": "memory-w8"
+    },
+    {
+      "text": "and",
+      "start": 4.1375,
+      "end": 4.325,
+      "id": "memory-w9"
+    },
+    {
+      "text": "two",
+      "start": 4.325,
+      "end": 4.575,
+      "id": "memory-w10"
+    },
+    {
+      "text": "value",
+      "start": 4.575,
+      "end": 4.95,
+      "id": "memory-w11"
+    },
+    {
+      "text": "components",
+      "start": 4.95,
+      "end": 5.475,
+      "id": "memory-w12"
+    },
+    {
+      "text": "per",
+      "start": 5.475,
+      "end": 5.6,
+      "id": "memory-w13"
+    },
+    {
+      "text": "position.",
+      "start": 5.6,
+      "end": 6.575,
+      "id": "memory-w14"
+    },
+    {
+      "text": "That",
+      "start": 6.7125,
+      "end": 6.975,
+      "id": "memory-w15"
+    },
+    {
+      "text": "storage",
+      "start": 6.975,
+      "end": 7.4375,
+      "id": "memory-w16"
+    },
+    {
+      "text": "grows",
+      "start": 7.4375,
+      "end": 7.8125,
+      "id": "memory-w17"
+    },
+    {
+      "text": "with",
+      "start": 7.8125,
+      "end": 7.975,
+      "id": "memory-w18"
+    },
+    {
+      "text": "context",
+      "start": 7.975,
+      "end": 8.625,
+      "id": "memory-w19"
+    },
+    {
+      "text": "in",
+      "start": 8.625,
+      "end": 8.7375,
+      "id": "memory-w20"
+    },
+    {
+      "text": "this",
+      "start": 8.7375,
+      "end": 8.8875,
+      "id": "memory-w21"
+    },
+    {
+      "text": "simple",
+      "start": 8.8875,
+      "end": 9.225,
+      "id": "memory-w22"
+    },
+    {
+      "text": "cache.",
+      "start": 9.225,
+      "end": 10.025,
+      "id": "memory-w23"
+    },
+    {
+      "text": "The",
+      "start": 10.1625,
+      "end": 10.325,
+      "id": "memory-w24"
+    },
+    {
+      "text": "saved",
+      "start": 10.325,
+      "end": 10.75,
+      "id": "memory-w25"
+    },
+    {
+      "text": "work",
+      "start": 10.75,
+      "end": 11.0625,
+      "id": "memory-w26"
+    },
+    {
+      "text": "is",
+      "start": 11.0625,
+      "end": 11.225,
+      "id": "memory-w27"
+    },
+    {
+      "text": "repeated",
+      "start": 11.225,
+      "end": 11.725,
+      "id": "memory-w28"
+    },
+    {
+      "text": "projection,",
+      "start": 11.725,
+      "end": 12.55,
+      "id": "memory-w29"
+    },
+    {
+      "text": "not",
+      "start": 12.6625,
+      "end": 12.925,
+      "id": "memory-w30"
+    },
+    {
+      "text": "all",
+      "start": 12.925,
+      "end": 13.175,
+      "id": "memory-w31"
+    },
+    {
+      "text": "attention",
+      "start": 13.175,
+      "end": 13.675,
+      "id": "memory-w32"
+    },
+    {
+      "text": "computation.",
+      "start": 13.675,
+      "end": 14.75,
+      "id": "memory-w33"
+    }
+  ],
+  "timingMethod": "model-duration",
+  "voice": "af_heart",
+  "speed": 1,
+  "modelRevision": "f3ff3571791e39611d31c381e3a41a3af07b4987",
+  "generationSeconds": 2.2616929998621345,
+  "audioHash": "f36533d7ca1f49f3ae440b4c0c0e9931cf48fb459739e18f9b6eff39cab78c57",
+  "language": "a",
+  "key": "ce5f4165fa990ad527fc7803b4708082406be3d7d66a65912b1e0ab49b762ab1",
+  "lexiconHash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+  "backendVersions": {
+    "kokoro": "0.9.4",
+    "misaki": "0.9.4",
+    "torch": "2.12.1",
+    "soundfile": "0.14.0",
+    "spacy": "3.8.16",
+    "en_core_web_sm": "3.8.0"
+  },
+  "modelFingerprint": "2a552218823c4cee61fe5a893f7d44457b4ea19aefb9c9f4064b8c4341fe12aa",
+  "generatorVersion": "0.2.0"
+}

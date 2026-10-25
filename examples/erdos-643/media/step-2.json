@@ -1,0 +1,243 @@
+{
+  "schemaVersion": 1,
+  "text": "Choose the triple one, two, three, and the triple four, five, six. They do not overlap. Together, they cover all six dots. This gives us one way to split these six dots into two triples.",
+  "textHash": "9ab5ebdc6f03221fe6c7e78cb0d3dc2845a3c1d38752ad7aa267ce01aed798e4",
+  "duration": 9.48076923076923,
+  "sampleRate": 24000,
+  "words": [
+    {
+      "text": "Choose",
+      "start": 0.28846153846153844,
+      "end": 0.5,
+      "id": "step-2-w0"
+    },
+    {
+      "text": "the",
+      "start": 0.5,
+      "end": 0.5769230769230769,
+      "id": "step-2-w1"
+    },
+    {
+      "text": "triple",
+      "start": 0.5769230769230769,
+      "end": 0.8269230769230769,
+      "id": "step-2-w2"
+    },
+    {
+      "text": "one,",
+      "start": 0.8269230769230769,
+      "end": 1.0,
+      "id": "step-2-w3"
+    },
+    {
+      "text": "two,",
+      "start": 1.0673076923076923,
+      "end": 1.346153846153846,
+      "id": "step-2-w4"
+    },
+    {
+      "text": "three,",
+      "start": 1.4326923076923077,
+      "end": 1.7307692307692306,
+      "id": "step-2-w5"
+    },
+    {
+      "text": "and",
+      "start": 1.7884615384615385,
+      "end": 1.875,
+      "id": "step-2-w6"
+    },
+    {
+      "text": "the",
+      "start": 1.875,
+      "end": 1.942307692307692,
+      "id": "step-2-w7"
+    },
+    {
+      "text": "triple",
+      "start": 1.942307692307692,
+      "end": 2.2211538461538463,
+      "id": "step-2-w8"
+    },
+    {
+      "text": "four,",
+      "start": 2.2211538461538463,
+      "end": 2.4615384615384617,
+      "id": "step-2-w9"
+    },
+    {
+      "text": "five,",
+      "start": 2.5096153846153846,
+      "end": 2.8076923076923075,
+      "id": "step-2-w10"
+    },
+    {
+      "text": "six.",
+      "start": 2.8557692307692304,
+      "end": 3.3846153846153846,
+      "id": "step-2-w11"
+    },
+    {
+      "text": "They",
+      "start": 3.4615384615384612,
+      "end": 3.5576923076923075,
+      "id": "step-2-w12"
+    },
+    {
+      "text": "do",
+      "start": 3.5576923076923075,
+      "end": 3.644230769230769,
+      "id": "step-2-w13"
+    },
+    {
+      "text": "not",
+      "start": 3.644230769230769,
+      "end": 3.798076923076923,
+      "id": "step-2-w14"
+    },
+    {
+      "text": "overlap.",
+      "start": 3.798076923076923,
+      "end": 4.461538461538462,
+      "id": "step-2-w15"
+    },
+    {
+      "text": "Together,",
+      "start": 4.5673076923076925,
+      "end": 4.942307692307692,
+      "id": "step-2-w16"
+    },
+    {
+      "text": "they",
+      "start": 4.98076923076923,
+      "end": 5.105769230769231,
+      "id": "step-2-w17"
+    },
+    {
+      "text": "cover",
+      "start": 5.105769230769231,
+      "end": 5.394230769230769,
+      "id": "step-2-w18"
+    },
+    {
+      "text": "all",
+      "start": 5.394230769230769,
+      "end": 5.60576923076923,
+      "id": "step-2-w19"
+    },
+    {
+      "text": "six",
+      "start": 5.60576923076923,
+      "end": 5.826923076923077,
+      "id": "step-2-w20"
+    },
+    {
+      "text": "dots.",
+      "start": 5.826923076923077,
+      "end": 6.4230769230769225,
+      "id": "step-2-w21"
+    },
+    {
+      "text": "This",
+      "start": 6.509615384615385,
+      "end": 6.692307692307692,
+      "id": "step-2-w22"
+    },
+    {
+      "text": "gives",
+      "start": 6.692307692307692,
+      "end": 6.85576923076923,
+      "id": "step-2-w23"
+    },
+    {
+      "text": "us",
+      "start": 6.85576923076923,
+      "end": 7.009615384615385,
+      "id": "step-2-w24"
+    },
+    {
+      "text": "one",
+      "start": 7.009615384615385,
+      "end": 7.163461538461538,
+      "id": "step-2-w25"
+    },
+    {
+      "text": "way",
+      "start": 7.163461538461538,
+      "end": 7.278846153846154,
+      "id": "step-2-w26"
+    },
+    {
+      "text": "to",
+      "start": 7.278846153846154,
+      "end": 7.355769230769231,
+      "id": "step-2-w27"
+    },
+    {
+      "text": "split",
+      "start": 7.355769230769231,
+      "end": 7.596153846153846,
+      "id": "step-2-w28"
+    },
+    {
+      "text": "these",
+      "start": 7.596153846153846,
+      "end": 7.778846153846154,
+      "id": "step-2-w29"
+    },
+    {
+      "text": "six",
+      "start": 7.778846153846154,
+      "end": 8.0,
+      "id": "step-2-w30"
+    },
+    {
+      "text": "dots",
+      "start": 8.0,
+      "end": 8.278846153846153,
+      "id": "step-2-w31"
+    },
+    {
+      "text": "into",
+      "start": 8.278846153846153,
+      "end": 8.451923076923077,
+      "id": "step-2-w32"
+    },
+    {
+      "text": "two",
+      "start": 8.451923076923077,
+      "end": 8.615384615384615,
+      "id": "step-2-w33"
+    },
+    {
+      "text": "triples.",
+      "start": 8.615384615384615,
+      "end": 9.173076923076923,
+      "id": "step-2-w34"
+    }
+  ],
+  "timingMethod": "model-duration",
+  "voice": "af_heart",
+  "speed": 1.339,
+  "modelRevision": "f3ff3571791e39611d31c381e3a41a3af07b4987",
+  "generationSeconds": 17.824987499974668,
+  "audioHash": "b86c2fffc48d0fc45f52ab593a12f20b57b4d3c9f00d76b3f0e52d6d5194b1e9",
+  "language": "a",
+  "key": "abff2608c9b0201659a9f4a5b51531576f03bc82f6c863cbf091cfb2c68ba75f",
+  "lexiconHash": "524762f4cf286517a994acc568b45a10dce3f9da678bdb15c8b1134b4cbed72b",
+  "backendVersions": {
+    "kokoro": "0.9.4",
+    "misaki": "0.9.4",
+    "torch": "2.12.1",
+    "soundfile": "0.14.0",
+    "spacy": "3.8.16",
+    "en_core_web_sm": "3.8.0"
+  },
+  "modelFingerprint": "2a552218823c4cee61fe5a893f7d44457b4ea19aefb9c9f4064b8c4341fe12aa",
+  "generatorVersion": "0.2.0",
+  "postProcessing": {
+    "filter": "atempo=1.3",
+    "timingScale": 0.7692307692307692,
+    "sourceAudioHash": "c543f9d16b741834740026dbdb1e03641e93a7ba706618af5dc3df1bef33494c"
+  }
+}

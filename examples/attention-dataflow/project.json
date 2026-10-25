@@ -1,0 +1,169 @@
+{
+  "schemaVersion": 1,
+  "style": "paper",
+  "formats": [
+    "portrait",
+    "landscape",
+    "square",
+    "feed"
+  ],
+  "fps": 30,
+  "caption": {
+    "mode": "karaoke",
+    "maxWords": 6,
+    "safeBottom": 0.1
+  },
+  "speech": {
+    "voice": "af_heart",
+    "speed": 1,
+    "language": "a",
+    "lexicon": {},
+    "backend": "kokoro"
+  },
+  "title": "Attention mixes information",
+  "category": "TOY ATTENTION · ONE QUERY",
+  "teaching": {
+    "audience": "Curious business or technical learners; no machine learning course assumed.",
+    "goal": "Follow query and key scores through softmax to a weighted blend of values.",
+    "prerequisite": "Multiplication, addition and a vector as a short list of numbers.",
+    "limit": "One unmasked query/head, chosen keys and values; no training, embeddings, multihead projection, residuals, or next-token sampling. Weights are not causal explanations.",
+    "questions": [
+      {
+        "id": "equal",
+        "question": "With query (0,0), what are the weights and output?",
+        "answer": "Weights (0.5,0.5); output (1,2).",
+        "explanation": "Both scaled scores are zero. Softmax assigns equal weights to values (2,0) and (0,4).",
+        "scene": "change"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "reference",
+      "title": "Attention Is All You Need, Vaswani et al.",
+      "url": "https://arxiv.org/html/1706.03762v7",
+      "status": "read",
+      "locator": "Section 3.2.1, equation (1); one-query specialization",
+      "note": "Read 2026-10-23. Linked explanation supports the operation; artwork and numeric example are original."
+    },
+    {
+      "id": "worked",
+      "title": "Original worked example and direction notes",
+      "status": "synthetic",
+      "file": "direction.md",
+      "includeInBundle": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "mechanism",
+      "text": "For a single query, compute scaled dot products with keys, softmax the scores, and sum the value vectors using those weights.",
+      "sources": [
+        "reference",
+        "worked"
+      ],
+      "basis": "Primary explanation plus independently computed original example",
+      "limit": "One unmasked query/head, chosen keys and values; no training, embeddings, multihead projection, residuals, or next-token sampling. Weights are not causal explanations."
+    }
+  ],
+  "scenes": [
+    {
+      "id": "inputs",
+      "title": "Keys match. Values carry data.",
+      "narration": "Attention combines information. Our toy example has one query and two positions. Each position has a key for matching, and a value to pass along. These numbers are chosen, not learned.",
+      "hold": 1.2,
+      "visual": {
+        "type": "custom",
+        "module": "scenes/lesson.mjs"
+      },
+      "claims": [
+        "mechanism"
+      ],
+      "visualDescription": "One chosen query q=(2,0), two keys k1=(1,0), k2=(0,1), and values v1=(2,0), v2=(0,4). Each key and value stays in its position lane. All vectors have two components. No values are learned in this example.",
+      "audio": "media/inputs.wav",
+      "timing": "media/inputs.json"
+    },
+    {
+      "id": "scores",
+      "title": "Match each component. Then scale.",
+      "narration": "Compare the query with each key. Multiply matching components, then add them. Scale the total by the square root of two.",
+      "hold": 1.2,
+      "visual": {
+        "type": "custom",
+        "module": "scenes/lesson.mjs"
+      },
+      "claims": [
+        "mechanism"
+      ],
+      "visualDescription": "The query (2,0) is compared with keys (1,0) and (0,1). Component products sum to 2 and 0. Dividing each by the square root of two gives scaled scores approximately 1.41 and 0. Weight bars and the mixed output are not yet shown.",
+      "audio": "media/scores.wav",
+      "timing": "media/scores.json"
+    },
+    {
+      "id": "normalize",
+      "title": "One shared total makes weights.",
+      "narration": "Softmax exponentiates each score. Divide each result by their shared total. The weights add to one. Both positions still contribute.",
+      "hold": 1.2,
+      "visual": {
+        "type": "custom",
+        "module": "scenes/lesson.mjs"
+      },
+      "claims": [
+        "mechanism"
+      ],
+      "visualDescription": "Exponentials of scaled scores share one denominator. Each bar shows its share on a common zero-to-one scale.",
+      "audio": "media/normalize.wav",
+      "timing": "media/normalize.json"
+    },
+    {
+      "id": "mix",
+      "title": "Blend the values.",
+      "narration": "Multiply each value by its weight, then add the contributions. Both positions matter. The output is a blend, not a winner taking all.",
+      "hold": 1.2,
+      "visual": {
+        "type": "custom",
+        "module": "scenes/lesson.mjs"
+      },
+      "claims": [
+        "mechanism"
+      ],
+      "visualDescription": "Each value is multiplied by its weight. Two component bars use one fixed scale to show the weighted contributions; matching colors identify the two positions. Approximately 0.80 times (2,0) plus 0.20 times (0,4) gives (1.61,0.78). Displayed figures are rounded; computation uses full precision.",
+      "audio": "media/mix.wav",
+      "timing": "media/mix.json"
+    },
+    {
+      "id": "predict",
+      "title": "Which value will matter more?",
+      "narration": "Keep the keys and values fixed. If the query switches to zero, two, which position gets more weight? Predict before we recompute.",
+      "hold": 3.2,
+      "visual": {
+        "type": "custom",
+        "module": "scenes/lesson.mjs"
+      },
+      "claims": [
+        "mechanism"
+      ],
+      "visualDescription": "Proposed query (0,2), keys (1,0) and (0,1), and values (2,0) and (0,4) remain visible. Compare the query with each key using a dot product, scale by the square root of two, then normalize with softmax. Which position will receive more weight? Weights and the mixed output remain concealed.",
+      "audio": "media/predict.wav",
+      "timing": "media/predict.json",
+      "learningPhase": "predict"
+    },
+    {
+      "id": "change",
+      "title": "Change the query. Recompute.",
+      "narration": "Switch the query toward the second key. Keep both keys and values fixed. Recompute the scores, weights, and blend. The second position now contributes more. This is one attention step, not a whole language model.",
+      "hold": 1.2,
+      "visual": {
+        "type": "custom",
+        "module": "scenes/lesson.mjs"
+      },
+      "claims": [
+        "mechanism"
+      ],
+      "visualDescription": "With keys and values fixed, the query moves from (2,0) to (0,2). Scores, normalized weights and output are recomputed at every illustrated intermediate query. The final weights are approximately (0.20,0.80) and output (0.39,3.22). This is an illustrative parameter sweep, not a training trace or a causal explanation.",
+      "audio": "media/change.wav",
+      "timing": "media/change.json"
+    }
+  ],
+  "checks": []
+}

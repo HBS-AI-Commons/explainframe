@@ -1,0 +1,136 @@
+{
+  "schemaVersion": 1,
+  "text": "Start with revenue. Subtract the variable costs of making those sales. What remains is contribution, before fixed costs.",
+  "textHash": "aa8aefbe02a041d8ccad62484833ebde6b5d93dd1132599aa4f70bd97a354b71",
+  "duration": 8.7,
+  "sampleRate": 24000,
+  "words": [
+    {
+      "text": "Start",
+      "start": 0.375,
+      "end": 0.6375,
+      "id": "mechanism-w0"
+    },
+    {
+      "text": "with",
+      "start": 0.6375,
+      "end": 0.8,
+      "id": "mechanism-w1"
+    },
+    {
+      "text": "revenue.",
+      "start": 0.8,
+      "end": 1.55,
+      "id": "mechanism-w2"
+    },
+    {
+      "text": "Subtract",
+      "start": 1.7125,
+      "end": 2.2125,
+      "id": "mechanism-w3"
+    },
+    {
+      "text": "the",
+      "start": 2.2125,
+      "end": 2.3125,
+      "id": "mechanism-w4"
+    },
+    {
+      "text": "variable",
+      "start": 2.3125,
+      "end": 2.8625,
+      "id": "mechanism-w5"
+    },
+    {
+      "text": "costs",
+      "start": 2.8625,
+      "end": 3.325,
+      "id": "mechanism-w6"
+    },
+    {
+      "text": "of",
+      "start": 3.325,
+      "end": 3.45,
+      "id": "mechanism-w7"
+    },
+    {
+      "text": "making",
+      "start": 3.45,
+      "end": 3.8,
+      "id": "mechanism-w8"
+    },
+    {
+      "text": "those",
+      "start": 3.8,
+      "end": 4.025,
+      "id": "mechanism-w9"
+    },
+    {
+      "text": "sales.",
+      "start": 4.025,
+      "end": 4.8,
+      "id": "mechanism-w10"
+    },
+    {
+      "text": "What",
+      "start": 4.9375,
+      "end": 5.15,
+      "id": "mechanism-w11"
+    },
+    {
+      "text": "remains",
+      "start": 5.15,
+      "end": 5.725,
+      "id": "mechanism-w12"
+    },
+    {
+      "text": "is",
+      "start": 5.725,
+      "end": 5.875,
+      "id": "mechanism-w13"
+    },
+    {
+      "text": "contribution,",
+      "start": 5.875,
+      "end": 6.75,
+      "id": "mechanism-w14"
+    },
+    {
+      "text": "before",
+      "start": 6.825,
+      "end": 7.1875,
+      "id": "mechanism-w15"
+    },
+    {
+      "text": "fixed",
+      "start": 7.1875,
+      "end": 7.525,
+      "id": "mechanism-w16"
+    },
+    {
+      "text": "costs.",
+      "start": 7.525,
+      "end": 8.3,
+      "id": "mechanism-w17"
+    }
+  ],
+  "timingMethod": "model-duration",
+  "voice": "af_heart",
+  "speed": 1,
+  "modelRevision": "f3ff3571791e39611d31c381e3a41a3af07b4987",
+  "generationSeconds": 5.618571292143315,
+  "audioHash": "e177534ea64e86df95442504976e80ad0f1320e932e95f50f2841945431748ca",
+  "key": "289f6cb83a83eb19877335c36dbc8edfaadc305f4ce724b4001b89fa66f9f673",
+  "lexiconHash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+  "backendVersions": {
+    "kokoro": "0.9.4",
+    "misaki": "0.9.4",
+    "torch": "2.12.1",
+    "soundfile": "0.14.0",
+    "spacy": "3.8.14",
+    "en_core_web_sm": "3.8.0"
+  },
+  "modelFingerprint": "2a552218823c4cee61fe5a893f7d44457b4ea19aefb9c9f4064b8c4341fe12aa",
+  "generatorVersion": "0.1.0",
+  "language": "a"
+}

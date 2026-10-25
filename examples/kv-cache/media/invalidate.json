@@ -1,0 +1,250 @@
+{
+  "schemaVersion": 1,
+  "text": "Change the first input. Keeping its old pair gives a stale answer. Rebuild the affected cache. Now the result matches a fresh calculation. Real models have multiple layers, where a prefix edit can invalidate the suffix too.",
+  "textHash": "9ca321d4b8ba4be30055bcf5c9a9beea74e0312a634fba50a2f2fcdafbd4090a",
+  "duration": 15.475,
+  "sampleRate": 24000,
+  "words": [
+    {
+      "text": "Change",
+      "start": 0.375,
+      "end": 0.7375,
+      "id": "invalidate-w0"
+    },
+    {
+      "text": "the",
+      "start": 0.7375,
+      "end": 0.8375,
+      "id": "invalidate-w1"
+    },
+    {
+      "text": "first",
+      "start": 0.8375,
+      "end": 1.2,
+      "id": "invalidate-w2"
+    },
+    {
+      "text": "input.",
+      "start": 1.2,
+      "end": 1.95,
+      "id": "invalidate-w3"
+    },
+    {
+      "text": "Keeping",
+      "start": 2.0875,
+      "end": 2.475,
+      "id": "invalidate-w4"
+    },
+    {
+      "text": "its",
+      "start": 2.475,
+      "end": 2.675,
+      "id": "invalidate-w5"
+    },
+    {
+      "text": "old",
+      "start": 2.675,
+      "end": 2.9625,
+      "id": "invalidate-w6"
+    },
+    {
+      "text": "pair",
+      "start": 2.9625,
+      "end": 3.3,
+      "id": "invalidate-w7"
+    },
+    {
+      "text": "gives",
+      "start": 3.3,
+      "end": 3.5125,
+      "id": "invalidate-w8"
+    },
+    {
+      "text": "a",
+      "start": 3.5125,
+      "end": 3.5875,
+      "id": "invalidate-w9"
+    },
+    {
+      "text": "stale",
+      "start": 3.5875,
+      "end": 3.975,
+      "id": "invalidate-w10"
+    },
+    {
+      "text": "answer.",
+      "start": 3.975,
+      "end": 4.7,
+      "id": "invalidate-w11"
+    },
+    {
+      "text": "Rebuild",
+      "start": 4.8375,
+      "end": 5.2875,
+      "id": "invalidate-w12"
+    },
+    {
+      "text": "the",
+      "start": 5.2875,
+      "end": 5.425,
+      "id": "invalidate-w13"
+    },
+    {
+      "text": "affected",
+      "start": 5.425,
+      "end": 5.925,
+      "id": "invalidate-w14"
+    },
+    {
+      "text": "cache.",
+      "start": 5.925,
+      "end": 6.725,
+      "id": "invalidate-w15"
+    },
+    {
+      "text": "Now",
+      "start": 6.9,
+      "end": 7.175,
+      "id": "invalidate-w16"
+    },
+    {
+      "text": "the",
+      "start": 7.175,
+      "end": 7.275,
+      "id": "invalidate-w17"
+    },
+    {
+      "text": "result",
+      "start": 7.275,
+      "end": 7.7875,
+      "id": "invalidate-w18"
+    },
+    {
+      "text": "matches",
+      "start": 7.7875,
+      "end": 8.25,
+      "id": "invalidate-w19"
+    },
+    {
+      "text": "a",
+      "start": 8.25,
+      "end": 8.375,
+      "id": "invalidate-w20"
+    },
+    {
+      "text": "fresh",
+      "start": 8.375,
+      "end": 8.725,
+      "id": "invalidate-w21"
+    },
+    {
+      "text": "calculation.",
+      "start": 8.725,
+      "end": 9.85,
+      "id": "invalidate-w22"
+    },
+    {
+      "text": "Real",
+      "start": 10,
+      "end": 10.3,
+      "id": "invalidate-w23"
+    },
+    {
+      "text": "models",
+      "start": 10.3,
+      "end": 10.75,
+      "id": "invalidate-w24"
+    },
+    {
+      "text": "have",
+      "start": 10.75,
+      "end": 10.9875,
+      "id": "invalidate-w25"
+    },
+    {
+      "text": "multiple",
+      "start": 10.9875,
+      "end": 11.475,
+      "id": "invalidate-w26"
+    },
+    {
+      "text": "layers,",
+      "start": 11.475,
+      "end": 12.125,
+      "id": "invalidate-w27"
+    },
+    {
+      "text": "where",
+      "start": 12.2,
+      "end": 12.3375,
+      "id": "invalidate-w28"
+    },
+    {
+      "text": "a",
+      "start": 12.3375,
+      "end": 12.4,
+      "id": "invalidate-w29"
+    },
+    {
+      "text": "prefix",
+      "start": 12.4,
+      "end": 12.875,
+      "id": "invalidate-w30"
+    },
+    {
+      "text": "edit",
+      "start": 12.875,
+      "end": 13.2,
+      "id": "invalidate-w31"
+    },
+    {
+      "text": "can",
+      "start": 13.2,
+      "end": 13.325,
+      "id": "invalidate-w32"
+    },
+    {
+      "text": "invalidate",
+      "start": 13.325,
+      "end": 13.9375,
+      "id": "invalidate-w33"
+    },
+    {
+      "text": "the",
+      "start": 13.9375,
+      "end": 14.0375,
+      "id": "invalidate-w34"
+    },
+    {
+      "text": "suffix",
+      "start": 14.0375,
+      "end": 14.4875,
+      "id": "invalidate-w35"
+    },
+    {
+      "text": "too.",
+      "start": 14.4875,
+      "end": 15.075,
+      "id": "invalidate-w36"
+    }
+  ],
+  "timingMethod": "model-duration",
+  "voice": "af_heart",
+  "speed": 1,
+  "modelRevision": "f3ff3571791e39611d31c381e3a41a3af07b4987",
+  "generationSeconds": 2.143324916716665,
+  "audioHash": "24745b13818e0e50d8c9d33532275c29586e9b21c6d90b9b3c0887ff82fa762e",
+  "language": "a",
+  "key": "712fe94672bd1704e13d6792b3704d635164da4a666b09bdec8b5f37773335a8",
+  "lexiconHash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+  "backendVersions": {
+    "kokoro": "0.9.4",
+    "misaki": "0.9.4",
+    "torch": "2.12.1",
+    "soundfile": "0.14.0",
+    "spacy": "3.8.16",
+    "en_core_web_sm": "3.8.0"
+  },
+  "modelFingerprint": "2a552218823c4cee61fe5a893f7d44457b4ea19aefb9c9f4064b8c4341fe12aa",
+  "generatorVersion": "0.2.0"
+}

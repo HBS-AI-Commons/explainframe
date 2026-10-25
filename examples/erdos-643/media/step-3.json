@@ -1,0 +1,267 @@
+{
+  "schemaVersion": 1,
+  "text": "Now choose one, two, four, and three, five, six. These triples also do not overlap, and they cover exactly the same six dots. The four triples are distinct. If our collection contains all four, we have found the pattern.",
+  "textHash": "57c85c009b4e8b859cd5d89c2dd23e5d1070ee01ff358d19f9755d3f378d78c5",
+  "duration": 11.173076923076923,
+  "sampleRate": 24000,
+  "words": [
+    {
+      "text": "Now",
+      "start": 0.3076923076923077,
+      "end": 0.47115384615384615,
+      "id": "step-3-w0"
+    },
+    {
+      "text": "choose",
+      "start": 0.47115384615384615,
+      "end": 0.7115384615384616,
+      "id": "step-3-w1"
+    },
+    {
+      "text": "one,",
+      "start": 0.7115384615384616,
+      "end": 0.9615384615384615,
+      "id": "step-3-w2"
+    },
+    {
+      "text": "two,",
+      "start": 1.0288461538461537,
+      "end": 1.25,
+      "id": "step-3-w3"
+    },
+    {
+      "text": "four,",
+      "start": 1.3173076923076923,
+      "end": 1.5384615384615383,
+      "id": "step-3-w4"
+    },
+    {
+      "text": "and",
+      "start": 1.5673076923076923,
+      "end": 1.6634615384615385,
+      "id": "step-3-w5"
+    },
+    {
+      "text": "three,",
+      "start": 1.6634615384615385,
+      "end": 1.923076923076923,
+      "id": "step-3-w6"
+    },
+    {
+      "text": "five,",
+      "start": 1.9903846153846152,
+      "end": 2.2884615384615383,
+      "id": "step-3-w7"
+    },
+    {
+      "text": "six.",
+      "start": 2.3365384615384617,
+      "end": 2.923076923076923,
+      "id": "step-3-w8"
+    },
+    {
+      "text": "These",
+      "start": 3.0288461538461537,
+      "end": 3.230769230769231,
+      "id": "step-3-w9"
+    },
+    {
+      "text": "triples",
+      "start": 3.230769230769231,
+      "end": 3.538461538461538,
+      "id": "step-3-w10"
+    },
+    {
+      "text": "also",
+      "start": 3.538461538461538,
+      "end": 3.8076923076923075,
+      "id": "step-3-w11"
+    },
+    {
+      "text": "do",
+      "start": 3.8076923076923075,
+      "end": 3.894230769230769,
+      "id": "step-3-w12"
+    },
+    {
+      "text": "not",
+      "start": 3.894230769230769,
+      "end": 4.009615384615385,
+      "id": "step-3-w13"
+    },
+    {
+      "text": "overlap,",
+      "start": 4.009615384615385,
+      "end": 4.5576923076923075,
+      "id": "step-3-w14"
+    },
+    {
+      "text": "and",
+      "start": 4.615384615384615,
+      "end": 4.701923076923077,
+      "id": "step-3-w15"
+    },
+    {
+      "text": "they",
+      "start": 4.701923076923077,
+      "end": 4.8076923076923075,
+      "id": "step-3-w16"
+    },
+    {
+      "text": "cover",
+      "start": 4.8076923076923075,
+      "end": 5.076923076923077,
+      "id": "step-3-w17"
+    },
+    {
+      "text": "exactly",
+      "start": 5.076923076923077,
+      "end": 5.538461538461538,
+      "id": "step-3-w18"
+    },
+    {
+      "text": "the",
+      "start": 5.538461538461538,
+      "end": 5.644230769230769,
+      "id": "step-3-w19"
+    },
+    {
+      "text": "same",
+      "start": 5.644230769230769,
+      "end": 5.894230769230769,
+      "id": "step-3-w20"
+    },
+    {
+      "text": "six",
+      "start": 5.894230769230769,
+      "end": 6.134615384615384,
+      "id": "step-3-w21"
+    },
+    {
+      "text": "dots.",
+      "start": 6.134615384615384,
+      "end": 6.75,
+      "id": "step-3-w22"
+    },
+    {
+      "text": "The",
+      "start": 6.85576923076923,
+      "end": 6.971153846153846,
+      "id": "step-3-w23"
+    },
+    {
+      "text": "four",
+      "start": 6.971153846153846,
+      "end": 7.153846153846154,
+      "id": "step-3-w24"
+    },
+    {
+      "text": "triples",
+      "start": 7.153846153846154,
+      "end": 7.461538461538461,
+      "id": "step-3-w25"
+    },
+    {
+      "text": "are",
+      "start": 7.461538461538461,
+      "end": 7.557692307692307,
+      "id": "step-3-w26"
+    },
+    {
+      "text": "distinct.",
+      "start": 7.557692307692307,
+      "end": 8.173076923076923,
+      "id": "step-3-w27"
+    },
+    {
+      "text": "If",
+      "start": 8.25,
+      "end": 8.355769230769232,
+      "id": "step-3-w28"
+    },
+    {
+      "text": "our",
+      "start": 8.355769230769232,
+      "end": 8.461538461538462,
+      "id": "step-3-w29"
+    },
+    {
+      "text": "collection",
+      "start": 8.461538461538462,
+      "end": 8.846153846153847,
+      "id": "step-3-w30"
+    },
+    {
+      "text": "contains",
+      "start": 8.846153846153847,
+      "end": 9.23076923076923,
+      "id": "step-3-w31"
+    },
+    {
+      "text": "all",
+      "start": 9.23076923076923,
+      "end": 9.413461538461538,
+      "id": "step-3-w32"
+    },
+    {
+      "text": "four,",
+      "start": 9.413461538461538,
+      "end": 9.769230769230768,
+      "id": "step-3-w33"
+    },
+    {
+      "text": "we",
+      "start": 9.846153846153847,
+      "end": 9.951923076923077,
+      "id": "step-3-w34"
+    },
+    {
+      "text": "have",
+      "start": 9.951923076923077,
+      "end": 10.038461538461538,
+      "id": "step-3-w35"
+    },
+    {
+      "text": "found",
+      "start": 10.038461538461538,
+      "end": 10.240384615384615,
+      "id": "step-3-w36"
+    },
+    {
+      "text": "the",
+      "start": 10.240384615384615,
+      "end": 10.307692307692308,
+      "id": "step-3-w37"
+    },
+    {
+      "text": "pattern.",
+      "start": 10.307692307692308,
+      "end": 10.865384615384615,
+      "id": "step-3-w38"
+    }
+  ],
+  "timingMethod": "model-duration",
+  "voice": "af_heart",
+  "speed": 1.339,
+  "modelRevision": "f3ff3571791e39611d31c381e3a41a3af07b4987",
+  "generationSeconds": 10.459606708027422,
+  "audioHash": "3733b4e66856e960d57ab9fd48512fe96e0225bc9ef637279b5c82b4788760b1",
+  "language": "a",
+  "key": "193bb26639aff4c19b3a0a81a8ad9731e7eeac724c63d0076994e804fab13da9",
+  "lexiconHash": "524762f4cf286517a994acc568b45a10dce3f9da678bdb15c8b1134b4cbed72b",
+  "backendVersions": {
+    "kokoro": "0.9.4",
+    "misaki": "0.9.4",
+    "torch": "2.12.1",
+    "soundfile": "0.14.0",
+    "spacy": "3.8.16",
+    "en_core_web_sm": "3.8.0"
+  },
+  "modelFingerprint": "2a552218823c4cee61fe5a893f7d44457b4ea19aefb9c9f4064b8c4341fe12aa",
+  "generatorVersion": "0.2.0",
+  "postProcessing": {
+    "filter": "atempo=1.3",
+    "timingScale": 0.7692307692307692,
+    "sourceAudioHash": "81d7b22d6debf6d44e38075250146b5cd5b9169124e77a5629f8b193652aba8a"
+  }
+}

@@ -1,0 +1,176 @@
+{
+  "schemaVersion": 1,
+  "title": "What happens between your prompt and the next token?",
+  "category": "HOW LANGUAGE MODELS WORK",
+  "style": "paper",
+  "formats": [
+    "portrait",
+    "landscape"
+  ],
+  "fps": 24,
+  "caption": {
+    "mode": "karaoke",
+    "maxWords": 6,
+    "safeBottom": 0.1
+  },
+  "speech": {
+    "backend": "kokoro",
+    "voice": "af_heart",
+    "speed": 1.339,
+    "language": "a",
+    "lexicon": {}
+  },
+  "sources": [
+    {
+      "id": "primary",
+      "title": "Attention Is All You Need, sections 3.1–3.4",
+      "url": "https://arxiv.org/html/1706.03762v7",
+      "status": "read",
+      "locator": "Attention Is All You Need, sections 3.1–3.4",
+      "note": "Retrieved and reviewed 2026-10-24."
+    },
+    {
+      "id": "example",
+      "title": "Original teaching diagrams and examples",
+      "status": "synthetic",
+      "file": "source-notes.md",
+      "includeInBundle": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "mechanism",
+      "text": "Simplified decoder-style generation. Token boundaries and probabilities are illustrative, not measured model outputs.",
+      "sources": [
+        "primary",
+        "example"
+      ],
+      "basis": "Primary source plus explicitly simplified original illustration",
+      "limit": "Simplified decoder-style generation. Token boundaries and probabilities are illustrative, not measured model outputs."
+    }
+  ],
+  "teaching": {
+    "audience": "Curious adults without specialist background",
+    "goal": "What happens between your prompt and the next token?",
+    "prerequisite": "No specialist knowledge",
+    "limit": "Simplified decoder-style generation. Token boundaries and probabilities are illustrative, not measured model outputs."
+  },
+  "scenes": [
+    {
+      "id": "intro",
+      "title": "From prompt to next token",
+      "narration": "What happens after you send a message to a language model? In this video, we’ll follow a short prompt through the model, see how it chooses the next piece of text, and watch that process repeat.",
+      "visualDescription": "The title first introduces the topic. During the spoken introduction, the words The cat sat appear as tokens, with illustrative numeric representations.",
+      "visual": {
+        "type": "custom",
+        "module": "scenes/intro.mjs",
+        "lines": [
+          "You send a message.",
+          "How does a reply begin?"
+        ],
+        "topic": "llm"
+      },
+      "claims": [
+        "mechanism"
+      ],
+      "hold": 0.7692307692307692,
+      "audio": "media/intro.wav",
+      "timing": "media/intro.json"
+    },
+    {
+      "id": "step-1",
+      "title": "Text becomes tokens",
+      "narration": "A language model receives your prompt as tokens: pieces of text that can be words, parts of words, or punctuation. Each token becomes a list of numbers. Those numbers are the input to the model.",
+      "visualDescription": "A prompt is split into illustrative token boxes, then represented by numeric vectors.",
+      "visual": {
+        "type": "custom",
+        "module": "scenes/story.mjs",
+        "topic": "llm",
+        "step": 0,
+        "cue": "tokens"
+      },
+      "claims": [
+        "mechanism"
+      ],
+      "hold": 0.5,
+      "audio": "media/step-1.wav",
+      "timing": "media/step-1.json"
+    },
+    {
+      "id": "step-2",
+      "title": "Context changes the representation",
+      "narration": "Inside the model, attention combines information from earlier tokens. Other layers transform the result. In the sentence, the cat sat on the, the model uses the preceding context to help predict what might come next.",
+      "visualDescription": "Connections from earlier tokens converge on the last position. Attention and other layers feed the prediction.",
+      "visual": {
+        "type": "custom",
+        "module": "scenes/story.mjs",
+        "topic": "llm",
+        "step": 1,
+        "cue": "attention"
+      },
+      "claims": [
+        "mechanism"
+      ],
+      "hold": 0.5,
+      "audio": "media/step-2.wav",
+      "timing": "media/step-2.json"
+    },
+    {
+      "id": "step-3",
+      "title": "Possible next tokens",
+      "narration": "The output is a probability distribution over possible next tokens. These numbers are a teaching example. Mat has forty percent, floor has thirty, and all other possibilities share the rest. A generation rule selects one token.",
+      "visualDescription": "Illustrative bars show mat 40%, floor 30%, and other 30%, summing to 100%.",
+      "visual": {
+        "type": "custom",
+        "module": "scenes/story.mjs",
+        "topic": "llm",
+        "step": 2,
+        "cue": "probability"
+      },
+      "claims": [
+        "mechanism"
+      ],
+      "hold": 0.5,
+      "audio": "media/step-3.wav",
+      "timing": "media/step-3.json"
+    },
+    {
+      "id": "step-4",
+      "title": "Append it. Repeat.",
+      "narration": "Suppose the selected token is mat. It joins the sequence. The model now predicts another token using the extended context. Repeating this process produces a sentence, a paragraph, or a much longer reply.",
+      "visualDescription": "The mat token joins the input row; an arrow loops the extended sequence back into the model.",
+      "visual": {
+        "type": "custom",
+        "module": "scenes/story.mjs",
+        "topic": "llm",
+        "step": 3,
+        "cue": "Suppose"
+      },
+      "claims": [
+        "mechanism"
+      ],
+      "hold": 0.5,
+      "audio": "media/step-4.wav",
+      "timing": "media/step-4.json"
+    },
+    {
+      "id": "step-5",
+      "title": "Training and answering differ",
+      "narration": "Training adjusts the model parameters using examples. During ordinary generation, those learned parameters stay fixed while the context grows. A convincing continuation can still be wrong. Web search and other tools add separate steps around this process.",
+      "visualDescription": "Training shows changing parameter blocks. Generation shows fixed blocks with growing context.",
+      "visual": {
+        "type": "custom",
+        "module": "scenes/story.mjs",
+        "topic": "llm",
+        "step": 4,
+        "cue": "Training"
+      },
+      "claims": [
+        "mechanism"
+      ],
+      "hold": 0.5,
+      "audio": "media/step-5.wav",
+      "timing": "media/step-5.json"
+    }
+  ]
+}

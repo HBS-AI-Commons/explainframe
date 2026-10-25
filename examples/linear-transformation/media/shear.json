@@ -1,0 +1,214 @@
+{
+  "schemaVersion": 1,
+  "text": "Shear the grid to the right. The upward basis arrow tilts, while the rightward arrow stays fixed. Our vector lands at two, one. The matrix records where the basis arrows go.",
+  "textHash": "f00d281a1ed5aa956c8d92357f2b68057f54c1160cbb818217fcc5cb4acc2679",
+  "duration": 11.4,
+  "sampleRate": 24000,
+  "words": [
+    {
+      "text": "Shear",
+      "start": 0.425,
+      "end": 0.65,
+      "id": "shear-w0"
+    },
+    {
+      "text": "the",
+      "start": 0.65,
+      "end": 0.75,
+      "id": "shear-w1"
+    },
+    {
+      "text": "grid",
+      "start": 0.75,
+      "end": 1.025,
+      "id": "shear-w2"
+    },
+    {
+      "text": "to",
+      "start": 1.025,
+      "end": 1.1125,
+      "id": "shear-w3"
+    },
+    {
+      "text": "the",
+      "start": 1.1125,
+      "end": 1.2,
+      "id": "shear-w4"
+    },
+    {
+      "text": "right.",
+      "start": 1.2,
+      "end": 1.85,
+      "id": "shear-w5"
+    },
+    {
+      "text": "The",
+      "start": 1.95,
+      "end": 2.1,
+      "id": "shear-w6"
+    },
+    {
+      "text": "upward",
+      "start": 2.1,
+      "end": 2.475,
+      "id": "shear-w7"
+    },
+    {
+      "text": "basis",
+      "start": 2.475,
+      "end": 2.9,
+      "id": "shear-w8"
+    },
+    {
+      "text": "arrow",
+      "start": 2.9,
+      "end": 3.2375,
+      "id": "shear-w9"
+    },
+    {
+      "text": "tilts,",
+      "start": 3.2375,
+      "end": 3.75,
+      "id": "shear-w10"
+    },
+    {
+      "text": "while",
+      "start": 3.825,
+      "end": 3.9875,
+      "id": "shear-w11"
+    },
+    {
+      "text": "the",
+      "start": 3.9875,
+      "end": 4.075,
+      "id": "shear-w12"
+    },
+    {
+      "text": "rightward",
+      "start": 4.075,
+      "end": 4.475,
+      "id": "shear-w13"
+    },
+    {
+      "text": "arrow",
+      "start": 4.475,
+      "end": 4.8625,
+      "id": "shear-w14"
+    },
+    {
+      "text": "stays",
+      "start": 4.8625,
+      "end": 5.2875,
+      "id": "shear-w15"
+    },
+    {
+      "text": "fixed.",
+      "start": 5.2875,
+      "end": 5.975,
+      "id": "shear-w16"
+    },
+    {
+      "text": "Our",
+      "start": 6.1,
+      "end": 6.275,
+      "id": "shear-w17"
+    },
+    {
+      "text": "vector",
+      "start": 6.275,
+      "end": 6.65,
+      "id": "shear-w18"
+    },
+    {
+      "text": "lands",
+      "start": 6.65,
+      "end": 6.975,
+      "id": "shear-w19"
+    },
+    {
+      "text": "at",
+      "start": 6.975,
+      "end": 7.1125,
+      "id": "shear-w20"
+    },
+    {
+      "text": "two,",
+      "start": 7.1125,
+      "end": 7.4,
+      "id": "shear-w21"
+    },
+    {
+      "text": "one.",
+      "start": 7.45,
+      "end": 8.125,
+      "id": "shear-w22"
+    },
+    {
+      "text": "The",
+      "start": 8.2625,
+      "end": 8.375,
+      "id": "shear-w23"
+    },
+    {
+      "text": "matrix",
+      "start": 8.375,
+      "end": 8.85,
+      "id": "shear-w24"
+    },
+    {
+      "text": "records",
+      "start": 8.85,
+      "end": 9.3625,
+      "id": "shear-w25"
+    },
+    {
+      "text": "where",
+      "start": 9.3625,
+      "end": 9.4875,
+      "id": "shear-w26"
+    },
+    {
+      "text": "the",
+      "start": 9.4875,
+      "end": 9.575,
+      "id": "shear-w27"
+    },
+    {
+      "text": "basis",
+      "start": 9.575,
+      "end": 10.0375,
+      "id": "shear-w28"
+    },
+    {
+      "text": "arrows",
+      "start": 10.0375,
+      "end": 10.425,
+      "id": "shear-w29"
+    },
+    {
+      "text": "go.",
+      "start": 10.425,
+      "end": 11,
+      "id": "shear-w30"
+    }
+  ],
+  "timingMethod": "model-duration",
+  "voice": "af_heart",
+  "speed": 1,
+  "modelRevision": "f3ff3571791e39611d31c381e3a41a3af07b4987",
+  "generationSeconds": 1.4047925830818713,
+  "audioHash": "2a896a3fa6f5078097dd8d355fe573cdf6454185ac318ac75329096923b6a93e",
+  "language": "a",
+  "key": "adb74c5dacef50c0609ebca9d6beb07ca8b36d1b17ae3548ba4fb4332c6898c1",
+  "lexiconHash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+  "backendVersions": {
+    "kokoro": "0.9.4",
+    "misaki": "0.9.4",
+    "torch": "2.12.1",
+    "soundfile": "0.14.0",
+    "spacy": "3.8.16",
+    "en_core_web_sm": "3.8.0"
+  },
+  "modelFingerprint": "2a552218823c4cee61fe5a893f7d44457b4ea19aefb9c9f4064b8c4341fe12aa",
+  "generatorVersion": "0.2.0"
+}

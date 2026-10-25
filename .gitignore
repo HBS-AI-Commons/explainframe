@@ -1,0 +1,14 @@
+node_modules/
+.venv/
+.local/
+projects/
+**/build/
+**/dist/
+**/__pycache__/
+*.pyc
+.env
+.env.*
+!.env.example
+.DS_Store
+test-results/
+qa/

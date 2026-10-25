@@ -1,0 +1,243 @@
+{
+  "schemaVersion": 1,
+  "text": "A language model receives your prompt as tokens: pieces of text that can be words, parts of words, or punctuation. Each token becomes a list of numbers. Those numbers are the input to the model.",
+  "textHash": "3ebfae73a09688bdcc625d9f8bcbe0821e7ddd6c6294dfd5f074bb58e5e4c510",
+  "duration": 10.019230769230768,
+  "sampleRate": 24000,
+  "words": [
+    {
+      "text": "A",
+      "start": 0.28846153846153844,
+      "end": 0.3557692307692308,
+      "id": "step-1-w0"
+    },
+    {
+      "text": "language",
+      "start": 0.3557692307692308,
+      "end": 0.6923076923076923,
+      "id": "step-1-w1"
+    },
+    {
+      "text": "model",
+      "start": 0.6923076923076923,
+      "end": 1.0,
+      "id": "step-1-w2"
+    },
+    {
+      "text": "receives",
+      "start": 1.0,
+      "end": 1.3557692307692306,
+      "id": "step-1-w3"
+    },
+    {
+      "text": "your",
+      "start": 1.3557692307692306,
+      "end": 1.4615384615384615,
+      "id": "step-1-w4"
+    },
+    {
+      "text": "prompt",
+      "start": 1.4615384615384615,
+      "end": 1.7499999999999998,
+      "id": "step-1-w5"
+    },
+    {
+      "text": "as",
+      "start": 1.7499999999999998,
+      "end": 1.8653846153846152,
+      "id": "step-1-w6"
+    },
+    {
+      "text": "tokens:",
+      "start": 1.8653846153846152,
+      "end": 2.519230769230769,
+      "id": "step-1-w7"
+    },
+    {
+      "text": "pieces",
+      "start": 2.5961538461538463,
+      "end": 2.8749999999999996,
+      "id": "step-1-w8"
+    },
+    {
+      "text": "of",
+      "start": 2.8749999999999996,
+      "end": 2.971153846153846,
+      "id": "step-1-w9"
+    },
+    {
+      "text": "text",
+      "start": 2.971153846153846,
+      "end": 3.2884615384615388,
+      "id": "step-1-w10"
+    },
+    {
+      "text": "that",
+      "start": 3.2884615384615388,
+      "end": 3.4038461538461537,
+      "id": "step-1-w11"
+    },
+    {
+      "text": "can",
+      "start": 3.4038461538461537,
+      "end": 3.519230769230769,
+      "id": "step-1-w12"
+    },
+    {
+      "text": "be",
+      "start": 3.519230769230769,
+      "end": 3.6634615384615383,
+      "id": "step-1-w13"
+    },
+    {
+      "text": "words,",
+      "start": 3.6634615384615383,
+      "end": 4.115384615384615,
+      "id": "step-1-w14"
+    },
+    {
+      "text": "parts",
+      "start": 4.1923076923076925,
+      "end": 4.4326923076923075,
+      "id": "step-1-w15"
+    },
+    {
+      "text": "of",
+      "start": 4.4326923076923075,
+      "end": 4.519230769230769,
+      "id": "step-1-w16"
+    },
+    {
+      "text": "words,",
+      "start": 4.519230769230769,
+      "end": 4.903846153846153,
+      "id": "step-1-w17"
+    },
+    {
+      "text": "or",
+      "start": 4.961538461538462,
+      "end": 5.076923076923077,
+      "id": "step-1-w18"
+    },
+    {
+      "text": "punctuation.",
+      "start": 5.076923076923077,
+      "end": 6.0,
+      "id": "step-1-w19"
+    },
+    {
+      "text": "Each",
+      "start": 6.125,
+      "end": 6.35576923076923,
+      "id": "step-1-w20"
+    },
+    {
+      "text": "token",
+      "start": 6.35576923076923,
+      "end": 6.692307692307692,
+      "id": "step-1-w21"
+    },
+    {
+      "text": "becomes",
+      "start": 6.692307692307692,
+      "end": 6.999999999999999,
+      "id": "step-1-w22"
+    },
+    {
+      "text": "a",
+      "start": 6.999999999999999,
+      "end": 7.057692307692308,
+      "id": "step-1-w23"
+    },
+    {
+      "text": "list",
+      "start": 7.057692307692308,
+      "end": 7.240384615384615,
+      "id": "step-1-w24"
+    },
+    {
+      "text": "of",
+      "start": 7.240384615384615,
+      "end": 7.3076923076923075,
+      "id": "step-1-w25"
+    },
+    {
+      "text": "numbers.",
+      "start": 7.3076923076923075,
+      "end": 7.942307692307692,
+      "id": "step-1-w26"
+    },
+    {
+      "text": "Those",
+      "start": 8.028846153846153,
+      "end": 8.25,
+      "id": "step-1-w27"
+    },
+    {
+      "text": "numbers",
+      "start": 8.25,
+      "end": 8.60576923076923,
+      "id": "step-1-w28"
+    },
+    {
+      "text": "are",
+      "start": 8.60576923076923,
+      "end": 8.682692307692307,
+      "id": "step-1-w29"
+    },
+    {
+      "text": "the",
+      "start": 8.682692307692307,
+      "end": 8.798076923076923,
+      "id": "step-1-w30"
+    },
+    {
+      "text": "input",
+      "start": 8.798076923076923,
+      "end": 9.096153846153845,
+      "id": "step-1-w31"
+    },
+    {
+      "text": "to",
+      "start": 9.096153846153845,
+      "end": 9.163461538461538,
+      "id": "step-1-w32"
+    },
+    {
+      "text": "the",
+      "start": 9.163461538461538,
+      "end": 9.23076923076923,
+      "id": "step-1-w33"
+    },
+    {
+      "text": "model.",
+      "start": 9.23076923076923,
+      "end": 9.711538461538462,
+      "id": "step-1-w34"
+    }
+  ],
+  "timingMethod": "model-duration",
+  "voice": "af_heart",
+  "speed": 1.339,
+  "modelRevision": "f3ff3571791e39611d31c381e3a41a3af07b4987",
+  "generationSeconds": 6.0216213329695165,
+  "audioHash": "2dce03ed30eb0778f3745a82787839f14d57e1cd97f287653ffd42675e14e780",
+  "language": "a",
+  "key": "11b63624fbb89ed6a3cf10098c5fe42e5bfb79f867b59cc88850982dbd23aca5",
+  "lexiconHash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+  "backendVersions": {
+    "kokoro": "0.9.4",
+    "misaki": "0.9.4",
+    "torch": "2.12.1",
+    "soundfile": "0.14.0",
+    "spacy": "3.8.16",
+    "en_core_web_sm": "3.8.0"
+  },
+  "modelFingerprint": "2a552218823c4cee61fe5a893f7d44457b4ea19aefb9c9f4064b8c4341fe12aa",
+  "generatorVersion": "0.2.0",
+  "postProcessing": {
+    "filter": "atempo=1.3",
+    "timingScale": 0.7692307692307692,
+    "sourceAudioHash": "c12dc2a75c2042212ccec193fc107aaf3b19ed2f7040deb158bfc9582a8cd4ec"
+  }
+}

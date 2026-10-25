@@ -1,0 +1,137 @@
+{
+  "schemaVersion": 1,
+  "style": "paper",
+  "formats": [
+    "portrait",
+    "landscape",
+    "square",
+    "feed"
+  ],
+  "fps": 30,
+  "caption": {
+    "mode": "karaoke",
+    "maxWords": 6,
+    "safeBottom": 0.1
+  },
+  "speech": {
+    "voice": "af_heart",
+    "speed": 1,
+    "language": "a",
+    "lexicon": {},
+    "backend": "kokoro"
+  },
+  "title": "A matrix moves space",
+  "category": "ORIGINAL GEOMETRY EXAMPLE",
+  "teaching": {
+    "audience": "Learners who can read two coordinates; no matrix multiplication required.",
+    "goal": "Predict a shear using the images of the two basis vectors.",
+    "prerequisite": "An ordered pair gives horizontal and vertical displacement.",
+    "limit": "A worked linear map, not a proof of every property of matrices.",
+    "questions": [
+      {
+        "id": "changed-vector",
+        "question": "Where does (2, 3) land under the same shear?",
+        "answer": "(5, 3).",
+        "explanation": "The first basis stays (1,0); the second becomes (1,1). Two copies of the first plus three of the second give (5,3).",
+        "scene": "predict"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "reference",
+      "title": "Linear transformations and matrices, Grant Sanderson (3Blue1Brown)",
+      "url": "https://www.3blue1brown.com/lessons/linear-transformations/",
+      "status": "read",
+      "locator": "Matrices section; basis vectors and linear combinations",
+      "note": "Read 2026-10-23. Linked explanation supports the operation; artwork and numeric example are original."
+    },
+    {
+      "id": "worked",
+      "title": "Original worked example and direction notes",
+      "status": "synthetic",
+      "file": "direction.md",
+      "includeInBundle": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "mechanism",
+      "text": "For A = [[1,1],[0,1]], A(x,y) = (x+y,y). Columns are transformed basis vectors. The same coefficients combine those columns.",
+      "sources": [
+        "reference",
+        "worked"
+      ],
+      "basis": "Primary explanation plus independently computed original example",
+      "limit": "A worked linear map, not a proof of every property of matrices."
+    }
+  ],
+  "scenes": [
+    {
+      "id": "basis",
+      "title": "Build a vector from two steps.",
+      "narration": "A vector is a move. Our blue vector goes one step right, then one step up. The two smaller arrows are the basis: the building blocks of the move.",
+      "hold": 1.2,
+      "visual": {
+        "type": "custom",
+        "module": "scenes/lesson.mjs"
+      },
+      "claims": [
+        "mechanism"
+      ],
+      "visualDescription": "On a fixed coordinate grid, the blue vector (1,1) is the sum of the right basis (1,0) and the up basis (0,1). Gold and green label the two basis directions. The matrix begins as the identity.",
+      "audio": "media/basis.wav",
+      "timing": "media/basis.json"
+    },
+    {
+      "id": "shear",
+      "title": "Move the basis. Move the vector.",
+      "narration": "Shear the grid to the right. The upward basis arrow tilts, while the rightward arrow stays fixed. Our vector lands at two, one. The matrix records where the basis arrows go.",
+      "hold": 1.2,
+      "visual": {
+        "type": "custom",
+        "module": "scenes/lesson.mjs"
+      },
+      "claims": [
+        "mechanism"
+      ],
+      "visualDescription": "A horizontal shear moves (x,y) to (x+y,y). The grid, green up basis and blue vector move together under A(t) = [[1,t],[0,1]], t from 0 to 1. The gold right basis stays (1,0); the green basis becomes (1,1). Blue (1,1) becomes (2,1). A faint original vector and grid retain the baseline. Intermediate matrices describe the illustrated deformation.",
+      "audio": "media/shear.wav",
+      "timing": "media/shear.json"
+    },
+    {
+      "id": "predict",
+      "title": "Predict before the grid moves.",
+      "narration": "Now try one step right and two steps up. Predict the destination.",
+      "hold": 3.2,
+      "visual": {
+        "type": "custom",
+        "module": "scenes/lesson.mjs"
+      },
+      "claims": [
+        "mechanism"
+      ],
+      "visualDescription": "Input (1,2) remains untransformed on the starting grid. The target shear is A = [[1,1],[0,1]], mapping (x,y) to (x+y,y). Predict the destination; its transformed vector and coordinates remain concealed.",
+      "audio": "media/predict.wav",
+      "timing": "media/predict.json",
+      "learningPhase": "predict"
+    },
+    {
+      "id": "apply",
+      "title": "Two up steps become two diagonals.",
+      "narration": "Apply the same shear: each upward step also moves right. The result is three, two. The coefficients stay the same.",
+      "hold": 1.2,
+      "visual": {
+        "type": "custom",
+        "module": "scenes/lesson.mjs"
+      },
+      "claims": [
+        "mechanism"
+      ],
+      "visualDescription": "The new input is (1,2), shown before the same shear. One transformed right basis plus two transformed up bases ends at (3,2). The matrix and coordinates update from the same calculation on the same scale.",
+      "audio": "media/apply.wav",
+      "timing": "media/apply.json"
+    }
+  ],
+  "checks": []
+}

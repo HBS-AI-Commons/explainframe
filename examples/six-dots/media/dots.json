@@ -1,0 +1,154 @@
+{
+  "schemaVersion": 1,
+  "text": "Here are six dots. Pick any three, and connect them to make a triangle. How many different triangles could you choose?",
+  "textHash": "807372c9d55101060a494716b1540e4769224c33bafb2cef645074a68d187770",
+  "duration": 7.575,
+  "sampleRate": 24000,
+  "words": [
+    {
+      "text": "Here",
+      "start": 0.375,
+      "end": 0.55,
+      "id": "dots-w0"
+    },
+    {
+      "text": "are",
+      "start": 0.55,
+      "end": 0.6875,
+      "id": "dots-w1"
+    },
+    {
+      "text": "six",
+      "start": 0.6875,
+      "end": 1,
+      "id": "dots-w2"
+    },
+    {
+      "text": "dots.",
+      "start": 1,
+      "end": 1.7,
+      "id": "dots-w3"
+    },
+    {
+      "text": "Pick",
+      "start": 1.8125,
+      "end": 1.9875,
+      "id": "dots-w4"
+    },
+    {
+      "text": "any",
+      "start": 1.9875,
+      "end": 2.2125,
+      "id": "dots-w5"
+    },
+    {
+      "text": "three,",
+      "start": 2.2125,
+      "end": 2.625,
+      "id": "dots-w6"
+    },
+    {
+      "text": "and",
+      "start": 2.7,
+      "end": 2.825,
+      "id": "dots-w7"
+    },
+    {
+      "text": "connect",
+      "start": 2.825,
+      "end": 3.2,
+      "id": "dots-w8"
+    },
+    {
+      "text": "them",
+      "start": 3.2,
+      "end": 3.425,
+      "id": "dots-w9"
+    },
+    {
+      "text": "to",
+      "start": 3.425,
+      "end": 3.5125,
+      "id": "dots-w10"
+    },
+    {
+      "text": "make",
+      "start": 3.5125,
+      "end": 3.6875,
+      "id": "dots-w11"
+    },
+    {
+      "text": "a",
+      "start": 3.6875,
+      "end": 3.7625,
+      "id": "dots-w12"
+    },
+    {
+      "text": "triangle.",
+      "start": 3.7625,
+      "end": 4.7,
+      "id": "dots-w13"
+    },
+    {
+      "text": "How",
+      "start": 4.8375,
+      "end": 5.0375,
+      "id": "dots-w14"
+    },
+    {
+      "text": "many",
+      "start": 5.0375,
+      "end": 5.25,
+      "id": "dots-w15"
+    },
+    {
+      "text": "different",
+      "start": 5.25,
+      "end": 5.55,
+      "id": "dots-w16"
+    },
+    {
+      "text": "triangles",
+      "start": 5.55,
+      "end": 6.175,
+      "id": "dots-w17"
+    },
+    {
+      "text": "could",
+      "start": 6.175,
+      "end": 6.325,
+      "id": "dots-w18"
+    },
+    {
+      "text": "you",
+      "start": 6.325,
+      "end": 6.4875,
+      "id": "dots-w19"
+    },
+    {
+      "text": "choose?",
+      "start": 6.4875,
+      "end": 7.175,
+      "id": "dots-w20"
+    }
+  ],
+  "timingMethod": "model-duration",
+  "voice": "af_heart",
+  "speed": 1,
+  "modelRevision": "f3ff3571791e39611d31c381e3a41a3af07b4987",
+  "generationSeconds": 5.065136000048369,
+  "audioHash": "0fbb535f64fd0ede1a3f3ddc4ba9f1193cd5ea47aab07e92ea90c9aa162a53b9",
+  "key": "6a53fba772c8aeedd0a42d25d4a3ee0a41dc975518c6876fa1179da857c87600",
+  "lexiconHash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+  "backendVersions": {
+    "kokoro": "0.9.4",
+    "misaki": "0.9.4",
+    "torch": "2.12.1",
+    "soundfile": "0.14.0",
+    "spacy": "3.8.14",
+    "en_core_web_sm": "3.8.0"
+  },
+  "modelFingerprint": "2a552218823c4cee61fe5a893f7d44457b4ea19aefb9c9f4064b8c4341fe12aa",
+  "generatorVersion": "0.1.0",
+  "language": "a"
+}

@@ -1,0 +1,214 @@
+{
+  "schemaVersion": 1,
+  "text": "Attention combines information. Our toy example has one query and two positions. Each position has a key for matching, and a value to pass along. These numbers are chosen, not learned.",
+  "textHash": "1f1fd5fda546002cf3efd325919273260bec275e87e508cc58f0b013835dc0f1",
+  "duration": 12.825,
+  "sampleRate": 24000,
+  "words": [
+    {
+      "text": "Attention",
+      "start": 0.375,
+      "end": 0.925,
+      "id": "inputs-w0"
+    },
+    {
+      "text": "combines",
+      "start": 0.925,
+      "end": 1.4375,
+      "id": "inputs-w1"
+    },
+    {
+      "text": "information.",
+      "start": 1.4375,
+      "end": 2.45,
+      "id": "inputs-w2"
+    },
+    {
+      "text": "Our",
+      "start": 2.55,
+      "end": 2.7125,
+      "id": "inputs-w3"
+    },
+    {
+      "text": "toy",
+      "start": 2.7125,
+      "end": 2.95,
+      "id": "inputs-w4"
+    },
+    {
+      "text": "example",
+      "start": 2.95,
+      "end": 3.5,
+      "id": "inputs-w5"
+    },
+    {
+      "text": "has",
+      "start": 3.5,
+      "end": 3.7125,
+      "id": "inputs-w6"
+    },
+    {
+      "text": "one",
+      "start": 3.7125,
+      "end": 3.9625,
+      "id": "inputs-w7"
+    },
+    {
+      "text": "query",
+      "start": 3.9625,
+      "end": 4.4375,
+      "id": "inputs-w8"
+    },
+    {
+      "text": "and",
+      "start": 4.4375,
+      "end": 4.5875,
+      "id": "inputs-w9"
+    },
+    {
+      "text": "two",
+      "start": 4.5875,
+      "end": 4.8,
+      "id": "inputs-w10"
+    },
+    {
+      "text": "positions.",
+      "start": 4.8,
+      "end": 5.775,
+      "id": "inputs-w11"
+    },
+    {
+      "text": "Each",
+      "start": 5.9125,
+      "end": 6.15,
+      "id": "inputs-w12"
+    },
+    {
+      "text": "position",
+      "start": 6.15,
+      "end": 6.675,
+      "id": "inputs-w13"
+    },
+    {
+      "text": "has",
+      "start": 6.675,
+      "end": 6.8375,
+      "id": "inputs-w14"
+    },
+    {
+      "text": "a",
+      "start": 6.8375,
+      "end": 6.9375,
+      "id": "inputs-w15"
+    },
+    {
+      "text": "key",
+      "start": 6.9375,
+      "end": 7.2,
+      "id": "inputs-w16"
+    },
+    {
+      "text": "for",
+      "start": 7.2,
+      "end": 7.325,
+      "id": "inputs-w17"
+    },
+    {
+      "text": "matching,",
+      "start": 7.325,
+      "end": 8,
+      "id": "inputs-w18"
+    },
+    {
+      "text": "and",
+      "start": 8.075,
+      "end": 8.1875,
+      "id": "inputs-w19"
+    },
+    {
+      "text": "a",
+      "start": 8.1875,
+      "end": 8.25,
+      "id": "inputs-w20"
+    },
+    {
+      "text": "value",
+      "start": 8.25,
+      "end": 8.65,
+      "id": "inputs-w21"
+    },
+    {
+      "text": "to",
+      "start": 8.65,
+      "end": 8.75,
+      "id": "inputs-w22"
+    },
+    {
+      "text": "pass",
+      "start": 8.75,
+      "end": 9.05,
+      "id": "inputs-w23"
+    },
+    {
+      "text": "along.",
+      "start": 9.05,
+      "end": 9.825,
+      "id": "inputs-w24"
+    },
+    {
+      "text": "These",
+      "start": 9.975,
+      "end": 10.275,
+      "id": "inputs-w25"
+    },
+    {
+      "text": "numbers",
+      "start": 10.275,
+      "end": 10.675,
+      "id": "inputs-w26"
+    },
+    {
+      "text": "are",
+      "start": 10.675,
+      "end": 10.8375,
+      "id": "inputs-w27"
+    },
+    {
+      "text": "chosen,",
+      "start": 10.8375,
+      "end": 11.45,
+      "id": "inputs-w28"
+    },
+    {
+      "text": "not",
+      "start": 11.55,
+      "end": 11.775,
+      "id": "inputs-w29"
+    },
+    {
+      "text": "learned.",
+      "start": 11.775,
+      "end": 12.425,
+      "id": "inputs-w30"
+    }
+  ],
+  "timingMethod": "model-duration",
+  "voice": "af_heart",
+  "speed": 1,
+  "modelRevision": "f3ff3571791e39611d31c381e3a41a3af07b4987",
+  "generationSeconds": 1.5959512498229742,
+  "audioHash": "4daf5be341996f3230708a0964fa98b7e8e3c1157cba8e467242c57ed3e66475",
+  "language": "a",
+  "key": "1de07677145988230a5c444e9371ac72c0b1c963327dfea296b82a0435d71cbc",
+  "lexiconHash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+  "backendVersions": {
+    "kokoro": "0.9.4",
+    "misaki": "0.9.4",
+    "torch": "2.12.1",
+    "soundfile": "0.14.0",
+    "spacy": "3.8.16",
+    "en_core_web_sm": "3.8.0"
+  },
+  "modelFingerprint": "2a552218823c4cee61fe5a893f7d44457b4ea19aefb9c9f4064b8c4341fe12aa",
+  "generatorVersion": "0.2.0"
+}

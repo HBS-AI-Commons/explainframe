@@ -1,0 +1,136 @@
+{
+  "schemaVersion": 1,
+  "text": "Can a business earn more revenue and have less left over? Yes. Watch what happens to the costs.",
+  "textHash": "14b19acf2b4772bcaf410946cd16569271f3b3a76d50693be999562327ac75a9",
+  "duration": 6.425,
+  "sampleRate": 24000,
+  "words": [
+    {
+      "text": "Can",
+      "start": 0.375,
+      "end": 0.4875,
+      "id": "question-w0"
+    },
+    {
+      "text": "a",
+      "start": 0.4875,
+      "end": 0.55,
+      "id": "question-w1"
+    },
+    {
+      "text": "business",
+      "start": 0.55,
+      "end": 0.95,
+      "id": "question-w2"
+    },
+    {
+      "text": "earn",
+      "start": 0.95,
+      "end": 1.2,
+      "id": "question-w3"
+    },
+    {
+      "text": "more",
+      "start": 1.2,
+      "end": 1.425,
+      "id": "question-w4"
+    },
+    {
+      "text": "revenue",
+      "start": 1.425,
+      "end": 1.9,
+      "id": "question-w5"
+    },
+    {
+      "text": "and",
+      "start": 1.9,
+      "end": 2.025,
+      "id": "question-w6"
+    },
+    {
+      "text": "have",
+      "start": 2.025,
+      "end": 2.225,
+      "id": "question-w7"
+    },
+    {
+      "text": "less",
+      "start": 2.225,
+      "end": 2.45,
+      "id": "question-w8"
+    },
+    {
+      "text": "left",
+      "start": 2.45,
+      "end": 2.6875,
+      "id": "question-w9"
+    },
+    {
+      "text": "over?",
+      "start": 2.6875,
+      "end": 3.25,
+      "id": "question-w10"
+    },
+    {
+      "text": "Yes.",
+      "start": 3.45,
+      "end": 4.075,
+      "id": "question-w11"
+    },
+    {
+      "text": "Watch",
+      "start": 4.2375,
+      "end": 4.5375,
+      "id": "question-w12"
+    },
+    {
+      "text": "what",
+      "start": 4.5375,
+      "end": 4.675,
+      "id": "question-w13"
+    },
+    {
+      "text": "happens",
+      "start": 4.675,
+      "end": 5.075,
+      "id": "question-w14"
+    },
+    {
+      "text": "to",
+      "start": 5.075,
+      "end": 5.1625,
+      "id": "question-w15"
+    },
+    {
+      "text": "the",
+      "start": 5.1625,
+      "end": 5.25,
+      "id": "question-w16"
+    },
+    {
+      "text": "costs.",
+      "start": 5.25,
+      "end": 6.025,
+      "id": "question-w17"
+    }
+  ],
+  "timingMethod": "model-duration",
+  "voice": "af_heart",
+  "speed": 1,
+  "modelRevision": "f3ff3571791e39611d31c381e3a41a3af07b4987",
+  "generationSeconds": 3.9721924168989062,
+  "audioHash": "84a5b2cebfdbf7bbf4238206f8f2b193b461745adb50eecaf3f6e61fc32b2446",
+  "key": "9f2e2733f1a4ac4c7d774a69ad1d66e29457d7345d530a2e968bc4f1d1244110",
+  "lexiconHash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+  "backendVersions": {
+    "kokoro": "0.9.4",
+    "misaki": "0.9.4",
+    "torch": "2.12.1",
+    "soundfile": "0.14.0",
+    "spacy": "3.8.14",
+    "en_core_web_sm": "3.8.0"
+  },
+  "modelFingerprint": "2a552218823c4cee61fe5a893f7d44457b4ea19aefb9c9f4064b8c4341fe12aa",
+  "generatorVersion": "0.1.0",
+  "language": "a"
+}

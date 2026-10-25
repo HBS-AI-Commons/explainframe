@@ -1,0 +1,255 @@
+{
+  "schemaVersion": 1,
+  "text": "Training adjusts the model parameters using examples. During ordinary generation, those learned parameters stay fixed while the context grows. A convincing continuation can still be wrong. Web search and other tools add separate steps around this process.",
+  "textHash": "65dc989272827a2a88aaa40ac09fe48521f8c8873709ffa30bbef311c1f6b5af",
+  "duration": 12.98076923076923,
+  "sampleRate": 24000,
+  "words": [
+    {
+      "text": "Training",
+      "start": 0.2692307692307692,
+      "end": 0.5769230769230769,
+      "id": "step-5-w0"
+    },
+    {
+      "text": "adjusts",
+      "start": 0.5769230769230769,
+      "end": 0.9615384615384615,
+      "id": "step-5-w1"
+    },
+    {
+      "text": "the",
+      "start": 0.9615384615384615,
+      "end": 1.0384615384615385,
+      "id": "step-5-w2"
+    },
+    {
+      "text": "model",
+      "start": 1.0384615384615385,
+      "end": 1.3269230769230769,
+      "id": "step-5-w3"
+    },
+    {
+      "text": "parameters",
+      "start": 1.3269230769230769,
+      "end": 1.8269230769230769,
+      "id": "step-5-w4"
+    },
+    {
+      "text": "using",
+      "start": 1.8269230769230769,
+      "end": 2.0576923076923075,
+      "id": "step-5-w5"
+    },
+    {
+      "text": "examples.",
+      "start": 2.0576923076923075,
+      "end": 2.8653846153846154,
+      "id": "step-5-w6"
+    },
+    {
+      "text": "During",
+      "start": 2.9519230769230766,
+      "end": 3.2019230769230766,
+      "id": "step-5-w7"
+    },
+    {
+      "text": "ordinary",
+      "start": 3.2019230769230766,
+      "end": 3.634615384615384,
+      "id": "step-5-w8"
+    },
+    {
+      "text": "generation,",
+      "start": 3.634615384615384,
+      "end": 4.288461538461538,
+      "id": "step-5-w9"
+    },
+    {
+      "text": "those",
+      "start": 4.365384615384615,
+      "end": 4.576923076923077,
+      "id": "step-5-w10"
+    },
+    {
+      "text": "learned",
+      "start": 4.576923076923077,
+      "end": 4.788461538461538,
+      "id": "step-5-w11"
+    },
+    {
+      "text": "parameters",
+      "start": 4.788461538461538,
+      "end": 5.230769230769231,
+      "id": "step-5-w12"
+    },
+    {
+      "text": "stay",
+      "start": 5.230769230769231,
+      "end": 5.480769230769231,
+      "id": "step-5-w13"
+    },
+    {
+      "text": "fixed",
+      "start": 5.480769230769231,
+      "end": 5.903846153846153,
+      "id": "step-5-w14"
+    },
+    {
+      "text": "while",
+      "start": 5.903846153846153,
+      "end": 6.009615384615384,
+      "id": "step-5-w15"
+    },
+    {
+      "text": "the",
+      "start": 6.009615384615384,
+      "end": 6.076923076923077,
+      "id": "step-5-w16"
+    },
+    {
+      "text": "context",
+      "start": 6.076923076923077,
+      "end": 6.538461538461538,
+      "id": "step-5-w17"
+    },
+    {
+      "text": "grows.",
+      "start": 6.538461538461538,
+      "end": 7.211538461538462,
+      "id": "step-5-w18"
+    },
+    {
+      "text": "A",
+      "start": 7.317307692307692,
+      "end": 7.403846153846153,
+      "id": "step-5-w19"
+    },
+    {
+      "text": "convincing",
+      "start": 7.403846153846153,
+      "end": 7.846153846153845,
+      "id": "step-5-w20"
+    },
+    {
+      "text": "continuation",
+      "start": 7.846153846153845,
+      "end": 8.5,
+      "id": "step-5-w21"
+    },
+    {
+      "text": "can",
+      "start": 8.5,
+      "end": 8.663461538461538,
+      "id": "step-5-w22"
+    },
+    {
+      "text": "still",
+      "start": 8.663461538461538,
+      "end": 8.884615384615385,
+      "id": "step-5-w23"
+    },
+    {
+      "text": "be",
+      "start": 8.884615384615385,
+      "end": 9.009615384615385,
+      "id": "step-5-w24"
+    },
+    {
+      "text": "wrong.",
+      "start": 9.009615384615385,
+      "end": 9.615384615384615,
+      "id": "step-5-w25"
+    },
+    {
+      "text": "Web",
+      "start": 9.75,
+      "end": 9.971153846153847,
+      "id": "step-5-w26"
+    },
+    {
+      "text": "search",
+      "start": 9.971153846153847,
+      "end": 10.269230769230768,
+      "id": "step-5-w27"
+    },
+    {
+      "text": "and",
+      "start": 10.269230769230768,
+      "end": 10.365384615384615,
+      "id": "step-5-w28"
+    },
+    {
+      "text": "other",
+      "start": 10.365384615384615,
+      "end": 10.576923076923077,
+      "id": "step-5-w29"
+    },
+    {
+      "text": "tools",
+      "start": 10.576923076923077,
+      "end": 10.951923076923077,
+      "id": "step-5-w30"
+    },
+    {
+      "text": "add",
+      "start": 10.951923076923077,
+      "end": 11.14423076923077,
+      "id": "step-5-w31"
+    },
+    {
+      "text": "separate",
+      "start": 11.14423076923077,
+      "end": 11.442307692307692,
+      "id": "step-5-w32"
+    },
+    {
+      "text": "steps",
+      "start": 11.442307692307692,
+      "end": 11.73076923076923,
+      "id": "step-5-w33"
+    },
+    {
+      "text": "around",
+      "start": 11.73076923076923,
+      "end": 11.951923076923077,
+      "id": "step-5-w34"
+    },
+    {
+      "text": "this",
+      "start": 11.951923076923077,
+      "end": 12.076923076923077,
+      "id": "step-5-w35"
+    },
+    {
+      "text": "process.",
+      "start": 12.076923076923077,
+      "end": 12.673076923076923,
+      "id": "step-5-w36"
+    }
+  ],
+  "timingMethod": "model-duration",
+  "voice": "af_heart",
+  "speed": 1.339,
+  "modelRevision": "f3ff3571791e39611d31c381e3a41a3af07b4987",
+  "generationSeconds": 5.4636094169691205,
+  "audioHash": "c7f87cb617755ba603d85dabc8ee2f8e123fded253003b50fffaec19adb2de46",
+  "language": "a",
+  "key": "d6e1578c17ffbc8a3b8d75211579064012f4c0d089553fda9a723420a2399c2c",
+  "lexiconHash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+  "backendVersions": {
+    "kokoro": "0.9.4",
+    "misaki": "0.9.4",
+    "torch": "2.12.1",
+    "soundfile": "0.14.0",
+    "spacy": "3.8.16",
+    "en_core_web_sm": "3.8.0"
+  },
+  "modelFingerprint": "2a552218823c4cee61fe5a893f7d44457b4ea19aefb9c9f4064b8c4341fe12aa",
+  "generatorVersion": "0.2.0",
+  "postProcessing": {
+    "filter": "atempo=1.3",
+    "timingScale": 0.7692307692307692,
+    "sourceAudioHash": "732be564f6296c2051af4004ef255a8e813bff3de873634b917a25cd990706db"
+  }
+}

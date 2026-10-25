@@ -1,0 +1,160 @@
+{
+  "schemaVersion": 1,
+  "text": "Keep the keys and values fixed. If the query switches to zero, two, which position gets more weight? Predict before we recompute.",
+  "textHash": "bf01131c9ac290347ee87cc341e61a6410f5d057eeb9d40501d398b784e8a045",
+  "duration": 9,
+  "sampleRate": 24000,
+  "words": [
+    {
+      "text": "Keep",
+      "start": 0.35,
+      "end": 0.575,
+      "id": "predict-w0"
+    },
+    {
+      "text": "the",
+      "start": 0.575,
+      "end": 0.6875,
+      "id": "predict-w1"
+    },
+    {
+      "text": "keys",
+      "start": 0.6875,
+      "end": 1.1,
+      "id": "predict-w2"
+    },
+    {
+      "text": "and",
+      "start": 1.1,
+      "end": 1.225,
+      "id": "predict-w3"
+    },
+    {
+      "text": "values",
+      "start": 1.225,
+      "end": 1.75,
+      "id": "predict-w4"
+    },
+    {
+      "text": "fixed.",
+      "start": 1.75,
+      "end": 2.475,
+      "id": "predict-w5"
+    },
+    {
+      "text": "If",
+      "start": 2.6,
+      "end": 2.7375,
+      "id": "predict-w6"
+    },
+    {
+      "text": "the",
+      "start": 2.7375,
+      "end": 2.825,
+      "id": "predict-w7"
+    },
+    {
+      "text": "query",
+      "start": 2.825,
+      "end": 3.1875,
+      "id": "predict-w8"
+    },
+    {
+      "text": "switches",
+      "start": 3.1875,
+      "end": 3.625,
+      "id": "predict-w9"
+    },
+    {
+      "text": "to",
+      "start": 3.625,
+      "end": 3.75,
+      "id": "predict-w10"
+    },
+    {
+      "text": "zero,",
+      "start": 3.75,
+      "end": 4.175,
+      "id": "predict-w11"
+    },
+    {
+      "text": "two,",
+      "start": 4.2625,
+      "end": 4.725,
+      "id": "predict-w12"
+    },
+    {
+      "text": "which",
+      "start": 4.825,
+      "end": 5.025,
+      "id": "predict-w13"
+    },
+    {
+      "text": "position",
+      "start": 5.025,
+      "end": 5.55,
+      "id": "predict-w14"
+    },
+    {
+      "text": "gets",
+      "start": 5.55,
+      "end": 5.8,
+      "id": "predict-w15"
+    },
+    {
+      "text": "more",
+      "start": 5.8,
+      "end": 6.025,
+      "id": "predict-w16"
+    },
+    {
+      "text": "weight?",
+      "start": 6.025,
+      "end": 6.575,
+      "id": "predict-w17"
+    },
+    {
+      "text": "Predict",
+      "start": 6.7,
+      "end": 7.15,
+      "id": "predict-w18"
+    },
+    {
+      "text": "before",
+      "start": 7.15,
+      "end": 7.55,
+      "id": "predict-w19"
+    },
+    {
+      "text": "we",
+      "start": 7.55,
+      "end": 7.7,
+      "id": "predict-w20"
+    },
+    {
+      "text": "recompute.",
+      "start": 7.7,
+      "end": 8.6,
+      "id": "predict-w21"
+    }
+  ],
+  "timingMethod": "model-duration",
+  "voice": "af_heart",
+  "speed": 1,
+  "modelRevision": "f3ff3571791e39611d31c381e3a41a3af07b4987",
+  "generationSeconds": 0.9822937496937811,
+  "audioHash": "50c0489d6300744fae8de933bdf91173b554947810b63c03adaa582a73288964",
+  "language": "a",
+  "key": "6cadd57a139c1da7b1ba3b68e874b319877c0091456329352dc0f8c4d654e01a",
+  "lexiconHash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+  "backendVersions": {
+    "kokoro": "0.9.4",
+    "misaki": "0.9.4",
+    "torch": "2.12.1",
+    "soundfile": "0.14.0",
+    "spacy": "3.8.16",
+    "en_core_web_sm": "3.8.0"
+  },
+  "modelFingerprint": "2a552218823c4cee61fe5a893f7d44457b4ea19aefb9c9f4064b8c4341fe12aa",
+  "generatorVersion": "0.2.0"
+}

@@ -1,0 +1,208 @@
+{
+  "schemaVersion": 1,
+  "style": "paper",
+  "formats": [
+    "portrait",
+    "landscape",
+    "square",
+    "feed"
+  ],
+  "fps": 30,
+  "caption": {
+    "mode": "karaoke",
+    "maxWords": 6,
+    "safeBottom": 0.1
+  },
+  "speech": {
+    "voice": "af_heart",
+    "speed": 1,
+    "language": "a",
+    "lexicon": {},
+    "backend": "kokoro"
+  },
+  "title": "Why language models keep a KV cache",
+  "category": "ONE LAYER \u00b7 ONE HEAD \u00b7 TOY INPUTS",
+  "teaching": {
+    "audience": "People who know that attention blends values using query/key matching.",
+    "goal": "Distinguish reusable keys/values from recomputed weights, and predict when reuse fails.",
+    "prerequisite": "One query, key/value pairs, and a weighted sum. Start with the attention example if needed.",
+    "limit": "One causal attention layer with fixed position-aware input vectors and projection matrices. No full transformer, training, real token embeddings, runtime speedup, quantization or memory benchmark.",
+    "questions": [
+      {
+        "id": "weights",
+        "question": "Can old attention weights be reused for the next query?",
+        "answer": "No. The query changes and there is another allowed key. Scores and normalization must be recomputed.",
+        "scene": "predict"
+      },
+      {
+        "id": "prefix",
+        "question": "What if an earlier input changes?",
+        "answer": "Affected cached states must be rebuilt. In this one-layer independent-input toy, replacing that position suffices; a real multilayer model can require rebuilding the suffix across layers.",
+        "scene": "invalidate"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "reference",
+      "title": "Attention Is All You Need, Vaswani et al.",
+      "url": "https://arxiv.org/html/1706.03762v7",
+      "status": "read",
+      "locator": "Sections 3.2.1 and 3.2.3: scaled attention and causal masking",
+      "note": "Read 2026-10-23. Linked explanation supports the operation; artwork and numeric example are original."
+    },
+    {
+      "id": "worked",
+      "title": "Original worked example and direction notes",
+      "status": "synthetic",
+      "file": "direction.md",
+      "includeInBundle": true
+    },
+    {
+      "id": "cache-guide",
+      "title": "Hugging Face Transformers: Caching",
+      "url": "https://huggingface.co/docs/transformers/main/cache_explanation",
+      "status": "read",
+      "locator": "Cache explanation and attention matrices",
+      "note": "Read 2026-10-23. Reuse K/V, append new pairs; memory tradeoff. Mask is applied by exclusion before softmax as in the original paper."
+    }
+  ],
+  "claims": [
+    {
+      "id": "mechanism",
+      "text": "Under unchanged model, prefix and position configuration, autoregressive inference can retain past keys and values while computing fresh query scores and weights.",
+      "sources": [
+        "reference",
+        "cache-guide",
+        "worked"
+      ],
+      "basis": "Primary documentation and original numeric toy",
+      "limit": "One causal attention layer with fixed position-aware input vectors and projection matrices. No full transformer, training, real token embeddings, runtime speedup, quantization or memory benchmark."
+    },
+    {
+      "id": "prediction-setup",
+      "text": "In this toy, query 3 is (1.5,0.5) and allows positions 1,2,3. Proposed query 4 is (2.5,0) and allows positions 1,2,3,4. The same four key/value pairs are available. Can the prior attention weights be reused?",
+      "sources": [
+        "worked"
+      ],
+      "basis": "Original numeric prediction setup",
+      "limit": "One causal attention layer with fixed position-aware input vectors and projection matrices. No full transformer, training, real token embeddings, runtime speedup, quantization or memory benchmark."
+    }
+  ],
+  "scenes": [
+    {
+      "id": "repeat",
+      "title": "Stop projecting the same past.",
+      "narration": "A language model adds one position at a time. In this one layer example, three positions already have keys and values. Recomputing all four positions takes eight projections. Reusing the saved pairs needs only two.",
+      "hold": 1.2,
+      "visual": {
+        "type": "custom",
+        "module": "scenes/lesson.mjs"
+      },
+      "claims": [
+        "mechanism"
+      ],
+      "visualDescription": "Four slots compare eight K/V vector projections with two new projections after a three-position cache. This is an operation count, not a speed measurement.",
+      "audio": "media/repeat.wav",
+      "timing": "media/repeat.json"
+    },
+    {
+      "id": "append",
+      "title": "Keep the past. Append the new pair.",
+      "narration": "Append the new key and value. The three saved pairs stay exactly where they are. With fixed inputs and model settings, those pairs are ready to reuse.",
+      "hold": 1.2,
+      "visual": {
+        "type": "custom",
+        "module": "scenes/lesson.mjs"
+      },
+      "claims": [
+        "mechanism"
+      ],
+      "visualDescription": "The fourth pair slides into its slot, while three prior K/V slots retain their identities and coordinates.",
+      "audio": "media/append.wav",
+      "timing": "media/append.json"
+    },
+    {
+      "id": "mask",
+      "title": "The past cannot see the future.",
+      "narration": "Causal attention excludes future positions before normalization. A query at position three gives position four zero weight, even when its key and value are available. This restriction is why past representations do not change when we append.",
+      "hold": 1.2,
+      "visual": {
+        "type": "custom",
+        "module": "scenes/lesson.mjs"
+      },
+      "claims": [
+        "mechanism"
+      ],
+      "visualDescription": "Query at position three uses mask true,true,true,false. The excluded weight is exactly zero, with the other weights normalized.",
+      "audio": "media/mask.wav",
+      "timing": "media/mask.json"
+    },
+    {
+      "id": "predict",
+      "title": "Can we reuse the weights too?",
+      "narration": "Now predict: can the next query reuse the old attention weights as well as the keys and values?",
+      "hold": 3.2,
+      "visual": {
+        "type": "custom",
+        "module": "scenes/lesson.mjs"
+      },
+      "claims": [
+        "prediction-setup"
+      ],
+      "visualDescription": "The four K/V pairs remain visible. Proposed query 4 is (2.5,0), compared with prior query 3 at (1.5,0.5). Query 3 allows positions 1,2,3; query 4 allows positions 1,2,3,4. New weights and output stay concealed throughout the prediction pause, including at least three seconds after speech.",
+      "audio": "media/predict.wav",
+      "timing": "media/predict.json",
+      "learningPhase": "predict"
+    },
+    {
+      "id": "answer",
+      "title": "Reuse the data. Recompute the blend.",
+      "narration": "Recompute the scores for the new query against every allowed key. Normalize again, then blend the values. The query changed, and another key joined the denominator. Old attention weights would give the wrong result.",
+      "hold": 1.2,
+      "visual": {
+        "type": "custom",
+        "module": "scenes/lesson.mjs"
+      },
+      "claims": [
+        "mechanism"
+      ],
+      "visualDescription": "A scan connects the new query to all four positions; weights share one scale and the new output is computed from those weights.",
+      "audio": "media/answer.wav",
+      "timing": "media/answer.json"
+    },
+    {
+      "id": "invalidate",
+      "title": "A changed prefix breaks stale reuse.",
+      "narration": "Change the first input. Keeping its old pair gives a stale answer. Rebuild the affected cache. Now the result matches a fresh calculation. Real models have multiple layers, where a prefix edit can invalidate the suffix too.",
+      "hold": 1.2,
+      "visual": {
+        "type": "custom",
+        "module": "scenes/lesson.mjs"
+      },
+      "claims": [
+        "mechanism"
+      ],
+      "visualDescription": "First input changes from (1,0) to (3,0). Stale output is compared with the rebuilt output; the affected K/V pair changes after the rebuild cue.",
+      "audio": "media/invalidate.wav",
+      "timing": "media/invalidate.json"
+    },
+    {
+      "id": "memory",
+      "title": "Less repeated work. More memory.",
+      "narration": "Our four positions store sixteen numbers: two key components and two value components per position. That storage grows with context in this simple cache. The saved work is repeated projection, not all attention computation.",
+      "hold": 1.2,
+      "visual": {
+        "type": "custom",
+        "module": "scenes/lesson.mjs"
+      },
+      "claims": [
+        "mechanism"
+      ],
+      "visualDescription": "Four positions each retain a two-component key and a two-component value. Sixteen scalar numbers are counted, not bytes or a measured real-model speedup.",
+      "audio": "media/memory.wav",
+      "timing": "media/memory.json"
+    }
+  ],
+  "checks": []
+}

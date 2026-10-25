@@ -1,0 +1,148 @@
+{
+  "schemaVersion": 1,
+  "text": "Revenue rose by fifty dollars. Contribution fell by ten. More sales alone do not tell you whether the economics improved.",
+  "textHash": "f83209ae0f4b882e9fd6044eaf963f7f2aa7bbd40c47a8eb305aef0fc4314d69",
+  "duration": 8.75,
+  "sampleRate": 24000,
+  "words": [
+    {
+      "text": "Revenue",
+      "start": 0.4,
+      "end": 0.8625,
+      "id": "takeaway-w0"
+    },
+    {
+      "text": "rose",
+      "start": 0.8625,
+      "end": 1.3,
+      "id": "takeaway-w1"
+    },
+    {
+      "text": "by",
+      "start": 1.3,
+      "end": 1.5125,
+      "id": "takeaway-w2"
+    },
+    {
+      "text": "fifty",
+      "start": 1.5125,
+      "end": 1.825,
+      "id": "takeaway-w3"
+    },
+    {
+      "text": "dollars.",
+      "start": 1.825,
+      "end": 2.625,
+      "id": "takeaway-w4"
+    },
+    {
+      "text": "Contribution",
+      "start": 2.7625,
+      "end": 3.5125,
+      "id": "takeaway-w5"
+    },
+    {
+      "text": "fell",
+      "start": 3.5125,
+      "end": 3.75,
+      "id": "takeaway-w6"
+    },
+    {
+      "text": "by",
+      "start": 3.75,
+      "end": 3.9625,
+      "id": "takeaway-w7"
+    },
+    {
+      "text": "ten.",
+      "start": 3.9625,
+      "end": 4.625,
+      "id": "takeaway-w8"
+    },
+    {
+      "text": "More",
+      "start": 4.7625,
+      "end": 5.0125,
+      "id": "takeaway-w9"
+    },
+    {
+      "text": "sales",
+      "start": 5.0125,
+      "end": 5.325,
+      "id": "takeaway-w10"
+    },
+    {
+      "text": "alone",
+      "start": 5.325,
+      "end": 5.825,
+      "id": "takeaway-w11"
+    },
+    {
+      "text": "do",
+      "start": 5.825,
+      "end": 5.9375,
+      "id": "takeaway-w12"
+    },
+    {
+      "text": "not",
+      "start": 5.9375,
+      "end": 6.15,
+      "id": "takeaway-w13"
+    },
+    {
+      "text": "tell",
+      "start": 6.15,
+      "end": 6.4,
+      "id": "takeaway-w14"
+    },
+    {
+      "text": "you",
+      "start": 6.4,
+      "end": 6.55,
+      "id": "takeaway-w15"
+    },
+    {
+      "text": "whether",
+      "start": 6.55,
+      "end": 6.7625,
+      "id": "takeaway-w16"
+    },
+    {
+      "text": "the",
+      "start": 6.7625,
+      "end": 6.875,
+      "id": "takeaway-w17"
+    },
+    {
+      "text": "economics",
+      "start": 6.875,
+      "end": 7.475,
+      "id": "takeaway-w18"
+    },
+    {
+      "text": "improved.",
+      "start": 7.475,
+      "end": 8.35,
+      "id": "takeaway-w19"
+    }
+  ],
+  "timingMethod": "model-duration",
+  "voice": "af_heart",
+  "speed": 1,
+  "modelRevision": "f3ff3571791e39611d31c381e3a41a3af07b4987",
+  "generationSeconds": 5.548291291575879,
+  "audioHash": "2c18f00d7c2a0048f8fb1788a04352f70e506ee227828185e46a93c2f59a6380",
+  "key": "1abbcfe5b66cead2de225bf180142b9fc4c06c1ee28fafdd747720e7c92e75bb",
+  "lexiconHash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+  "backendVersions": {
+    "kokoro": "0.9.4",
+    "misaki": "0.9.4",
+    "torch": "2.12.1",
+    "soundfile": "0.14.0",
+    "spacy": "3.8.14",
+    "en_core_web_sm": "3.8.0"
+  },
+  "modelFingerprint": "2a552218823c4cee61fe5a893f7d44457b4ea19aefb9c9f4064b8c4341fe12aa",
+  "generatorVersion": "0.1.0",
+  "language": "a"
+}

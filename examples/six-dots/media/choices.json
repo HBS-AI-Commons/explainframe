@@ -1,0 +1,136 @@
+{
+  "schemaVersion": 1,
+  "text": "Now decide whether to draw each triangle. Every one of those twenty triangles can be on, or off.",
+  "textHash": "fe527c6592d7a873e94da4dd82af7f6525eed12cbd669b4d66f8aaf2d28d7708",
+  "duration": 6.6,
+  "sampleRate": 24000,
+  "words": [
+    {
+      "text": "Now",
+      "start": 0.425,
+      "end": 0.625,
+      "id": "choices-w0"
+    },
+    {
+      "text": "decide",
+      "start": 0.625,
+      "end": 1.125,
+      "id": "choices-w1"
+    },
+    {
+      "text": "whether",
+      "start": 1.125,
+      "end": 1.35,
+      "id": "choices-w2"
+    },
+    {
+      "text": "to",
+      "start": 1.35,
+      "end": 1.45,
+      "id": "choices-w3"
+    },
+    {
+      "text": "draw",
+      "start": 1.45,
+      "end": 1.7625,
+      "id": "choices-w4"
+    },
+    {
+      "text": "each",
+      "start": 1.7625,
+      "end": 2,
+      "id": "choices-w5"
+    },
+    {
+      "text": "triangle.",
+      "start": 2,
+      "end": 2.875,
+      "id": "choices-w6"
+    },
+    {
+      "text": "Every",
+      "start": 3.0375,
+      "end": 3.35,
+      "id": "choices-w7"
+    },
+    {
+      "text": "one",
+      "start": 3.35,
+      "end": 3.4875,
+      "id": "choices-w8"
+    },
+    {
+      "text": "of",
+      "start": 3.4875,
+      "end": 3.575,
+      "id": "choices-w9"
+    },
+    {
+      "text": "those",
+      "start": 3.575,
+      "end": 3.825,
+      "id": "choices-w10"
+    },
+    {
+      "text": "twenty",
+      "start": 3.825,
+      "end": 4.125,
+      "id": "choices-w11"
+    },
+    {
+      "text": "triangles",
+      "start": 4.125,
+      "end": 4.675,
+      "id": "choices-w12"
+    },
+    {
+      "text": "can",
+      "start": 4.675,
+      "end": 4.825,
+      "id": "choices-w13"
+    },
+    {
+      "text": "be",
+      "start": 4.825,
+      "end": 4.975,
+      "id": "choices-w14"
+    },
+    {
+      "text": "on,",
+      "start": 4.975,
+      "end": 5.4,
+      "id": "choices-w15"
+    },
+    {
+      "text": "or",
+      "start": 5.5,
+      "end": 5.625,
+      "id": "choices-w16"
+    },
+    {
+      "text": "off.",
+      "start": 5.625,
+      "end": 6.2,
+      "id": "choices-w17"
+    }
+  ],
+  "timingMethod": "model-duration",
+  "voice": "af_heart",
+  "speed": 1,
+  "modelRevision": "f3ff3571791e39611d31c381e3a41a3af07b4987",
+  "generationSeconds": 3.912919333204627,
+  "audioHash": "a012e0f74f2d897d4808fa3cd53450dd3094ec9f9929d763f081d0d0f879f324",
+  "key": "72955f973e766788bf17754cf6920edaebb649f1ff54d245f6f2ee8e72cd932a",
+  "lexiconHash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+  "backendVersions": {
+    "kokoro": "0.9.4",
+    "misaki": "0.9.4",
+    "torch": "2.12.1",
+    "soundfile": "0.14.0",
+    "spacy": "3.8.14",
+    "en_core_web_sm": "3.8.0"
+  },
+  "modelFingerprint": "2a552218823c4cee61fe5a893f7d44457b4ea19aefb9c9f4064b8c4341fe12aa",
+  "generatorVersion": "0.1.0",
+  "language": "a"
+}

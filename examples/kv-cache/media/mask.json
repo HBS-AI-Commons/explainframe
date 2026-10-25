@@ -1,0 +1,250 @@
+{
+  "schemaVersion": 1,
+  "text": "Causal attention excludes future positions before normalization. A query at position three gives position four zero weight, even when its key and value are available. This restriction is why past representations do not change when we append.",
+  "textHash": "f53ab507810bae5b88da6ebd2255756e470008c07bfac8ba5edacb5ae7b704e6",
+  "duration": 16.5,
+  "sampleRate": 24000,
+  "words": [
+    {
+      "text": "Causal",
+      "start": 0.35,
+      "end": 0.7,
+      "id": "mask-w0"
+    },
+    {
+      "text": "attention",
+      "start": 0.7,
+      "end": 1.4,
+      "id": "mask-w1"
+    },
+    {
+      "text": "excludes",
+      "start": 1.4,
+      "end": 1.9875,
+      "id": "mask-w2"
+    },
+    {
+      "text": "future",
+      "start": 1.9875,
+      "end": 2.325,
+      "id": "mask-w3"
+    },
+    {
+      "text": "positions",
+      "start": 2.325,
+      "end": 2.925,
+      "id": "mask-w4"
+    },
+    {
+      "text": "before",
+      "start": 2.925,
+      "end": 3.325,
+      "id": "mask-w5"
+    },
+    {
+      "text": "normalization.",
+      "start": 3.325,
+      "end": 4.675,
+      "id": "mask-w6"
+    },
+    {
+      "text": "A",
+      "start": 4.8125,
+      "end": 4.9375,
+      "id": "mask-w7"
+    },
+    {
+      "text": "query",
+      "start": 4.9375,
+      "end": 5.35,
+      "id": "mask-w8"
+    },
+    {
+      "text": "at",
+      "start": 5.35,
+      "end": 5.45,
+      "id": "mask-w9"
+    },
+    {
+      "text": "position",
+      "start": 5.45,
+      "end": 5.9125,
+      "id": "mask-w10"
+    },
+    {
+      "text": "three",
+      "start": 5.9125,
+      "end": 6.475,
+      "id": "mask-w11"
+    },
+    {
+      "text": "gives",
+      "start": 6.475,
+      "end": 6.775,
+      "id": "mask-w12"
+    },
+    {
+      "text": "position",
+      "start": 6.775,
+      "end": 7.35,
+      "id": "mask-w13"
+    },
+    {
+      "text": "four",
+      "start": 7.35,
+      "end": 7.6125,
+      "id": "mask-w14"
+    },
+    {
+      "text": "zero",
+      "start": 7.6125,
+      "end": 8,
+      "id": "mask-w15"
+    },
+    {
+      "text": "weight,",
+      "start": 8,
+      "end": 8.6,
+      "id": "mask-w16"
+    },
+    {
+      "text": "even",
+      "start": 8.7375,
+      "end": 9.0375,
+      "id": "mask-w17"
+    },
+    {
+      "text": "when",
+      "start": 9.0375,
+      "end": 9.1625,
+      "id": "mask-w18"
+    },
+    {
+      "text": "its",
+      "start": 9.1625,
+      "end": 9.3625,
+      "id": "mask-w19"
+    },
+    {
+      "text": "key",
+      "start": 9.3625,
+      "end": 9.7625,
+      "id": "mask-w20"
+    },
+    {
+      "text": "and",
+      "start": 9.7625,
+      "end": 9.9,
+      "id": "mask-w21"
+    },
+    {
+      "text": "value",
+      "start": 9.9,
+      "end": 10.3,
+      "id": "mask-w22"
+    },
+    {
+      "text": "are",
+      "start": 10.3,
+      "end": 10.425,
+      "id": "mask-w23"
+    },
+    {
+      "text": "available.",
+      "start": 10.425,
+      "end": 11.375,
+      "id": "mask-w24"
+    },
+    {
+      "text": "This",
+      "start": 11.5125,
+      "end": 11.725,
+      "id": "mask-w25"
+    },
+    {
+      "text": "restriction",
+      "start": 11.725,
+      "end": 12.4375,
+      "id": "mask-w26"
+    },
+    {
+      "text": "is",
+      "start": 12.4375,
+      "end": 12.6875,
+      "id": "mask-w27"
+    },
+    {
+      "text": "why",
+      "start": 12.6875,
+      "end": 12.9375,
+      "id": "mask-w28"
+    },
+    {
+      "text": "past",
+      "start": 12.9375,
+      "end": 13.325,
+      "id": "mask-w29"
+    },
+    {
+      "text": "representations",
+      "start": 13.325,
+      "end": 14.275,
+      "id": "mask-w30"
+    },
+    {
+      "text": "do",
+      "start": 14.275,
+      "end": 14.4,
+      "id": "mask-w31"
+    },
+    {
+      "text": "not",
+      "start": 14.4,
+      "end": 14.6625,
+      "id": "mask-w32"
+    },
+    {
+      "text": "change",
+      "start": 14.6625,
+      "end": 15.0875,
+      "id": "mask-w33"
+    },
+    {
+      "text": "when",
+      "start": 15.0875,
+      "end": 15.2125,
+      "id": "mask-w34"
+    },
+    {
+      "text": "we",
+      "start": 15.2125,
+      "end": 15.35,
+      "id": "mask-w35"
+    },
+    {
+      "text": "append.",
+      "start": 15.35,
+      "end": 16.075,
+      "id": "mask-w36"
+    }
+  ],
+  "timingMethod": "model-duration",
+  "voice": "af_heart",
+  "speed": 1,
+  "modelRevision": "f3ff3571791e39611d31c381e3a41a3af07b4987",
+  "generationSeconds": 1.7409198749810457,
+  "audioHash": "d631390a247a3ca8f864ae4b5ad58e13e16cb30c577677a80ab5e0f1011d37b2",
+  "language": "a",
+  "key": "1d5b0a421c442a3ee7dd9742223e4065e020e774131c29e37912d3d3f2d9e147",
+  "lexiconHash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+  "backendVersions": {
+    "kokoro": "0.9.4",
+    "misaki": "0.9.4",
+    "torch": "2.12.1",
+    "soundfile": "0.14.0",
+    "spacy": "3.8.16",
+    "en_core_web_sm": "3.8.0"
+  },
+  "modelFingerprint": "2a552218823c4cee61fe5a893f7d44457b4ea19aefb9c9f4064b8c4341fe12aa",
+  "generatorVersion": "0.2.0"
+}

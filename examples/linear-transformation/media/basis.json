@@ -1,0 +1,202 @@
+{
+  "schemaVersion": 1,
+  "text": "A vector is a move. Our blue vector goes one step right, then one step up. The two smaller arrows are the basis: the building blocks of the move.",
+  "textHash": "e933e3e8a96d27722b2886a0537af588abfe056bba39ddd9a76333f11b0be7ca",
+  "duration": 9.45,
+  "sampleRate": 24000,
+  "words": [
+    {
+      "text": "A",
+      "start": 0.375,
+      "end": 0.45,
+      "id": "basis-w0"
+    },
+    {
+      "text": "vector",
+      "start": 0.45,
+      "end": 0.875,
+      "id": "basis-w1"
+    },
+    {
+      "text": "is",
+      "start": 0.875,
+      "end": 0.9875,
+      "id": "basis-w2"
+    },
+    {
+      "text": "a",
+      "start": 0.9875,
+      "end": 1.075,
+      "id": "basis-w3"
+    },
+    {
+      "text": "move.",
+      "start": 1.075,
+      "end": 1.775,
+      "id": "basis-w4"
+    },
+    {
+      "text": "Our",
+      "start": 1.875,
+      "end": 2.025,
+      "id": "basis-w5"
+    },
+    {
+      "text": "blue",
+      "start": 2.025,
+      "end": 2.25,
+      "id": "basis-w6"
+    },
+    {
+      "text": "vector",
+      "start": 2.25,
+      "end": 2.625,
+      "id": "basis-w7"
+    },
+    {
+      "text": "goes",
+      "start": 2.625,
+      "end": 2.8875,
+      "id": "basis-w8"
+    },
+    {
+      "text": "one",
+      "start": 2.8875,
+      "end": 3.125,
+      "id": "basis-w9"
+    },
+    {
+      "text": "step",
+      "start": 3.125,
+      "end": 3.4,
+      "id": "basis-w10"
+    },
+    {
+      "text": "right,",
+      "start": 3.4,
+      "end": 3.75,
+      "id": "basis-w11"
+    },
+    {
+      "text": "then",
+      "start": 3.825,
+      "end": 4,
+      "id": "basis-w12"
+    },
+    {
+      "text": "one",
+      "start": 4,
+      "end": 4.225,
+      "id": "basis-w13"
+    },
+    {
+      "text": "step",
+      "start": 4.225,
+      "end": 4.4625,
+      "id": "basis-w14"
+    },
+    {
+      "text": "up.",
+      "start": 4.4625,
+      "end": 5,
+      "id": "basis-w15"
+    },
+    {
+      "text": "The",
+      "start": 5.125,
+      "end": 5.2625,
+      "id": "basis-w16"
+    },
+    {
+      "text": "two",
+      "start": 5.2625,
+      "end": 5.5125,
+      "id": "basis-w17"
+    },
+    {
+      "text": "smaller",
+      "start": 5.5125,
+      "end": 5.975,
+      "id": "basis-w18"
+    },
+    {
+      "text": "arrows",
+      "start": 5.975,
+      "end": 6.4,
+      "id": "basis-w19"
+    },
+    {
+      "text": "are",
+      "start": 6.4,
+      "end": 6.4875,
+      "id": "basis-w20"
+    },
+    {
+      "text": "the",
+      "start": 6.4875,
+      "end": 6.575,
+      "id": "basis-w21"
+    },
+    {
+      "text": "basis:",
+      "start": 6.575,
+      "end": 7.325,
+      "id": "basis-w22"
+    },
+    {
+      "text": "the",
+      "start": 7.425,
+      "end": 7.525,
+      "id": "basis-w23"
+    },
+    {
+      "text": "building",
+      "start": 7.525,
+      "end": 7.9,
+      "id": "basis-w24"
+    },
+    {
+      "text": "blocks",
+      "start": 7.9,
+      "end": 8.2375,
+      "id": "basis-w25"
+    },
+    {
+      "text": "of",
+      "start": 8.2375,
+      "end": 8.3125,
+      "id": "basis-w26"
+    },
+    {
+      "text": "the",
+      "start": 8.3125,
+      "end": 8.4,
+      "id": "basis-w27"
+    },
+    {
+      "text": "move.",
+      "start": 8.4,
+      "end": 9.05,
+      "id": "basis-w28"
+    }
+  ],
+  "timingMethod": "model-duration",
+  "voice": "af_heart",
+  "speed": 1,
+  "modelRevision": "f3ff3571791e39611d31c381e3a41a3af07b4987",
+  "generationSeconds": 1.2222718331031501,
+  "audioHash": "6806434ab2eec2a62264327913e858ff771595c594ad81a7b88cec99b30ce904",
+  "language": "a",
+  "key": "9ff5408532cb1f89f4e580bc43d26a27b059b6dc9db6bf4f4d60f12a5666500e",
+  "lexiconHash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+  "backendVersions": {
+    "kokoro": "0.9.4",
+    "misaki": "0.9.4",
+    "torch": "2.12.1",
+    "soundfile": "0.14.0",
+    "spacy": "3.8.16",
+    "en_core_web_sm": "3.8.0"
+  },
+  "modelFingerprint": "2a552218823c4cee61fe5a893f7d44457b4ea19aefb9c9f4064b8c4341fe12aa",
+  "generatorVersion": "0.2.0"
+}

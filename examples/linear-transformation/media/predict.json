@@ -1,0 +1,100 @@
+{
+  "schemaVersion": 1,
+  "text": "Now try one step right and two steps up. Predict the destination.",
+  "textHash": "6ffd83ee768df2d0d604476775dfb2c16b6d81f8df2bbe3770a8aa265f9d98b2",
+  "duration": 4.875,
+  "sampleRate": 24000,
+  "words": [
+    {
+      "text": "Now",
+      "start": 0.425,
+      "end": 0.6375,
+      "id": "predict-w0"
+    },
+    {
+      "text": "try",
+      "start": 0.6375,
+      "end": 0.95,
+      "id": "predict-w1"
+    },
+    {
+      "text": "one",
+      "start": 0.95,
+      "end": 1.175,
+      "id": "predict-w2"
+    },
+    {
+      "text": "step",
+      "start": 1.175,
+      "end": 1.45,
+      "id": "predict-w3"
+    },
+    {
+      "text": "right",
+      "start": 1.45,
+      "end": 1.7875,
+      "id": "predict-w4"
+    },
+    {
+      "text": "and",
+      "start": 1.7875,
+      "end": 1.925,
+      "id": "predict-w5"
+    },
+    {
+      "text": "two",
+      "start": 1.925,
+      "end": 2.125,
+      "id": "predict-w6"
+    },
+    {
+      "text": "steps",
+      "start": 2.125,
+      "end": 2.4125,
+      "id": "predict-w7"
+    },
+    {
+      "text": "up.",
+      "start": 2.4125,
+      "end": 2.825,
+      "id": "predict-w8"
+    },
+    {
+      "text": "Predict",
+      "start": 2.95,
+      "end": 3.3375,
+      "id": "predict-w9"
+    },
+    {
+      "text": "the",
+      "start": 3.3375,
+      "end": 3.425,
+      "id": "predict-w10"
+    },
+    {
+      "text": "destination.",
+      "start": 3.425,
+      "end": 4.475,
+      "id": "predict-w11"
+    }
+  ],
+  "timingMethod": "model-duration",
+  "voice": "af_heart",
+  "speed": 1,
+  "modelRevision": "f3ff3571791e39611d31c381e3a41a3af07b4987",
+  "generationSeconds": 0.6216405001468956,
+  "audioHash": "6f266c2b889b5ea26d42ceb058b682cc21af6cbac3a21d28d9bc27358847e616",
+  "language": "a",
+  "key": "ab6b6733af4d0b0f9f2723e30b4261e8818e7f91aba59eb80d0ab5ebc14278ff",
+  "lexiconHash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+  "backendVersions": {
+    "kokoro": "0.9.4",
+    "misaki": "0.9.4",
+    "torch": "2.12.1",
+    "soundfile": "0.14.0",
+    "spacy": "3.8.16",
+    "en_core_web_sm": "3.8.0"
+  },
+  "modelFingerprint": "2a552218823c4cee61fe5a893f7d44457b4ea19aefb9c9f4064b8c4341fe12aa",
+  "generatorVersion": "0.2.0"
+}

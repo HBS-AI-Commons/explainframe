@@ -1,0 +1,231 @@
+{
+  "schemaVersion": 1,
+  "text": "For an older woman, the older-sister term is another common choice. But this is not a universal age calculator. Familiarity, social roles, setting, and personal preference also matter. Other forms of address exist.",
+  "textHash": "540fbd81bf62b79a143e1bd7aa1d60bd6e0c2d7f80c5fd92599bb5aa71487cf8",
+  "duration": 11.23076923076923,
+  "sampleRate": 24000,
+  "words": [
+    {
+      "text": "For",
+      "start": 0.2692307692307692,
+      "end": 0.3557692307692308,
+      "id": "step-4-w0"
+    },
+    {
+      "text": "an",
+      "start": 0.3557692307692308,
+      "end": 0.4519230769230769,
+      "id": "step-4-w1"
+    },
+    {
+      "text": "older",
+      "start": 0.4519230769230769,
+      "end": 0.75,
+      "id": "step-4-w2"
+    },
+    {
+      "text": "woman,",
+      "start": 0.75,
+      "end": 1.0192307692307692,
+      "id": "step-4-w3"
+    },
+    {
+      "text": "the",
+      "start": 1.0576923076923077,
+      "end": 1.173076923076923,
+      "id": "step-4-w4"
+    },
+    {
+      "text": "older-sister",
+      "start": 1.173076923076923,
+      "end": 1.673076923076923,
+      "id": "step-4-w5"
+    },
+    {
+      "text": "term",
+      "start": 1.673076923076923,
+      "end": 1.942307692307692,
+      "id": "step-4-w6"
+    },
+    {
+      "text": "is",
+      "start": 1.942307692307692,
+      "end": 2.0384615384615383,
+      "id": "step-4-w7"
+    },
+    {
+      "text": "another",
+      "start": 2.0384615384615383,
+      "end": 2.346153846153846,
+      "id": "step-4-w8"
+    },
+    {
+      "text": "common",
+      "start": 2.346153846153846,
+      "end": 2.644230769230769,
+      "id": "step-4-w9"
+    },
+    {
+      "text": "choice.",
+      "start": 2.644230769230769,
+      "end": 3.2115384615384612,
+      "id": "step-4-w10"
+    },
+    {
+      "text": "But",
+      "start": 3.2884615384615388,
+      "end": 3.4038461538461537,
+      "id": "step-4-w11"
+    },
+    {
+      "text": "this",
+      "start": 3.4038461538461537,
+      "end": 3.605769230769231,
+      "id": "step-4-w12"
+    },
+    {
+      "text": "is",
+      "start": 3.605769230769231,
+      "end": 3.7307692307692304,
+      "id": "step-4-w13"
+    },
+    {
+      "text": "not",
+      "start": 3.7307692307692304,
+      "end": 3.9038461538461537,
+      "id": "step-4-w14"
+    },
+    {
+      "text": "a",
+      "start": 3.9038461538461537,
+      "end": 3.9903846153846154,
+      "id": "step-4-w15"
+    },
+    {
+      "text": "universal",
+      "start": 3.9903846153846154,
+      "end": 4.528846153846154,
+      "id": "step-4-w16"
+    },
+    {
+      "text": "age",
+      "start": 4.528846153846154,
+      "end": 4.769230769230769,
+      "id": "step-4-w17"
+    },
+    {
+      "text": "calculator.",
+      "start": 4.769230769230769,
+      "end": 5.538461538461538,
+      "id": "step-4-w18"
+    },
+    {
+      "text": "Familiarity,",
+      "start": 5.663461538461538,
+      "end": 6.384615384615385,
+      "id": "step-4-w19"
+    },
+    {
+      "text": "social",
+      "start": 6.490384615384615,
+      "end": 6.8076923076923075,
+      "id": "step-4-w20"
+    },
+    {
+      "text": "roles,",
+      "start": 6.8076923076923075,
+      "end": 7.230769230769231,
+      "id": "step-4-w21"
+    },
+    {
+      "text": "setting,",
+      "start": 7.317307692307692,
+      "end": 7.634615384615385,
+      "id": "step-4-w22"
+    },
+    {
+      "text": "and",
+      "start": 7.692307692307692,
+      "end": 7.788461538461538,
+      "id": "step-4-w23"
+    },
+    {
+      "text": "personal",
+      "start": 7.788461538461538,
+      "end": 8.134615384615383,
+      "id": "step-4-w24"
+    },
+    {
+      "text": "preference",
+      "start": 8.134615384615383,
+      "end": 8.519230769230768,
+      "id": "step-4-w25"
+    },
+    {
+      "text": "also",
+      "start": 8.519230769230768,
+      "end": 8.807692307692307,
+      "id": "step-4-w26"
+    },
+    {
+      "text": "matter.",
+      "start": 8.807692307692307,
+      "end": 9.326923076923077,
+      "id": "step-4-w27"
+    },
+    {
+      "text": "Other",
+      "start": 9.451923076923077,
+      "end": 9.701923076923077,
+      "id": "step-4-w28"
+    },
+    {
+      "text": "forms",
+      "start": 9.701923076923077,
+      "end": 9.951923076923077,
+      "id": "step-4-w29"
+    },
+    {
+      "text": "of",
+      "start": 9.951923076923077,
+      "end": 10.019230769230768,
+      "id": "step-4-w30"
+    },
+    {
+      "text": "address",
+      "start": 10.019230769230768,
+      "end": 10.346153846153845,
+      "id": "step-4-w31"
+    },
+    {
+      "text": "exist.",
+      "start": 10.346153846153845,
+      "end": 10.923076923076922,
+      "id": "step-4-w32"
+    }
+  ],
+  "timingMethod": "model-duration",
+  "voice": "af_heart",
+  "speed": 1.339,
+  "modelRevision": "f3ff3571791e39611d31c381e3a41a3af07b4987",
+  "generationSeconds": 6.583257749676704,
+  "audioHash": "d673785de4fff44232792009e636f251b9b4df02c669f2a6039715657fa12cc3",
+  "language": "a",
+  "key": "42c894938b3d84173848fb83bf7d959fe91f3512c92f64a0ed3e1f5582282716",
+  "lexiconHash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+  "backendVersions": {
+    "kokoro": "0.9.4",
+    "misaki": "0.9.4",
+    "torch": "2.12.1",
+    "soundfile": "0.14.0",
+    "spacy": "3.8.16",
+    "en_core_web_sm": "3.8.0"
+  },
+  "modelFingerprint": "2a552218823c4cee61fe5a893f7d44457b4ea19aefb9c9f4064b8c4341fe12aa",
+  "generatorVersion": "0.2.0",
+  "postProcessing": {
+    "filter": "atempo=1.3",
+    "timingScale": 0.7692307692307692,
+    "sourceAudioHash": "35e4a6269d742ee568c469f52d701e9e578b7141f23c9aaaa71835f25068115d"
+  }
+}

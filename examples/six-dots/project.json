@@ -1,0 +1,163 @@
+{
+  "schemaVersion": 1,
+  "style": "paper",
+  "formats": [
+    "portrait",
+    "landscape",
+    "square",
+    "feed"
+  ],
+  "fps": 30,
+  "caption": {
+    "mode": "karaoke",
+    "maxWords": 6,
+    "safeBottom": 0.1
+  },
+  "speech": {
+    "voice": "af_heart",
+    "speed": 1,
+    "language": "a",
+    "lexicon": {},
+    "backend": "kokoro"
+  },
+  "title": "Six dots, a million choices",
+  "category": "SMALL MATH EXAMPLE",
+  "sources": [
+    {
+      "id": "counting",
+      "title": "Original worked combinatorics example: choose 3 of 6, then choose subsets of the 20 triangles.",
+      "status": "synthetic"
+    }
+  ],
+  "claims": [
+    {
+      "id": "triangles",
+      "text": "Six labeled vertices determine C(6,3)=20 distinct triples.",
+      "sources": [
+        "counting"
+      ],
+      "basis": "authored counting example",
+      "limit": "Selected collections are counted, not distinct combined edge drawings."
+    },
+    {
+      "id": "subsets",
+      "text": "Twenty independently optional triples produce 2^20=1,048,576 subsets.",
+      "sources": [
+        "counting"
+      ],
+      "basis": "authored counting example",
+      "limit": "Selected collections are counted, not distinct combined edge drawings."
+    }
+  ],
+  "checks": [
+    {
+      "id": "choose",
+      "kind": "choose",
+      "values": [
+        6,
+        3
+      ],
+      "expected": 20
+    },
+    {
+      "id": "subsets",
+      "kind": "power",
+      "values": [
+        2,
+        20
+      ],
+      "expected": 1048576
+    }
+  ],
+  "scenes": [
+    {
+      "id": "dots",
+      "title": "Start with six dots.",
+      "narration": "Here are six dots. Pick any three, and connect them to make a triangle. How many different triangles could you choose?",
+      "visual": {
+        "type": "dots",
+        "count": 6,
+        "edges": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            0,
+            3
+          ]
+        ],
+        "text": "Choose any 3 of the 6 dots."
+      },
+      "claims": [
+        "triangles"
+      ],
+      "audio": "media/dots.wav",
+      "timing": "media/dots.json"
+    },
+    {
+      "id": "twenty",
+      "title": "There are twenty triangles.",
+      "narration": "Six choices for the first dot, five for the next, four for the last. Each triple appears in six orders. One hundred twenty divided by six gives twenty triangles.",
+      "visual": {
+        "type": "custom",
+        "module": "scenes/triples.mjs"
+      },
+      "claims": [
+        "triangles"
+      ],
+      "audio": "media/twenty.wav",
+      "timing": "media/twenty.json",
+      "visualDescription": "The same three selected vertices form the same triangle in any of their six orders. The calculation 6 \u00d7 5 \u00d7 4 counts ordered selections; dividing by 6 gives 20 unordered triples."
+    },
+    {
+      "id": "choices",
+      "title": "Every triangle is a choice.",
+      "narration": "Now decide whether to draw each triangle. Every one of those twenty triangles can be on, or off.",
+      "visual": {
+        "type": "custom",
+        "module": "scenes/binary-choices.mjs"
+      },
+      "claims": [
+        "subsets"
+      ],
+      "audio": "media/choices.wav",
+      "timing": "media/choices.json",
+      "visualDescription": "Twenty positions represent the twenty possible triangles. Each position has two choices, include or exclude. Independent choices multiply to 2 to the twentieth power."
+    },
+    {
+      "id": "million",
+      "title": "Small ingredients. Many possibilities.",
+      "narration": "That is two to the twentieth power. One million, forty-eight thousand, five hundred seventy-six possible selections of triangles.",
+      "visual": {
+        "type": "statement",
+        "value": "1,048,576",
+        "text": "Possible selections"
+      },
+      "claims": [
+        "subsets"
+      ],
+      "audio": "media/million.wav",
+      "timing": "media/million.json"
+    }
+  ],
+  "teaching": {
+    "audience": "Curious learners with basic multiplication; no combinatorics course required.",
+    "goal": "Explain the count of triples and multiply independent include/exclude choices.",
+    "prerequisite": "Know what choosing three distinct dots means.",
+    "limit": "We count selected collections of triangles, not necessarily different final edge drawings.",
+    "questions": [
+      {
+        "id": "four-dots",
+        "question": "Use four labeled dots instead of six. How many triples can you choose? If each triangle is independently included or excluded, how many selections are possible?",
+        "answer": "Four triples and sixteen selected collections.",
+        "explanation": "The triples are ABC, ABD, ACD and BCD, so C(4,3)=4. Each has two independent choices: 2\u2074=16. Different selected collections may produce the same combined edge drawing.",
+        "scene": "twenty"
+      }
+    ]
+  }
+}

@@ -1,0 +1,238 @@
+{
+  "schemaVersion": 1,
+  "text": "A language model adds one position at a time. In this one layer example, three positions already have keys and values. Recomputing all four positions takes eight projections. Reusing the saved pairs needs only two.",
+  "textHash": "487efef76463c13013b95bbad4579cede40cb1a442910a5b60c5f8f46ad264f4",
+  "duration": 14.7,
+  "sampleRate": 24000,
+  "words": [
+    {
+      "text": "A",
+      "start": 0.375,
+      "end": 0.45,
+      "id": "repeat-w0"
+    },
+    {
+      "text": "language",
+      "start": 0.45,
+      "end": 0.85,
+      "id": "repeat-w1"
+    },
+    {
+      "text": "model",
+      "start": 0.85,
+      "end": 1.3125,
+      "id": "repeat-w2"
+    },
+    {
+      "text": "adds",
+      "start": 1.3125,
+      "end": 1.6125,
+      "id": "repeat-w3"
+    },
+    {
+      "text": "one",
+      "start": 1.6125,
+      "end": 1.85,
+      "id": "repeat-w4"
+    },
+    {
+      "text": "position",
+      "start": 1.85,
+      "end": 2.35,
+      "id": "repeat-w5"
+    },
+    {
+      "text": "at",
+      "start": 2.35,
+      "end": 2.4375,
+      "id": "repeat-w6"
+    },
+    {
+      "text": "a",
+      "start": 2.4375,
+      "end": 2.5,
+      "id": "repeat-w7"
+    },
+    {
+      "text": "time.",
+      "start": 2.5,
+      "end": 3.275,
+      "id": "repeat-w8"
+    },
+    {
+      "text": "In",
+      "start": 3.4125,
+      "end": 3.55,
+      "id": "repeat-w9"
+    },
+    {
+      "text": "this",
+      "start": 3.55,
+      "end": 3.7875,
+      "id": "repeat-w10"
+    },
+    {
+      "text": "one",
+      "start": 3.7875,
+      "end": 4.025,
+      "id": "repeat-w11"
+    },
+    {
+      "text": "layer",
+      "start": 4.025,
+      "end": 4.3,
+      "id": "repeat-w12"
+    },
+    {
+      "text": "example,",
+      "start": 4.3,
+      "end": 5,
+      "id": "repeat-w13"
+    },
+    {
+      "text": "three",
+      "start": 5.1125,
+      "end": 5.35,
+      "id": "repeat-w14"
+    },
+    {
+      "text": "positions",
+      "start": 5.35,
+      "end": 5.9875,
+      "id": "repeat-w15"
+    },
+    {
+      "text": "already",
+      "start": 5.9875,
+      "end": 6.375,
+      "id": "repeat-w16"
+    },
+    {
+      "text": "have",
+      "start": 6.375,
+      "end": 6.6125,
+      "id": "repeat-w17"
+    },
+    {
+      "text": "keys",
+      "start": 6.6125,
+      "end": 7.075,
+      "id": "repeat-w18"
+    },
+    {
+      "text": "and",
+      "start": 7.075,
+      "end": 7.2,
+      "id": "repeat-w19"
+    },
+    {
+      "text": "values.",
+      "start": 7.2,
+      "end": 8.125,
+      "id": "repeat-w20"
+    },
+    {
+      "text": "Recomputing",
+      "start": 8.2625,
+      "end": 8.9625,
+      "id": "repeat-w21"
+    },
+    {
+      "text": "all",
+      "start": 8.9625,
+      "end": 9.2375,
+      "id": "repeat-w22"
+    },
+    {
+      "text": "four",
+      "start": 9.2375,
+      "end": 9.475,
+      "id": "repeat-w23"
+    },
+    {
+      "text": "positions",
+      "start": 9.475,
+      "end": 10.1,
+      "id": "repeat-w24"
+    },
+    {
+      "text": "takes",
+      "start": 10.1,
+      "end": 10.375,
+      "id": "repeat-w25"
+    },
+    {
+      "text": "eight",
+      "start": 10.375,
+      "end": 10.55,
+      "id": "repeat-w26"
+    },
+    {
+      "text": "projections.",
+      "start": 10.55,
+      "end": 11.525,
+      "id": "repeat-w27"
+    },
+    {
+      "text": "Reusing",
+      "start": 11.675,
+      "end": 12.1875,
+      "id": "repeat-w28"
+    },
+    {
+      "text": "the",
+      "start": 12.1875,
+      "end": 12.2875,
+      "id": "repeat-w29"
+    },
+    {
+      "text": "saved",
+      "start": 12.2875,
+      "end": 12.7,
+      "id": "repeat-w30"
+    },
+    {
+      "text": "pairs",
+      "start": 12.7,
+      "end": 13.1,
+      "id": "repeat-w31"
+    },
+    {
+      "text": "needs",
+      "start": 13.1,
+      "end": 13.35,
+      "id": "repeat-w32"
+    },
+    {
+      "text": "only",
+      "start": 13.35,
+      "end": 13.6875,
+      "id": "repeat-w33"
+    },
+    {
+      "text": "two.",
+      "start": 13.6875,
+      "end": 14.3,
+      "id": "repeat-w34"
+    }
+  ],
+  "timingMethod": "model-duration",
+  "voice": "af_heart",
+  "speed": 1,
+  "modelRevision": "f3ff3571791e39611d31c381e3a41a3af07b4987",
+  "generationSeconds": 1.4253509161062539,
+  "audioHash": "242722b777ed108e10b60e31b71592944c4b9c4bdfdb09d0c155e520e4b96d1b",
+  "language": "a",
+  "key": "434f0dfe5334a38772eed575b1f5f09243eaaf3759d252cb1bd7e37b80d9e163",
+  "lexiconHash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+  "backendVersions": {
+    "kokoro": "0.9.4",
+    "misaki": "0.9.4",
+    "torch": "2.12.1",
+    "soundfile": "0.14.0",
+    "spacy": "3.8.16",
+    "en_core_web_sm": "3.8.0"
+  },
+  "modelFingerprint": "2a552218823c4cee61fe5a893f7d44457b4ea19aefb9c9f4064b8c4341fe12aa",
+  "generatorVersion": "0.2.0"
+}

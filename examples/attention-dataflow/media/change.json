@@ -1,0 +1,238 @@
+{
+  "schemaVersion": 1,
+  "text": "Switch the query toward the second key. Keep both keys and values fixed. Recompute the scores, weights, and blend. The second position now contributes more. This is one attention step, not a whole language model.",
+  "textHash": "6ef9f27bb0c85b863918364b9a519e32de480fa434ce712d19c348059747776b",
+  "duration": 14.275,
+  "sampleRate": 24000,
+  "words": [
+    {
+      "text": "Switch",
+      "start": 0.4,
+      "end": 0.7,
+      "id": "change-w0"
+    },
+    {
+      "text": "the",
+      "start": 0.7,
+      "end": 0.8,
+      "id": "change-w1"
+    },
+    {
+      "text": "query",
+      "start": 0.8,
+      "end": 1.1875,
+      "id": "change-w2"
+    },
+    {
+      "text": "toward",
+      "start": 1.1875,
+      "end": 1.4625,
+      "id": "change-w3"
+    },
+    {
+      "text": "the",
+      "start": 1.4625,
+      "end": 1.5625,
+      "id": "change-w4"
+    },
+    {
+      "text": "second",
+      "start": 1.5625,
+      "end": 1.925,
+      "id": "change-w5"
+    },
+    {
+      "text": "key.",
+      "start": 1.925,
+      "end": 2.5,
+      "id": "change-w6"
+    },
+    {
+      "text": "Keep",
+      "start": 2.6625,
+      "end": 2.925,
+      "id": "change-w7"
+    },
+    {
+      "text": "both",
+      "start": 2.925,
+      "end": 3.2125,
+      "id": "change-w8"
+    },
+    {
+      "text": "keys",
+      "start": 3.2125,
+      "end": 3.7375,
+      "id": "change-w9"
+    },
+    {
+      "text": "and",
+      "start": 3.7375,
+      "end": 3.9,
+      "id": "change-w10"
+    },
+    {
+      "text": "values",
+      "start": 3.9,
+      "end": 4.4375,
+      "id": "change-w11"
+    },
+    {
+      "text": "fixed.",
+      "start": 4.4375,
+      "end": 5.125,
+      "id": "change-w12"
+    },
+    {
+      "text": "Recompute",
+      "start": 5.2625,
+      "end": 5.825,
+      "id": "change-w13"
+    },
+    {
+      "text": "the",
+      "start": 5.825,
+      "end": 5.9625,
+      "id": "change-w14"
+    },
+    {
+      "text": "scores,",
+      "start": 5.9625,
+      "end": 6.5,
+      "id": "change-w15"
+    },
+    {
+      "text": "weights,",
+      "start": 6.5875,
+      "end": 6.975,
+      "id": "change-w16"
+    },
+    {
+      "text": "and",
+      "start": 7.025,
+      "end": 7.15,
+      "id": "change-w17"
+    },
+    {
+      "text": "blend.",
+      "start": 7.15,
+      "end": 7.875,
+      "id": "change-w18"
+    },
+    {
+      "text": "The",
+      "start": 8,
+      "end": 8.1375,
+      "id": "change-w19"
+    },
+    {
+      "text": "second",
+      "start": 8.1375,
+      "end": 8.475,
+      "id": "change-w20"
+    },
+    {
+      "text": "position",
+      "start": 8.475,
+      "end": 9,
+      "id": "change-w21"
+    },
+    {
+      "text": "now",
+      "start": 9,
+      "end": 9.3,
+      "id": "change-w22"
+    },
+    {
+      "text": "contributes",
+      "start": 9.3,
+      "end": 9.9,
+      "id": "change-w23"
+    },
+    {
+      "text": "more.",
+      "start": 9.9,
+      "end": 10.5,
+      "id": "change-w24"
+    },
+    {
+      "text": "This",
+      "start": 10.6375,
+      "end": 10.875,
+      "id": "change-w25"
+    },
+    {
+      "text": "is",
+      "start": 10.875,
+      "end": 11.0375,
+      "id": "change-w26"
+    },
+    {
+      "text": "one",
+      "start": 11.0375,
+      "end": 11.275,
+      "id": "change-w27"
+    },
+    {
+      "text": "attention",
+      "start": 11.275,
+      "end": 11.75,
+      "id": "change-w28"
+    },
+    {
+      "text": "step,",
+      "start": 11.75,
+      "end": 12.2,
+      "id": "change-w29"
+    },
+    {
+      "text": "not",
+      "start": 12.3,
+      "end": 12.4875,
+      "id": "change-w30"
+    },
+    {
+      "text": "a",
+      "start": 12.4875,
+      "end": 12.5875,
+      "id": "change-w31"
+    },
+    {
+      "text": "whole",
+      "start": 12.5875,
+      "end": 12.85,
+      "id": "change-w32"
+    },
+    {
+      "text": "language",
+      "start": 12.85,
+      "end": 13.225,
+      "id": "change-w33"
+    },
+    {
+      "text": "model.",
+      "start": 13.225,
+      "end": 13.875,
+      "id": "change-w34"
+    }
+  ],
+  "timingMethod": "model-duration",
+  "voice": "af_heart",
+  "speed": 1,
+  "modelRevision": "f3ff3571791e39611d31c381e3a41a3af07b4987",
+  "generationSeconds": 2.003679624758661,
+  "audioHash": "cf00364f1fe39535b9a527f1bd6a80e312248000f0dcd7b8c718a457761a0ec5",
+  "language": "a",
+  "key": "3a134d397d0364d0d6c84e1ab39a53094064648de17cdd2bab40fba37a57e3de",
+  "lexiconHash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+  "backendVersions": {
+    "kokoro": "0.9.4",
+    "misaki": "0.9.4",
+    "torch": "2.12.1",
+    "soundfile": "0.14.0",
+    "spacy": "3.8.16",
+    "en_core_web_sm": "3.8.0"
+  },
+  "modelFingerprint": "2a552218823c4cee61fe5a893f7d44457b4ea19aefb9c9f4064b8c4341fe12aa",
+  "generatorVersion": "0.2.0"
+}

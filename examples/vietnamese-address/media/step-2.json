@@ -1,0 +1,255 @@
+{
+  "schemaVersion": 1,
+  "text": "Take a simple adult conversation. When addressing an older man, a younger speaker might use the term shown here, which also means older brother. The speaker can refer to themself with the term for a younger sibling.",
+  "textHash": "ab6295e7d122f3312ad5843ddce693c9e6a2cb52589cb01a754faa387727eb14",
+  "duration": 10.461538461538462,
+  "sampleRate": 24000,
+  "words": [
+    {
+      "text": "Take",
+      "start": 0.2692307692307692,
+      "end": 0.4230769230769231,
+      "id": "step-2-w0"
+    },
+    {
+      "text": "a",
+      "start": 0.4230769230769231,
+      "end": 0.5192307692307693,
+      "id": "step-2-w1"
+    },
+    {
+      "text": "simple",
+      "start": 0.5192307692307693,
+      "end": 0.8942307692307693,
+      "id": "step-2-w2"
+    },
+    {
+      "text": "adult",
+      "start": 0.8942307692307693,
+      "end": 1.2115384615384615,
+      "id": "step-2-w3"
+    },
+    {
+      "text": "conversation.",
+      "start": 1.2115384615384615,
+      "end": 2.1153846153846154,
+      "id": "step-2-w4"
+    },
+    {
+      "text": "When",
+      "start": 2.1923076923076925,
+      "end": 2.3076923076923075,
+      "id": "step-2-w5"
+    },
+    {
+      "text": "addressing",
+      "start": 2.3076923076923075,
+      "end": 2.673076923076923,
+      "id": "step-2-w6"
+    },
+    {
+      "text": "an",
+      "start": 2.673076923076923,
+      "end": 2.7788461538461537,
+      "id": "step-2-w7"
+    },
+    {
+      "text": "older",
+      "start": 2.7788461538461537,
+      "end": 3.0769230769230766,
+      "id": "step-2-w8"
+    },
+    {
+      "text": "man,",
+      "start": 3.0769230769230766,
+      "end": 3.4999999999999996,
+      "id": "step-2-w9"
+    },
+    {
+      "text": "a",
+      "start": 3.5865384615384612,
+      "end": 3.692307692307692,
+      "id": "step-2-w10"
+    },
+    {
+      "text": "younger",
+      "start": 3.692307692307692,
+      "end": 4.019230769230769,
+      "id": "step-2-w11"
+    },
+    {
+      "text": "speaker",
+      "start": 4.019230769230769,
+      "end": 4.403846153846153,
+      "id": "step-2-w12"
+    },
+    {
+      "text": "might",
+      "start": 4.403846153846153,
+      "end": 4.5576923076923075,
+      "id": "step-2-w13"
+    },
+    {
+      "text": "use",
+      "start": 4.5576923076923075,
+      "end": 4.721153846153846,
+      "id": "step-2-w14"
+    },
+    {
+      "text": "the",
+      "start": 4.721153846153846,
+      "end": 4.788461538461538,
+      "id": "step-2-w15"
+    },
+    {
+      "text": "term",
+      "start": 4.788461538461538,
+      "end": 5.0480769230769225,
+      "id": "step-2-w16"
+    },
+    {
+      "text": "shown",
+      "start": 5.0480769230769225,
+      "end": 5.288461538461538,
+      "id": "step-2-w17"
+    },
+    {
+      "text": "here,",
+      "start": 5.288461538461538,
+      "end": 5.634615384615384,
+      "id": "step-2-w18"
+    },
+    {
+      "text": "which",
+      "start": 5.711538461538461,
+      "end": 5.865384615384615,
+      "id": "step-2-w19"
+    },
+    {
+      "text": "also",
+      "start": 5.865384615384615,
+      "end": 6.153846153846153,
+      "id": "step-2-w20"
+    },
+    {
+      "text": "means",
+      "start": 6.153846153846153,
+      "end": 6.432692307692308,
+      "id": "step-2-w21"
+    },
+    {
+      "text": "older",
+      "start": 6.432692307692308,
+      "end": 6.730769230769231,
+      "id": "step-2-w22"
+    },
+    {
+      "text": "brother.",
+      "start": 6.730769230769231,
+      "end": 7.346153846153847,
+      "id": "step-2-w23"
+    },
+    {
+      "text": "The",
+      "start": 7.471153846153846,
+      "end": 7.576923076923077,
+      "id": "step-2-w24"
+    },
+    {
+      "text": "speaker",
+      "start": 7.576923076923077,
+      "end": 7.923076923076923,
+      "id": "step-2-w25"
+    },
+    {
+      "text": "can",
+      "start": 7.923076923076923,
+      "end": 8.01923076923077,
+      "id": "step-2-w26"
+    },
+    {
+      "text": "refer",
+      "start": 8.01923076923077,
+      "end": 8.307692307692308,
+      "id": "step-2-w27"
+    },
+    {
+      "text": "to",
+      "start": 8.307692307692308,
+      "end": 8.375,
+      "id": "step-2-w28"
+    },
+    {
+      "text": "themself",
+      "start": 8.375,
+      "end": 8.75,
+      "id": "step-2-w29"
+    },
+    {
+      "text": "with",
+      "start": 8.75,
+      "end": 8.85576923076923,
+      "id": "step-2-w30"
+    },
+    {
+      "text": "the",
+      "start": 8.85576923076923,
+      "end": 8.923076923076923,
+      "id": "step-2-w31"
+    },
+    {
+      "text": "term",
+      "start": 8.923076923076923,
+      "end": 9.192307692307692,
+      "id": "step-2-w32"
+    },
+    {
+      "text": "for",
+      "start": 9.192307692307692,
+      "end": 9.307692307692307,
+      "id": "step-2-w33"
+    },
+    {
+      "text": "a",
+      "start": 9.307692307692307,
+      "end": 9.384615384615383,
+      "id": "step-2-w34"
+    },
+    {
+      "text": "younger",
+      "start": 9.384615384615383,
+      "end": 9.673076923076922,
+      "id": "step-2-w35"
+    },
+    {
+      "text": "sibling.",
+      "start": 9.673076923076922,
+      "end": 10.173076923076922,
+      "id": "step-2-w36"
+    }
+  ],
+  "timingMethod": "model-duration",
+  "voice": "af_heart",
+  "speed": 1.339,
+  "modelRevision": "f3ff3571791e39611d31c381e3a41a3af07b4987",
+  "generationSeconds": 6.266736750025302,
+  "audioHash": "51694d0e427c689536494ae02aacb3b9d0719b936a9d9bc5054830cc3c2fcf58",
+  "language": "a",
+  "key": "c81b7f4a619d820c6b82a34e5910d81f0354ca245cd61a03f47bf65f17a0c4ce",
+  "lexiconHash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+  "backendVersions": {
+    "kokoro": "0.9.4",
+    "misaki": "0.9.4",
+    "torch": "2.12.1",
+    "soundfile": "0.14.0",
+    "spacy": "3.8.16",
+    "en_core_web_sm": "3.8.0"
+  },
+  "modelFingerprint": "2a552218823c4cee61fe5a893f7d44457b4ea19aefb9c9f4064b8c4341fe12aa",
+  "generatorVersion": "0.2.0",
+  "postProcessing": {
+    "filter": "atempo=1.3",
+    "timingScale": 0.7692307692307692,
+    "sourceAudioHash": "aa22dc14e3c04476639231150a06a5475a2f7b9bc8473e04fe46f181866b4606"
+  }
+}

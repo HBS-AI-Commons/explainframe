@@ -1,0 +1,619 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Explainframe project",
+  "type": "object",
+  "properties": {
+    "schemaVersion": {
+      "const": 1
+    },
+    "title": {
+      "type": "string",
+      "minLength": 1
+    },
+    "category": {
+      "type": "string"
+    },
+    "kitURL": {
+      "type": "string"
+    },
+    "fps": {
+      "enum": [
+        24,
+        25,
+        30,
+        60
+      ]
+    },
+    "style": {
+      "enum": [
+        "paper",
+        "ink",
+        "chalk"
+      ]
+    },
+    "formats": {
+      "type": "array",
+      "items": {
+        "enum": [
+          "portrait",
+          "landscape",
+          "square",
+          "feed"
+        ]
+      },
+      "minItems": 1,
+      "maxItems": 4
+    },
+    "speech": {
+      "type": "object",
+      "properties": {
+        "backend": {
+          "enum": [
+            "kokoro",
+            "provided"
+          ]
+        },
+        "voice": {
+          "type": "string"
+        },
+        "speed": {
+          "type": "number",
+          "minimum": 0.5,
+          "maximum": 2
+        },
+        "language": {
+          "enum": [
+            "a",
+            "b"
+          ]
+        },
+        "lexicon": {
+          "type": "object",
+          "additionalProperties": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "caption": {
+      "type": "object",
+      "properties": {
+        "mode": {
+          "enum": [
+            "karaoke",
+            "pop",
+            "plain",
+            "none"
+          ]
+        },
+        "maxWords": {
+          "type": "integer",
+          "minimum": 2,
+          "maximum": 10
+        },
+        "safeBottom": {
+          "type": "number",
+          "minimum": 0.03,
+          "maximum": 0.3
+        }
+      }
+    },
+    "sources": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "title": {
+            "type": "string"
+          },
+          "url": {
+            "type": "string"
+          },
+          "status": {
+            "type": "string"
+          },
+          "locator": {
+            "type": "string"
+          },
+          "note": {
+            "type": "string"
+          },
+          "file": {
+            "type": "string"
+          },
+          "availability": {
+            "type": "string"
+          },
+          "includeInBundle": {
+            "type": "boolean"
+          }
+        },
+        "required": [
+          "id",
+          "title"
+        ]
+      },
+      "minItems": 0,
+      "maxItems": 100
+    },
+    "claims": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "text": {
+            "type": "string"
+          },
+          "basis": {
+            "type": "string"
+          },
+          "locator": {
+            "type": "string"
+          },
+          "note": {
+            "type": "string"
+          },
+          "limit": {
+            "type": "string"
+          },
+          "sources": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "minItems": 0,
+            "maxItems": 100
+          }
+        },
+        "required": [
+          "id",
+          "text",
+          "sources"
+        ]
+      },
+      "minItems": 0,
+      "maxItems": 100
+    },
+    "scenes": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^[a-z][a-z0-9-]{0,63}$"
+          },
+          "title": {
+            "type": "string"
+          },
+          "narration": {
+            "type": "string"
+          },
+          "eyebrow": {
+            "type": "string"
+          },
+          "takeaway": {
+            "type": "string"
+          },
+          "audio": {
+            "type": "string"
+          },
+          "timing": {
+            "type": "string"
+          },
+          "hold": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 10
+          },
+          "claims": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "minItems": 0,
+            "maxItems": 100
+          },
+          "visual": {
+            "oneOf": [
+              {
+                "$ref": "#/$defs/statement"
+              },
+              {
+                "$ref": "#/$defs/compare"
+              },
+              {
+                "$ref": "#/$defs/steps"
+              },
+              {
+                "$ref": "#/$defs/bars"
+              },
+              {
+                "$ref": "#/$defs/stacked-bars"
+              },
+              {
+                "$ref": "#/$defs/dots"
+              },
+              {
+                "$ref": "#/$defs/image"
+              },
+              {
+                "$ref": "#/$defs/custom"
+              }
+            ]
+          },
+          "visualDescription": {
+            "type": "string",
+            "minLength": 1
+          },
+          "visualMeaningInNarration": {
+            "type": "boolean"
+          },
+          "learningPhase": {
+            "type": "string",
+            "enum": [
+              "explain",
+              "predict"
+            ],
+            "description": "A predict scene presents the proposed input and target rule while concealing its answer."
+          }
+        },
+        "required": [
+          "id",
+          "title",
+          "narration"
+        ]
+      },
+      "minItems": 1,
+      "maxItems": 100
+    },
+    "checks": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "kind": {
+            "enum": [
+              "difference",
+              "sum",
+              "power",
+              "choose"
+            ]
+          },
+          "values": {
+            "type": "array",
+            "items": {
+              "type": "number"
+            },
+            "minItems": 1,
+            "maxItems": 100
+          },
+          "expected": {
+            "type": "number"
+          }
+        },
+        "required": [
+          "id",
+          "kind",
+          "values",
+          "expected"
+        ]
+      },
+      "minItems": 0,
+      "maxItems": 100
+    },
+    "teaching": {
+      "type": "object",
+      "properties": {
+        "audience": {
+          "type": "string"
+        },
+        "goal": {
+          "type": "string"
+        },
+        "prerequisite": {
+          "type": "string"
+        },
+        "limit": {
+          "type": "string"
+        },
+        "questions": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "id": {
+                "type": "string"
+              },
+              "question": {
+                "type": "string"
+              },
+              "answer": {
+                "type": "string"
+              },
+              "explanation": {
+                "type": "string"
+              },
+              "scene": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "id",
+              "question",
+              "answer"
+            ]
+          },
+          "minItems": 0,
+          "maxItems": 10
+        }
+      }
+    }
+  },
+  "required": [
+    "schemaVersion",
+    "title",
+    "scenes"
+  ],
+  "$defs": {
+    "statement": {
+      "type": "object",
+      "properties": {
+        "type": {
+          "const": "statement"
+        },
+        "text": {
+          "type": "string"
+        },
+        "value": {
+          "type": [
+            "string",
+            "number"
+          ]
+        }
+      },
+      "required": [
+        "type"
+      ]
+    },
+    "compare": {
+      "type": "object",
+      "properties": {
+        "type": {
+          "const": "compare"
+        },
+        "items": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "label": {
+                "type": "string"
+              },
+              "value": {
+                "type": [
+                  "string",
+                  "number"
+                ]
+              },
+              "detail": {
+                "type": "string"
+              },
+              "emphasis": {
+                "type": "boolean"
+              }
+            },
+            "required": [
+              "label"
+            ]
+          },
+          "minItems": 1,
+          "maxItems": 6
+        }
+      },
+      "required": [
+        "type",
+        "items"
+      ]
+    },
+    "steps": {
+      "type": "object",
+      "properties": {
+        "type": {
+          "const": "steps"
+        },
+        "items": {
+          "type": "array",
+          "items": {
+            "oneOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "object",
+                "properties": {
+                  "text": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "text"
+                ]
+              }
+            ]
+          },
+          "minItems": 1,
+          "maxItems": 6
+        }
+      },
+      "required": [
+        "type",
+        "items"
+      ]
+    },
+    "bars": {
+      "type": "object",
+      "properties": {
+        "type": {
+          "const": "bars"
+        },
+        "prefix": {
+          "type": "string"
+        },
+        "suffix": {
+          "type": "string"
+        },
+        "items": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "label": {
+                "type": "string"
+              },
+              "value": {
+                "type": "number",
+                "minimum": 0
+              }
+            },
+            "required": [
+              "label",
+              "value"
+            ]
+          },
+          "minItems": 1,
+          "maxItems": 6
+        }
+      },
+      "required": [
+        "type",
+        "items"
+      ]
+    },
+    "stacked-bars": {
+      "type": "object",
+      "properties": {
+        "type": {
+          "const": "stacked-bars"
+        },
+        "prefix": {
+          "type": "string"
+        },
+        "items": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "label": {
+                "type": "string"
+              },
+              "segments": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "label": {
+                      "type": "string"
+                    },
+                    "value": {
+                      "type": "number",
+                      "minimum": 0
+                    }
+                  },
+                  "required": [
+                    "label",
+                    "value"
+                  ]
+                },
+                "minItems": 2,
+                "maxItems": 3
+              }
+            },
+            "required": [
+              "label",
+              "segments"
+            ]
+          },
+          "minItems": 1,
+          "maxItems": 3
+        }
+      },
+      "required": [
+        "type",
+        "items"
+      ]
+    },
+    "dots": {
+      "type": "object",
+      "properties": {
+        "type": {
+          "const": "dots"
+        },
+        "count": {
+          "type": "integer",
+          "minimum": 3,
+          "maximum": 12
+        },
+        "text": {
+          "type": "string"
+        },
+        "edges": {
+          "type": "array",
+          "items": {
+            "type": "array",
+            "items": {
+              "type": "integer",
+              "minimum": 0
+            },
+            "minItems": 2,
+            "maxItems": 2
+          },
+          "minItems": 0,
+          "maxItems": 66
+        }
+      },
+      "required": [
+        "type"
+      ]
+    },
+    "image": {
+      "type": "object",
+      "properties": {
+        "type": {
+          "const": "image"
+        },
+        "file": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "type",
+        "file"
+      ]
+    },
+    "custom": {
+      "type": "object",
+      "properties": {
+        "type": {
+          "const": "custom"
+        },
+        "module": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "type",
+        "module"
+      ]
+    }
+  }
+}
