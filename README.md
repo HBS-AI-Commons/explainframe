@@ -1,5 +1,7 @@
 # Explainframe
 
+> **About this fork:** Explainframe is an open-source project created by **[Robert Huynh](https://github.com/roberthuynh)**. All credit for the project goes to him. HBS AI Commons shares this fork of the original repository, [roberthuynh/explainframe](https://github.com/roberthuynh/explainframe), under its [MIT License](LICENSE). For the latest version, issues and contributions, please use the original repo.
+
 Make ideas clear with narrated, editable videos.
 
 Give your coding agent a source, a question and an audience. Explainframe turns its script and visuals into an explainer with narration, captions and the files to revise it.
